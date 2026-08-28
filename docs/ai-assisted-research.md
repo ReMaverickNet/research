@@ -236,9 +236,9 @@ AI assistance is encouraged, but every AI-assisted session should record:
 
 AI output should never become a confirmed ReMaverick finding solely because an AI produced it.
 
-A useful rule is:
+As ChatGPT says, a useful rule is:
 
-> **AI can propose. Evidence confirms. Humans decide.**
+> **"AI can propose. Evidence confirms. Humans decide."**
 
 ---
 
