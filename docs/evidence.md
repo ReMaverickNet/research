@@ -52,3 +52,9 @@ The smallest experiment that could increase or decrease confidence.
 ```
 
 Use `observed`, `inferred`, and `hypothesis` labels rather than presenting all conclusions as equally certain.
+
+## AI-assisted analysis
+
+When AI contributes to an evidence record or finding, follow the [AI-assisted research guide](ai-assisted-research.md) before uploading material to a model. The guide explains what to provide, what to sanitise, and how to record AI involvement.
+
+AI output should be treated as analysis or hypothesis until independently verified against the underlying evidence. Do not promote an AI-generated interpretation to a confirmed finding solely because the model presents it confidently.
