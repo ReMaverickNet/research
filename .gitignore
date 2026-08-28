@@ -1,0 +1,27 @@
+# Local game installs / proprietary content
+steamapps/
+game-files/
+*.exe
+*.dll
+*.sys
+*.pak
+*.ucas
+*.utoc
+*.sig
+
+# Raw/private evidence that should stay local until reviewed
+captures/raw/
+logs/raw/
+*.dmp
+*.core
+
+# Local tooling
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
