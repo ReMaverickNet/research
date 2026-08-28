@@ -38,9 +38,18 @@ tooling/        Small analysis scripts and helper tools
 - [Linux / Proton capture guide](docs/capture/linux.md)
 - [Historical builds](docs/old-builds.md)
 - [RedKard research](redkard/README.md)
+- [AI-assisted research guide](docs/ai-assisted-research.md)
 - [AI disclosure](docs/ai-disclosure.md)
 - [Evidence format](docs/evidence.md)
 - [Data handling](docs/data-handling.md)
+
+## AI-assisted research
+
+AI assistance is **strongly encouraged** during this project. The preservation window is short and the amount of material we need to process is large, so tools such as ChatGPT, Claude, and other capable models can be extremely useful for log triage, packet-analysis assistance, pattern finding, documentation, scripting, and forming hypotheses.
+
+The [AI-assisted research guide](docs/ai-assisted-research.md) contains a copy-and-paste prompt, recommended inputs, privacy and sanitisation guidance, and the expected workflow for using AI against ReMaverick research material.
+
+The guide should be used as the default starting point for AI-assisted analysis. AI-generated interpretations are **not evidence by themselves**: claims should be checked against raw captures, logs, binaries, controlled experiments, or another independent source before being recorded as findings.
 
 ## Ground rules
 
