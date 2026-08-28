@@ -2,6 +2,12 @@
 
 AI assistance is encouraged because the project has a short preservation window and a large amount of material to process. It is a research accelerator, not an authority.
 
+## Recommended starting point
+
+Before using an AI model to analyse ReMaverick material, follow the [AI-assisted research guide](ai-assisted-research.md). It contains a copy-and-paste research prompt, recommended source material, sanitisation guidance, and a workflow for recording and verifying AI-assisted work.
+
+The guide is intended to be useful to both humans and AI systems, so models can be given the document as context and use its structure directly.
+
 ## Record at minimum
 
 - Tool/model used
