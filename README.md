@@ -4,7 +4,7 @@ This repository contains the technical research, evidence, observations, and too
 
 ## Want to help?
 
-You do not need to know reverse engineering, networking, or any other technical wizardry to contribute. **Real-world observations are useful.**
+You do not need to know reverse engineering, networking, or any other technical wizardry to contribute.
 
 The easiest way to help is to play **SPLITGATE: Arena Reloaded**, pretty much:
 
