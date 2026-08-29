@@ -2,6 +2,24 @@
 
 This repository contains the technical research, evidence, observations, and tooling behind **ReMaverick**.
 
+## Want to help?
+
+You do not need to know reverse engineering, networking, or any other technical wizardry to contribute. **Real-world observations are useful.**
+
+The easiest way to help is to play **SPLITGATE: Arena Reloaded** and tell us what you saw. Things like:
+
+- a game or lobby behaving differently
+- a disconnect, timeout, or matchmaking failure
+- a useful log message
+- a change you noticed after an update
+- what happened when you hosted or joined a game
+
+If you are comfortable collecting logs or network captures, even better. The [Windows capture guide](docs/capture/windows.md) and [Linux / Proton capture guide](docs/capture/linux.md) walk you through it step by step.
+
+**Please do not send passwords, authentication tokens, private messages, or other personal information.** When in doubt, send us the observation first and we can help work out what is useful to preserve.
+
+You can contribute by opening an issue, submitting a pull request, or sharing the relevant files and session details with the project maintainers.
+
 ## Why this exists
 
 1047 Games has announced that SPLITGATE: Arena Reloaded will stop using dedicated servers and matchmaking on **September 3, 2026**, moving to peer-to-peer hosting with a server browser instead.
