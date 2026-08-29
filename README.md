@@ -14,6 +14,31 @@ If you are comfortable collecting logs or network captures, that's how you can h
 
 You can contribute by opening an issue, submitting a pull request, or sharing the relevant files and session details with the project maintainers.
 
+## How to contribute
+
+The easiest way to contribute is through **GitHub Issues**. You do not need to know Git or make a pull request.
+
+1. Run a test using one of the [capture guides](docs/capture/).
+2. Keep the files from that session.
+3. Open the **Issues** tab and create a new issue.
+4. Describe what you did and what happened.
+5. Attach your logs or other relevant files to the issue by dragging them into the message box.
+
+A useful submission can be very simple:
+
+> **What I did:** Started the game, joined a party, played one matchmaking game and left normally.
+> **What happened:** Everything worked normally.
+> **Platform:** Windows
+> **Approx. time:** 29 August 2026, around 20:00 UTC
+
+Please **do not upload passwords, authentication tokens, private messages, personal information, or proprietary game files**.
+
+### Comfortable with Git?
+
+You're also welcome to contribute directly with a **pull request**. This is useful for adding cleaned logs, session records, findings, documentation, analysis tools, or other structured research.
+
+If you're unsure which route to use, **just open an Issue**. We'd rather receive useful evidence in an Issue than lose it because contributing seemed complicated.
+
 ## Why this exists
 
 1047 Games has announced that SPLITGATE: Arena Reloaded will stop using dedicated servers and matchmaking on **September 3, 2026**, moving to peer-to-peer hosting with a server browser instead.
