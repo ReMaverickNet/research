@@ -65,8 +65,18 @@ The guide should be used as the default starting point for AI-assisted analysis.
 
 ## Ground rules
 
-Evidence comes first. Keep facts, observations, interpretations, and hypotheses clearly separated.
+Evidence comes first, so keep facts, observations, interpretations, and hypotheses clearly separated please.
 
-Do not redistribute proprietary game files. Store hashes and metadata instead.
+Do not redistribute any proprietary game files. Store hashes and metadata instead.
 
 AI use is welcome, but AI-generated claims are hypotheses until independently verified. Record AI involvement so future researchers can reproduce or challenge the analysis.
+
+## Contact & legal
+
+ReMaverick is an independent community research and preservation project and is not affiliated with, endorsed by, or operated by 1047 Games, Inc.
+
+**SPLITGATE** and related names, logos, and other trademarks are the property of their respective owners, including 1047 Games, Inc.
+
+For questions, corrections, takedown requests, legal concerns, or other matters relating to the project, contact **[maverick@xdan.me](mailto:maverick@xdan.me)**.
+
+Please do not send passwords, authentication tokens, personal information, private communications, or proprietary game files.
