@@ -1,0 +1,27 @@
+schema_version: 1
+
+game:
+  name: "SPLITGATE: Arena Reloaded"
+  appid: 2918300
+
+steam:
+  branch: public
+  depot_id: 2918301
+  build_id: 22683421
+  manifest_id: 5325671766330346112
+
+dates:
+  build: 2026-04-07T18:20:41Z
+  recorded: 2026-08-29T01:25:00Z
+
+source:
+  - steamdb
+
+source_urls:
+  steamdb_app: "https://steamdb.info/app/2918300/depots/"
+  steamdb_depot: "https://steamdb.info/depot/2918301/subs/"
+
+notes:
+  - "SteamDB lists build 22683421 as the public branch build, built 2026-04-07 18:20:41 UTC."
+  - "SteamDB lists manifest 5325671766330346112 for depot 2918301, dated 2026-04-07 18:20:09 UTC."
+  - "The depot was last publicly updated 2026-04-08 23:41:24 UTC."
