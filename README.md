@@ -10,7 +10,7 @@ The easiest way to help is to play **SPLITGATE: Arena Reloaded**, pretty much:
 
 If you are comfortable collecting logs or network captures, that's how you can help. The [Windows capture guide](docs/capture/windows.md) and [Linux / Proton capture guide](docs/capture/linux.md) walk you through it step by step, though feel free to reach out to **\_xdan** on discord if you need any help.
 
-**Please do not send passwords, authentication tokens, private messages, or other personal information.** When in doubt, send us the observation first and we can help work out what is useful to preserve.
+**Please do not send passwords, authentication tokens, private messages, or other personal information.** When in doubt, send us (or an AI, though document its usage) the observation first and we can help work out what is useful to preserve.
 
 You can contribute by opening an issue, submitting a pull request, or sharing the relevant files and session details with the project maintainers.
 
