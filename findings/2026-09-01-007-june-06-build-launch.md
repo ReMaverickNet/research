@@ -18,6 +18,8 @@ The June 6, 2025 Arena Reloaded build can be launched locally from its historica
    `Unknown Error: GAME_VERSION_MISMATCH`
 4. The available actions are `Retry` and `Quit`.
 
+![June 6, 2025 build showing GAME_VERSION_MISMATCH](../docs/GameVersionMismatch.png)
+
 No playable lobby or match was reached during this test.
 
 ## Local content
