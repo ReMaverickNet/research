@@ -1,4 +1,7 @@
-# ReMaverick Research
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/ReMaverickNet/.github/main/assets/remaverick-icon.svg" alt="ReMaverick icon" width="72" height="72" valign="middle">
+  ReMaverick Research
+</h1>
 
 This repository contains the technical research, evidence, observations, and tooling behind **ReMaverick**.
 
