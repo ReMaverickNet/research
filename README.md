@@ -7,7 +7,7 @@ This repository contains the technical research, evidence, observations, and too
 
 ## Reading? Start here!
 
-The project is intentionally **evidence-first**. The central documents explain what we currently know, and the deeper folders contain the evidence and source material behind those conclusions.
+The project is intentionally evidence-first, so the central documents explain what we currently know, and the deeper folders contain the evidence and source material behind those conclusions.
 
 - [Network architecture](NETWORK.md) — central launch → auth → matchmaking → allocation → game → results map
 - [Build tracks](BUILD_TRACKS.md) — keeps current SGAR research separate from June 6, 2025 SG2 archaeology
