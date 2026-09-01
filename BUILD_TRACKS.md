@@ -20,7 +20,9 @@ Current state:
 
 - The recovered build launched successfully.
 - It reached the loading screen.
-- It then stopped with an unknown error before a playable match was reached.
+- It then stopped with `Unknown Error: GAME_VERSION_MISMATCH` before a playable match was reached.
+
+![June 6, 2025 build showing GAME_VERSION_MISMATCH](docs/GameVersionMismatch.png)
 
 Do not use the successful SGAR gameplay capture as evidence that this June 6 build reached gameplay.
 
