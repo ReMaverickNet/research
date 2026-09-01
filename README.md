@@ -5,13 +5,23 @@
 
 This repository contains the technical research, evidence, observations, and tooling behind **ReMaverick**.
 
+## Start here
+
+The project is intentionally **evidence-first**. The central documents explain what we currently know; the deeper folders contain the evidence and source material behind those conclusions.
+
+- [Network architecture](NETWORK.md) — central launch → auth → matchmaking → allocation → game → results map
+- [Build tracks](BUILD_TRACKS.md) — keeps current SGAR research separate from June 6, 2025 SG2 archaeology
+- [Research roadmap](docs/roadmap.md) — current investigation priorities
+- [Centralisation direction](docs/centralisation.md) — proposed ReMaverick control-plane architecture
+- [Repository navigation](docs/navigation.md) — where to find evidence, sessions, captures and tooling
+
 ## Want to help?
 
 You do not need to know reverse engineering, networking, or any other technical wizardry to contribute.
 
 The easiest way to help is to play **SPLITGATE: Arena Reloaded**, pretty much:
 
-If you are comfortable collecting logs or network captures, that's how you can help. The [Windows capture guide](docs/capture/windows.md) and [Linux / Proton capture guide](docs/capture/linux.md) walk you through it step by step, though feel free to reach out to **\_xdan** on discord if you need any help.
+If you are comfortable collecting logs or network captures, that's how you can help. The [Windows capture guide](docs/capture/windows.md) and [Linux / Proton capture guide](docs/capture/linux.md) walk you through it step by step, though feel free to reach out to **_xdan** on discord if you need any help.
 
 **Please do not send passwords, authentication tokens, private messages, or other personal information.** When in doubt, send us (or an AI, though document its usage) the observation first and we can help work out what is useful to preserve.
 
@@ -61,19 +71,30 @@ That gives us a finite window to capture how the production system works while t
 ## Repository map
 
 ```text
+NETWORK.md      Central network / lifecycle architecture map
+BUILD_TRACKS.md Current SGAR vs historical SG2 build boundary
 sessions/       Reproducible experiments and their metadata
 logs/           Redacted game / launcher / anti-cheat / network logs
 captures/       Packet and ETW captures
 findings/       Small, evidence-backed technical findings
 builds/         Build, depot and manifest metadata
 redkard/        Anti-cheat architecture and compatibility observations
-docs/           Guides, methodology and roadmap
+docs/           Guides, methodology, roadmap and architecture notes
 tooling/        Small analysis scripts and helper tools
+networking/     Network-specific evidence and protocol notes
+reverse-engineering/ Static-analysis and binary research
+archive/        Preserved analysed session bundles
 ```
+
+Each major area has a local `README.md` where navigation or handling rules are useful. The long-term plan is to move the human-facing architecture/reference material into a wiki once the dataset is mature, while keeping this repository as the evidence and source-of-truth archive.
 
 ## Core documents
 
+- [Network architecture](NETWORK.md)
+- [Build tracks](BUILD_TRACKS.md)
 - [Roadmap](docs/roadmap.md)
+- [Centralisation direction](docs/centralisation.md)
+- [Repository navigation](docs/navigation.md)
 - [Windows capture guide](docs/capture/windows.md)
 - [Linux / Proton capture guide](docs/capture/linux.md)
 - [Historical builds](docs/old-builds.md)
