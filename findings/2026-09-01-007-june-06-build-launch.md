@@ -1,12 +1,12 @@
 # FINDING-2026-09-01-007: June 6, 2025 build reaches game-version validation
 
-Status: observed
-Confidence: high
-First observed: 2026-09-01
-Build: 2025-06-06
-Manifest: `7405019827575083750`
-Depot: `2918301`
-App: `2918300`
+- Status: observed
+- Confidence: high
+- First observed: 2026-09-01
+- Build: 2025-06-06
+- Manifest: `7405019827575083750`
+- Depot: `2918301`
+- App: `2918300`
 
 ## Observation
 
