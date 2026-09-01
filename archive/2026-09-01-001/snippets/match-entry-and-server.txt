@@ -1,0 +1,509 @@
+LogPakFile: Display: Mounted Pak file '../../../PortalWars2/Content/Paks/pakchunk0-WindowsClient.pak', mount point: '../../../'
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting Engine plugin OpenColorIO
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin Sentry
+LogPluginManager: Mounting Engine plugin ImpostorBaker
+LogPluginManager: Mounting Engine plugin Iris
+LogPluginManager: Mounting Engine plugin JWT
+LogPluginManager: Mounting Engine plugin Reflex
+LogPluginManager: Mounting Engine plugin DTLSHandlerComponent
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogConfig: Branch 'Chooser' had been unloaded. Reloading on-demand took 0.02ms
+LogConfig: Branch 'OodleNetwork' had been unloaded. Reloading on-demand took 0.03ms
+LogConfig: Branch 'Sentry' had been unloaded. Reloading on-demand took 0.02ms
+LogConfig: Branch 'ImpostorBaker' had been unloaded. Reloading on-demand took 0.02ms
+LogConfig: Branch 'Iris' had been unloaded. Reloading on-demand took 0.02ms
+LogConfig: Branch 'JWT' had been unloaded. Reloading on-demand took 0.02ms
+LogConfig: Branch 'Reflex' had been unloaded. Reloading on-demand took 0.03ms
+LogConfig: Branch 'DTLSHandlerComponent' had been unloaded. Reloading on-demand took 0.03ms
+LogConfig: Branch 'ProceduralMeshComponent' had been unloaded. Reloading on-demand took 0.03ms
+[2026.09.01-02.53.02:577][  0]LogConfig: Set CVar [[net.SubObjects.DefaultUseSubObjectReplicationList:1]]
+[2026.09.01-02.53.02:577][  0]LogConfig: Set CVar [[net.Iris.PushModelMode:1]]
+[2026.09.01-02.53.02:577][  0]LogConfig: Set CVar [[net.IsPushModelEnabled:1]]
+[2026.09.01-02.53.02:577][  0]LogConfig: Set CVar [[net.Iris.UseIrisReplication:1]]
+[2026.09.01-02.53.02:577][  0]LogConfig: Set CVar [[1047.net.IrisDelay:1]]
+[2026.09.01-02.53.02:577][  0]LogConfig: Set CVar [[1047.net.IrisDelay.MaxTimeProcessingBatches:0.004]]
+[2026.09.01-02.53.02:577][  0]LogConfig: Set CVar [[1047.net.IrisDelay.MaxInitialReadTime:0.002]]
+[2026.09.01-02.53.02:577][  0]LogConfig: Set CVar [[1047.net.IrisDelay.MaxPendingQueueSizeForTimeSlice:96]]
+[2026.09.01-02.53.02:577][  0]LogConfig: Set CVar [[r.AllowStaticLightingInWorldPartitionMaps:1]]
+[2026.09.01-02.53.02:578][  0]LogConfig: Set CVar [[r.ClearCoatNormal:0]]
+[2026.09.01-02.53.02:578][  0]LogConfig: Set CVar [[r.IrisNormal:0]]
+[2026.09.01-02.53.02:578][  0]LogConfig: Set CVar [[vr.InstancedStereo:0]]
+[2026.09.01-02.53.06:497][  0]LogGameFeatures: Display: Game feature 'CHR_AER_Javi' transitioned successfully. Ending state: Active [Active, Active]
+[2026.09.01-02.53.06:497][  0]LogShaderLibrary: Display: Opening a chunked shader library for plugin 'CHR_AER_Iris' is ignored. Chunked libraries for plugins are not supported.
+[2026.09.01-02.53.06:499][  0]LogPluginManager: Mounting plugin localization for 'CHR_AER_Iris'...
+[2026.09.01-02.53.06:500][  0]LogGameFeatures: Display: Game feature 'CHR_AER_Iris' transitioned successfully. Ending state: Active [Active, Active]
+[2026.09.01-02.53.06:500][  0]LogShaderLibrary: Display: Opening a chunked shader library for plugin 'CHR_AER_Fencer' is ignored. Chunked libraries for plugins are not supported.
+[2026.09.01-02.53.08:837][  0]LogStreamlineRHI: requiredTags (0): {}
+[2026.09.01-02.53.08:837][  0]LogIris: FPolymorphicNetSerializerScriptStructCache::InitForType Updated CachedTypedIds for base PortalWarsHangmanPurchaseKeyData, NumCachedTypeIDs: 4
+[2026.09.01-02.53.08:837][  0]LogIris: FPolymorphicNetSerializerScriptStructCache::InitForType Updated CachedTypedIds for base CF1047EditTransaction, NumCachedTypeIDs: 1
+[2026.09.01-02.53.08:837][  0]LogIris: FPolymorphicNetSerializerScriptStructCache::InitForType Updated CachedTypedIds for base CF1047EditActionBase, NumCachedTypeIDs: 17
+[2026.09.01-02.53.08:838][  0]LogIris: FPolymorphicNetSerializerScriptStructCache::InitForType Updated CachedTypedIds for base GF1047GameplayMessage, NumCachedTypeIDs: 11
+[2026.09.01-02.53.08:838][  0]LogIris: FPolymorphicNetSerializerScriptStructCache::InitForType Updated CachedTypedIds for base GameplayEffectContext, NumCachedTypeIDs: 2
+[2026.09.01-02.53.08:838][  0]LogIris: FPolymorphicNetSerializerScriptStructCache::InitForType Updated CachedTypedIds for base GameplayAbilityTargetData, NumCachedTypeIDs: 16
+[2026.09.01-02.53.08:838][  0]LogIris: FPolymorphicNetSerializerScriptStructCache::InitForType Updated CachedTypedIds for base Core1047ReplicatedCommand, NumCachedTypeIDs: 4
+[2026.09.01-02.53.08:838][  0]LogIris: FPolymorphicNetSerializerScriptStructCache::InitForType Updated CachedTypedIds for base RootMotionSource, NumCachedTypeIDs: 8
+[2026.09.01-02.53.08:838][  0]LogInit: Display: Starting Game.
+[2026.09.01-02.53.08:838][  0]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Maps/MainMenu/MainMenu?Name=Player"
+[2026.09.01-02.53.08:838][  0]LogNet: Browse: /Game/Maps/MainMenu/MainMenu?Name=Player
+[2026.09.01-02.53.08:838][  0]LogLoadingScreen: Showing loading screen when 'IsShowingInitialLoadingScreen()' is false.
+[2026.09.01-02.53.08:886][  0]LogLoadingScreen: Loading screen showing: 1. Reason: GameState hasn't yet replicated (it's null)
+[2026.09.01-02.53.08:887][  0]LogLoad: LoadMap: /Game/Maps/MainMenu/MainMenu?Name=Player
+[2026.09.01-02.53.08:887][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2026.09.01-02.53.09:486][  0]LogCC1047CustomMapSupport: Custom map late init not required.
+[2026.09.01-02.53.09:486][  0]LogLoad: Took 0.598987 seconds to LoadMap(/Game/Maps/MainMenu/MainMenu)
+[2026.09.01-02.53.09:486][  0]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/MainMenu/MainMenu
+[2026.09.01-02.53.09:495][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2026.09.01-02.54.07:614][318]Core1047InputUserSettings: PreSave >> Has Completed!
+[2026.09.01-02.54.09:253][416]LogTemp: Warning: SERVER READY: GAME_ENDPOINT_01:30925
+[2026.09.01-02.54.09:254][416]LogStreaming: Display: FlushAsyncLoading(2958): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.01-02.54.09:262][416]LogPortalWarsUI: Created transition stinger of type /Game/UI/Stinger/WBP_PreMatchTransitionStinger.WBP_PreMatchTransitionStinger_C
+[2026.09.01-02.54.11:633][532]LogGlobalStatus: UEngine::Browse Started Browse: "GAME_ENDPOINT_01:30925/Game/Maps/MainMenu/MainMenu"
+[2026.09.01-02.54.11:633][532]LogNet: Browse: GAME_ENDPOINT_01:30925/Game/Maps/MainMenu/MainMenu
+[2026.09.01-02.54.11:633][532]LogIris: Display: Iris ReplicationSystem[0]: ReplicationSystem_2147470882 (0x00000000A75B8820) is created
+[2026.09.01-02.54.11:633][532]LogIris: NetRefHandleManager: Configured with MaxActiveObjectCount=65536, MaxInternalNetRefIndex: 65536, Grow=16384, NetChunkedArray: Init=65536|Highest=65535
+[2026.09.01-02.54.11:635][532]LogIrisGroup: Created GroupHandle named: NotReplicated Index: 1 Id: 1
+[2026.09.01-02.54.11:635][532]LogIrisGroup: Created GroupHandle named: NetGroupOwner Index: 2 Id: 2
+[2026.09.01-02.54.11:635][532]LogIrisGroup: Created GroupHandle named: NetGroupReplay Index: 3 Id: 3
+[2026.09.01-02.54.11:636][532]LogPushModel: PushModel HandleCreation is now disabled
+[2026.09.01-02.54.11:636][532]LogNet: InitBase PendingNetDriver (NetDriverDefinition GameNetDriver) using replication model Iris
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2026.09.01-02.54.11:636][532]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2026.09.01-02.54.11:637][532]LogInit: WinSock: Socket queue. Rx: 524288 (config 524288) Tx: 524288 (config 524288)
+[2026.09.01-02.54.11:638][532]LogNet: Created socket for bind address: 0.0.0.0:0
+[2026.09.01-02.54.11:638][532]LogNet: IpConnection_2147470865 setting maximum channels to: 32767
+[2026.09.01-02.54.11:638][532]PacketHandlerLog: Loaded PacketHandler component: OodleNetworkHandlerComponent ()
+[2026.09.01-02.54.11:638][532]PacketHandlerLog: Loaded PacketHandler component: DTLSHandlerComponent ()
+[2026.09.01-02.54.11:638][532]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.09.01-02.54.11:638][532]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 1
+[2026.09.01-02.54.11:652][532]OodleNetworkHandlerComponentLog: Loading dictionary file: ../../../PortalWars2/Content/Oodle/PortalWars2Output.udic
+[2026.09.01-02.54.11:695][532]OodleNetworkHandlerComponentLog: Loading dictionary file: ../../../PortalWars2/Content/Oodle/PortalWars2Input.udic
+[2026.09.01-02.54.11:727][532]LogNet: Game client on port 30925, rate 100000000
+[2026.09.01-02.54.11:727][532]LogNetVersion: PortalWars2 3.1, NetCL: 591413, EngineNetworkVersion: 36, GameNetworkVersion: 0 (Checksum: 2613387917)
+[2026.09.01-02.54.11:727][532]LogNetVersion: Checksum from delegate: 1715978112
+[2026.09.01-02.54.11:728][532]LogLoadingScreen: Showing loading screen when 'IsShowingInitialLoadingScreen()' is false.
+[2026.09.01-02.54.11:728][532]LogLoadingScreen: We are connecting to another server (PendingNetGame != nullptr)
+[2026.09.01-02.54.11:728][532]LogStreaming: Display: FlushAsyncLoading(2959): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.01-02.54.11:735][532]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.11:735][532]LogRHI: ShaderPipelineCache: Batch mode changed (1): Size: 1 -> 50, Time: 0.000000 -> 16.000000
+[2026.09.01-02.54.11:735][532]LogCore: Display: Setting hang detector multiplier to 1.0000s. New hang duration: 0.0000s. New present duration: 0.0000s.
+[2026.09.01-02.54.11:737][532]LogLoadingScreen: Loading screen showing: 1. Reason: We are connecting to another server (PendingNetGame != nullptr)
+[2026.09.01-02.54.12:850][600]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: GAME_ENDPOINT_01:30925, Name: IpConnection_2147470865, Driver: Name:PendingNetDriver Def:GameNetDriver IpNetDriver_2147470884, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.09.01-02.54.13:001][609]LogNet: Welcomed by server (Level: /MAP_Zenith/Zenith_Main, Game: /Game/GameModes/PortalWarsGameModeV2_BP.PortalWarsGameModeV2_BP_C)
+[2026.09.01-02.54.13:003][609]LogLoad: LoadMap: GAME_ENDPOINT_01:30925/MAP_Zenith/Zenith_Main?game=/Game/GameModes/PortalWarsGameModeV2_BP.PortalWarsGameModeV2_BP_C
+[2026.09.01-02.54.13:003][609]LogWorld: BeginTearingDown for /Game/Maps/MainMenu/MainMenu
+[2026.09.01-02.54.13:012][609]LogUI1047: Frame Rate Limit Restored to Player Settings Value of: 120
+[2026.09.01-02.54.13:013][609]LogConsoleManager: Display:  |-> Unsetting r.SubsurfaceScattering, now 0
+[2026.09.01-02.54.13:013][609]LogConsoleManager: Display:  |-> Unsetting r.LightMaxDrawDistanceScale, now 0.500000
+[2026.09.01-02.54.13:013][609]LogConsoleManager: Display:  |-> Unsetting r.SeparateTranslucency, now 0
+[2026.09.01-02.54.13:013][609]LogConsoleManager: Display:  |-> Unsetting r.PostProcessing.QuarterResolutionDownsample, now 1
+[2026.09.01-02.54.13:013][609]LogConsoleManager: Display:  |-> Unsetting r.Translucency.DynamicRes.TimeBudget, now 0.500000
+[2026.09.01-02.54.13:013][609]LogConsoleManager: Display:  |-> Unsetting r.VRS.ReflectionEnvironmentSky, now 0
+[2026.09.01-02.54.13:013][609]LogConsoleManager: Display:  |-> Unsetting r.VRS.SSR, now 2
+[2026.09.01-02.54.13:013][609]LogConsoleManager: Display:  |-> Unsetting r.DepthOfFieldQuality, now 0
+[2026.09.01-02.54.13:014][609]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.54.13:015][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.54.13:015][609]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/MainMenu/MainMenu.MainMenu
+[2026.09.01-02.54.13:020][609]LogActorPool: Clearing all actor pools
+[2026.09.01-02.54.13:015][609]LogAT1047InputRecorderSubsystem: Display: [UAT1047InputRecorderSubsystem::StopPlayback] All playback sessions stopped.
+[2026.09.01-02.54.13:015][609]LogSlate: Toggling fast path.  New State: 1
+[2026.09.01-02.54.13:123][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.09.01-02.54.13:136][609]LogStreaming: Display: FlushAsyncLoading(2962): 1 QueuedPackages, 2 AsyncPackages
+[2026.09.01-02.54.18:933][609]LogCC1047Objects: Loaded 886 actor descriptors
+[2026.09.01-02.54.18:934][609]LogAT1047InputRecorderSubsystem: Display: [UAT1047InputRecorderSubsystem::ResetSettingsToDefaults] Settings reset to defaults from InputRecorderSettings
+[2026.09.01-02.54.22:616][609]LogWorld: Bringing World /MAP_Zenith/Zenith_Main.Zenith_Main up for play (max tick rate 120) at 2026.09.01-03.54.22
+[2026.09.01-02.54.23:166][609]LogWorld: Bringing up level for play took: 1.198464
+[2026.09.01-02.54.23:173][609]LogLoad: Took 10.169922 seconds to LoadMap(/MAP_Zenith/Zenith_Main)
+[2026.09.01-02.54.23:173][609]LogGlobalStatus: UEngine::LoadMap Load map complete /MAP_Zenith/Zenith_Main
+[2026.09.01-02.54.23:173][609]LogGlobalStatus: UPendingNetGame::TravelCompleted Pending net game travel completed
+[2026.09.01-02.54.23:257][610]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 10.25, Realtime: 0.00. IpNetDriver_2147470884
+[2026.09.01-02.54.23:265][610]LogMaterial: Error: Loading a material resource None with an invalid ShaderMap!
+[2026.09.01-02.54.23:266][610]LogMaterial: Error: Loading a material resource None with an invalid ShaderMap!
+[2026.09.01-02.54.23:432][614]LogMaterial: Error: Tried to access an uncooked shader map ID in a cooked application
+[2026.09.01-02.54.23:432][614]LogMaterial: Warning: Invalid shader map ID caching shaders for 'M_UI_SimpleBox', will use default material.
+[2026.09.01-02.54.23:432][614]LogMaterial: Can't compile M_UI_SimpleBox with cooked content, will use default material instead
+[2026.09.01-02.54.23:436][615]LogMaterial: Warning: [AssetLog] S:\steamapps\common\Splitgate 2\PortalWars2\Content\UI\Common\Materials\Backgrounds\Popups\M_UI_Popup_BLUR: Failed to compile Material Instance with Base M_UI_SimpleBox for platform PCD3D_SM6, Default Material will be used in game.
+
+[2026.09.01-02.54.23:549][617]LogIris: Warning: Generating descriptor for struct UpdateLevelVisibilityLevelInfo that has custom serialization.
+[2026.09.01-02.54.23:553][617]LogEnhancedInput: Warning: A key profile with the name 'InputUserSettings.Profiles.Player' already exists! Use a different name.
+[2026.09.01-02.54.23:553][617]LogEnhancedInput: Warning: A key profile with the name 'InputUserSettings.Profiles.Default' already exists! Use a different name.
+[2026.09.01-02.54.23:553][617]Core1047InputUserSettings: KeyRebinding_ReregisterPlayerProfile >> Ran!
+[2026.09.01-02.54.23:553][617]LogCore1047InputSubsystem: Apply input mode: ECore1047InputMethod::Gamepad
+[2026.09.01-02.54.23:565][617]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2026.09.01-02.54.23:565][617]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2026.09.01-02.54.23:565][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.54.23:568][617]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.23:568][617]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.23:575][617]LogNiagara: Found 0 Niagara systems with PoolPrimeSize > 0
+[2026.09.01-02.54.23:575][617]LogNiagara: Primed 0 additional Niagara systems from Asset Registry
+[2026.09.01-02.54.23:687][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.54.23:698][618]LogIris: Warning: Generating descriptor for struct Timespan that has custom serialization.
+[2026.09.01-02.54.23:698][618]LogIris: Warning: Generating descriptor for struct Timespan that has custom serialization.
+[2026.09.01-02.54.23:702][618]LogStreaming: Display: FlushAsyncLoading(3005): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.01-02.54.24:472][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:473][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:473][618]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Textures' of length 0 in '/Game/UI/MainMenu/Locker/PlayerCard/WBP_PlayerCard.WBP_PlayerCard_C:UpdateBadges'!
+[2026.09.01-02.54.24:473][618]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Textures' of length 0 in '/Game/UI/MainMenu/Locker/PlayerCard/WBP_PlayerCard.WBP_PlayerCard_C:UpdateBadges'!
+[2026.09.01-02.54.24:473][618]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Textures' of length 0 in '/Game/UI/MainMenu/Locker/PlayerCard/WBP_PlayerCard.WBP_PlayerCard_C:UpdateBadges'!
+[2026.09.01-02.54.24:590][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:592][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:602][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:602][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:613][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:614][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:620][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:624][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:624][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:630][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:630][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:638][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:639][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:644][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.24:646][618]LogCC1047CustomMapSupport: Custom map support initialized on client.
+[2026.09.01-02.54.24:672][618]LogGF1047Experience: Starting experience load (CLIENT): Default__EXP_PreGame_Generic_C
+[2026.09.01-02.54.24:673][618]LogAssetManager: Warning: Invalid Primary Asset Type : ChangeBundleStateForPrimaryAssets failed to find NameData
+[2026.09.01-02.54.24:673][618]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.25:561][619]LogLoadingScreen: Hiding loading screen when 'IsShowingInitialLoadingScreen()' is false.
+[2026.09.01-02.54.25:561][619]LogLoadingScreen: (nothing wants to show it anymore)
+[2026.09.01-02.54.25:561][619]LogLoadingScreen: Garbage Collecting before dropping load screen
+[2026.09.01-02.54.25:561][619]LogRHI: ShaderPipelineCache: Batch mode changed (0): Size: 87 -> 1, Time: 16.000000 -> 0.000000
+[2026.09.01-02.54.25:562][619]LogCore: Display: Setting hang detector multiplier to 1.0000s. New hang duration: 0.0000s. New present duration: 0.0000s.
+[2026.09.01-02.54.25:562][619]LogLoadingScreen: LoadingScreen was visible for 13.83s
+[2026.09.01-02.54.26:207][619]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2026.09.01-02.54.26:362][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.54.26:500][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.54.26:501][625]LogRHI: Display: Encountered a new graphics PSO: 800938801
+[2026.09.01-02.54.26:634][627]LogGF1047Experience: Experience load complete (CLIENT): Default__EXP_PreGame_Generic_C
+[2026.09.01-02.54.26:638][627]LogStreaming: Display: FlushAsyncLoading(3034): 1 QueuedPackages, 15 AsyncPackages
+[2026.09.01-02.54.26:641][627]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.26:650][627]Log1047GameFramework: Warning: FillInvalidSlot failed to find a parent item in LoadoutSlot.Skin.Generic to get a default item from
+[2026.09.01-02.54.26:739][627]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantMelee'
+[2026.09.01-02.54.26:739][627]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantAmountMelee'
+[2026.09.01-02.54.26:739][627]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantRanged'
+[2026.09.01-02.54.26:739][627]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantAmountRanged'
+[2026.09.01-02.54.26:739][627]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.StartingAmmoRestriction'
+[2026.09.01-02.54.26:740][627]LogUI1047GameOptions: Warning: Unsupported property type for option 'GameOptions.Property.FactionSelection.RestrictToFactions'
+[2026.09.01-02.54.26:740][627]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.FactionSelection.CustomLoadouts'
+[2026.09.01-02.54.26:740][627]LogUI1047GameOptions: Warning: Unsupported property type for option 'GameOptions.Property.ItemPads.ItemPadTypes'
+[2026.09.01-02.54.26:740][627]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.BotSpawning.Difficulty'
+[2026.09.01-02.54.26:740][627]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.BotSpawning.FactionLoadoutOptions'
+[2026.09.01-02.54.26:740][627]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantMelee'
+[2026.09.01-02.54.26:740][627]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantAmountMelee'
+[2026.09.01-02.54.26:740][627]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantRanged'
+[2026.09.01-02.54.26:740][628]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantAmountRanged'
+[2026.09.01-02.54.26:740][628]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.StartingAmmoRestriction'
+[2026.09.01-02.54.26:740][628]LogUI1047GameOptions: Warning: Unsupported property type for option 'GameOptions.Property.FactionSelection.RestrictToFactions'
+[2026.09.01-02.54.26:740][628]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.FactionSelection.CustomLoadouts'
+[2026.09.01-02.54.26:740][628]LogUI1047GameOptions: Warning: Unsupported property type for option 'GameOptions.Property.ItemPads.ItemPadTypes'
+[2026.09.01-02.54.26:741][628]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.BotSpawning.Difficulty'
+[2026.09.01-02.54.26:741][628]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.BotSpawning.FactionLoadoutOptions'
+[2026.09.01-02.54.26:790][628]LogPortalWarsUI: Configuring InGameOptionsViewModel from lobby
+[2026.09.01-02.54.26:846][630]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.26:846][630]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2026.09.01-02.54.26:846][630]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringRightMouseDown
+[2026.09.01-02.54.26:846][630]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2026.09.01-02.54.26:851][630]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.26:853][630]LogStreaming: Display: FlushAsyncLoading(3056): 1 QueuedPackages, 3 AsyncPackages
+[2026.09.01-02.54.26:896][630]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.26:911][630]LogGF1047SublevelComponent: PreGame_Loadout (LevelStreamingDynamic_1) is being loaded
+[2026.09.01-02.54.26:912][630]LogGF1047SublevelComponent: Loading level LevelStreamingDynamic_1 (requested as PreGame_Loadout)
+[2026.09.01-02.54.26:913][630]LogGF1047SublevelComponent: PreGame_Lighting (LevelStreamingDynamic_4) is being loaded
+[2026.09.01-02.54.26:913][630]LogGF1047SublevelComponent: Loading level LevelStreamingDynamic_4 (requested as PreGame_Lighting)
+[2026.09.01-02.54.26:914][630]LogGF1047SublevelComponent: PreGame_Loadout_Orion was not found
+[2026.09.01-02.54.26:915][630]LogGF1047SublevelComponent: PreGame_Lighting_Orion was not found
+[2026.09.01-02.54.26:916][630]LogGF1047SublevelComponent: Waiting for 2 sublevels and 0 data layers to load
+[2026.09.01-02.54.26:920][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.54.27:292][649]LogGF1047SublevelComponent: LevelStreamingDynamic_4 has finished loading, broadcasting
+[2026.09.01-02.54.27:294][649]LogGF1047SublevelComponent: Sublevel LevelStreamingDynamic_4 finished loading, 1 levels remain
+[2026.09.01-02.54.27:705][674]LogStreaming: Display: UWorld::AddToWorld: routing Initialize on actors for /Game/Maps/MainMenu/Sublevels/PreGame_Loadout took (less than) 59.40 ms
+[2026.09.01-02.54.27:736][675]LogStreaming: Display: FlushAsyncLoading(3116): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.01-02.54.27:775][677]LogGF1047SublevelComponent: LevelStreamingDynamic_1 has finished loading, broadcasting
+[2026.09.01-02.54.27:778][677]LogGF1047SublevelComponent: Sublevel LevelStreamingDynamic_1 finished loading, 0 levels remain
+[2026.09.01-02.54.27:780][678]LogGF1047SublevelComponent: All sublevels loaded, broadcasting completion
+[2026.09.01-02.54.27:782][678]LogPortalWarsUI: PreGameLoadoutSelection loading completed
+[2026.09.01-02.54.27:784][678]LogPortalWarsUI: Outro-ing all 1 transition stingers
+[2026.09.01-02.54.27:778][678]LogMovieSceneECS: Warning: Unable to resolve property 'ColorAndOpacity' from 'OverlaySlot' instance 'OverlaySlot_5'
+[2026.09.01-02.54.27:778][678]LogMovieScene: Warning: Unable to resolve property 'ColorAndOpacity' from 'OverlaySlot' instance 'OverlaySlot_5'
+[2026.09.01-02.54.27:835][679]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.54.27:933][683]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.54.27:933][683]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.54.27:933][683]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.54.27:933][683]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.54.28:011][685]LogStreaming: Display: FlushAsyncLoading(3157): 1 QueuedPackages, 203 AsyncPackages
+[2026.09.01-02.54.28:074][685]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.28:076][685]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_AER_BurstRifle_Base_WPN_C already exists. Remove duplicates from the animation graph for this class.
+[2026.09.01-02.54.28:077][685]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AnimationCollection_3_F5DD290046FF94C1A862F9AA8AAC5562' of length 12 in '/Game/Characters/Skeleton_V5/Animations/Menu/S_ABP_GenericTransition_AnimationArray.S_ABP_GenericTransition_AnimationArray'!
+[2026.09.01-02.54.28:077][685]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AnimationCollection_3_F5DD290046FF94C1A862F9AA8AAC5562' of length 12 in '/Game/Characters/Skeleton_V5/Animations/Menu/S_ABP_GenericTransition_AnimationArray.S_ABP_GenericTransition_AnimationArray'!
+[2026.09.01-02.54.28:097][685]LogStaticMesh: [SM_PortalBase_Oval_Front_V3] Mesh is marked for CPU read.
+[2026.09.01-02.54.28:124][685]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.28:125][685]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AnimationCollection_3_F5DD290046FF94C1A862F9AA8AAC5562' of length 12 in '/Game/Characters/Skeleton_V5/Animations/Menu/S_ABP_GenericTransition_AnimationArray.S_ABP_GenericTransition_AnimationArray'!
+[2026.09.01-02.54.28:125][685]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AnimationCollection_3_F5DD290046FF94C1A862F9AA8AAC5562' of length 12 in '/Game/Characters/Skeleton_V5/Animations/Menu/S_ABP_GenericTransition_AnimationArray.S_ABP_GenericTransition_AnimationArray'!
+[2026.09.01-02.54.28:166][687]LogStreaming: Display: FlushAsyncLoading(3161): 1 QueuedPackages, 35 AsyncPackages
+[2026.09.01-02.54.28:177][687]LogStaticMesh: [SM_ONI_SMG_Mask_FX_P2] Mesh is marked for CPU read.
+[2026.09.01-02.54.28:191][687]LogStaticMesh: [SM_ONI_SMG_Mask_FX_P3] Mesh is marked for CPU read.
+[2026.09.01-02.54.28:193][687]LogStaticMesh: [SM_ONI_SMG_Mask_FX_P1] Mesh is marked for CPU read.
+[2026.09.01-02.54.28:219][687]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.28:233][687]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AnimationCollection_3_F5DD290046FF94C1A862F9AA8AAC5562' of length 12 in '/Game/Characters/Skeleton_V5/Animations/Menu/S_ABP_GenericTransition_AnimationArray.S_ABP_GenericTransition_AnimationArray'!
+[2026.09.01-02.54.28:233][687]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AnimationCollection_3_F5DD290046FF94C1A862F9AA8AAC5562' of length 12 in '/Game/Characters/Skeleton_V5/Animations/Menu/S_ABP_GenericTransition_AnimationArray.S_ABP_GenericTransition_AnimationArray'!
+[2026.09.01-02.54.28:366][698]LogStaticMesh: [SM_PortalBase_Oval_Front_V3] Mesh is marked for CPU read.
+[2026.09.01-02.54.28:494][710]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /Game/CosmeticPreviews/PrePostGame/VFX/NS_PrePostGame_Open.NS_PrePostGame_Open from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+[2026.09.01-02.54.28:494][710]LogNiagara: Warning: Creating niagara system NS_PrePostGame_Open without pooling isn't recommended and will result in a hitch
+[2026.09.01-02.54.29:069][777]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /Game/CosmeticPreviews/PrePostGame/VFX/NS_PrePostGame_Open.NS_PrePostGame_Open from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+[2026.09.01-02.54.29:069][777]LogNiagara: Warning: Creating niagara system NS_PrePostGame_Open without pooling isn't recommended and will result in a hitch
+[2026.09.01-02.54.29:195][792]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /Game/VFX/NiagaraSystems/PreGame_Portal/NS_PreGame_FactionPortal_01.NS_PreGame_FactionPortal_01 from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+[2026.09.01-02.54.29:195][792]LogNiagara: Warning: Creating niagara system NS_PreGame_FactionPortal_01 without pooling isn't recommended and will result in a hitch
+[2026.09.01-02.54.29:272][801]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /Game/CosmeticPreviews/PrePostGame/VFX/NS_PrePostGame_Open.NS_PrePostGame_Open from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+[2026.09.01-02.54.29:272][801]LogNiagara: Warning: Creating niagara system NS_PrePostGame_Open without pooling isn't recommended and will result in a hitch
+[2026.09.01-02.54.29:683][849]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /Game/VFX/NiagaraSystems/PreGame_Portal/NS_PreGame_FactionPortal_01.NS_PreGame_FactionPortal_01 from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+[2026.09.01-02.54.29:683][849]LogNiagara: Warning: Creating niagara system NS_PreGame_FactionPortal_01 without pooling isn't recommended and will result in a hitch
+[2026.09.01-02.54.29:886][872]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /Game/VFX/NiagaraSystems/PreGame_Portal/NS_PreGame_FactionPortal_01.NS_PreGame_FactionPortal_01 from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+[2026.09.01-02.54.29:886][872]LogNiagara: Warning: Creating niagara system NS_PreGame_FactionPortal_01 without pooling isn't recommended and will result in a hitch
+[2026.09.01-02.54.30:501][934]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /Game/CosmeticPreviews/PrePostGame/VFX/NS_PrePostGame_Close.NS_PrePostGame_Close from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+[2026.09.01-02.54.30:501][934]LogNiagara: Warning: Creating niagara system NS_PrePostGame_Close without pooling isn't recommended and will result in a hitch
+[2026.09.01-02.54.31:005][988]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.31:006][988]LogStreaming: Display: FlushAsyncLoading(3188): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.01-02.54.31:027][988]LogBlueprintUserMessages: [BP_DefaultCharacterCosmeticPreview_PrePost_C_2147466083] Character Cosmetic Preview is being used to preview Non Character items at a root level!
+[2026.09.01-02.54.31:082][993]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /Game/CosmeticPreviews/PrePostGame/VFX/NS_PrePostGame_Close.NS_PrePostGame_Close from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+[2026.09.01-02.54.31:082][993]LogNiagara: Warning: Creating niagara system NS_PrePostGame_Close without pooling isn't recommended and will result in a hitch
+[2026.09.01-02.54.31:258][  7]LogStreaming: Display: FlushAsyncLoading(3212): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.01-02.54.31:289][  7]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.31:304][  7]LogBlueprintUserMessages: [BP_DefaultCharacterCosmeticPreview_PrePost_C_2147466083] Character Cosmetic Preview is being used to preview Non Character items at a root level!
+[2026.09.01-02.54.31:312][  8]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /Game/CosmeticPreviews/PrePostGame/VFX/NS_PrePostGame_Close.NS_PrePostGame_Close from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+[2026.09.01-02.54.31:312][  8]LogNiagara: Warning: Creating niagara system NS_PrePostGame_Close without pooling isn't recommended and will result in a hitch
+[2026.09.01-02.54.31:376][ 15]LogRHI: Display: ShaderPipelineCache: GameUsageMask [18446744073709551615] precompile complete.
+[2026.09.01-02.54.31:403][ 18]LogRHI: Warning: FShaderPipelineCache PortalWars2 completed 5517 tasks in 0.30s (86.19s wall time since intial open).
+[2026.09.01-02.54.31:403][ 18]LogRHI: FShaderPipelineCache::BeginNextPrecompileCacheTask() - PortalWars2_usr begining compile.
+[2026.09.01-02.54.31:403][ 18]LogRHI: Display: FShaderPipelineCache starting pipeline cache 'PortalWars2_usr' and enqueued 2 tasks for precompile. (cache contains 2, 2 eligible, 0 had missing shaders. 0 already compiled). BatchSize 1 and BatchTime 0.000000.
+[2026.09.01-02.54.31:544][ 34]LogRHI: Display: ShaderPipelineCache: GameUsageMask [18446744073709551615] precompile complete.
+[2026.09.01-02.54.31:574][ 38]LogRHI: Warning: FShaderPipelineCache PortalWars2_usr completed 2 tasks in 0.00s (0.11s wall time since intial open).
+[2026.09.01-02.54.31:577][ 38]LogRHI: FShaderPipelineCache::BeginNextPrecompileCacheTask() - Finished, no jobs remaining.
+[2026.09.01-02.54.32:744][177]Core1047InputUserSettings: PreSave >> Has Completed!
+[2026.09.01-02.54.32:749][177]LogStreaming: Display: FlushAsyncLoading(3216): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.01-02.54.32:752][177]Log1047GameFramework: Warning: FillInvalidSlot failed to find a parent item in LoadoutSlot.Skin.Generic to get a default item from
+[2026.09.01-02.54.32:757][177]Log1047GameFramework: Warning: FillInvalidSlot failed to find a parent item in LoadoutSlot.Skin.Generic to get a default item from
+[2026.09.01-02.54.32:956][201]Log1047GameFramework: Warning: FillInvalidSlot failed to find a parent item in LoadoutSlot.Skin.Generic to get a default item from
+[2026.09.01-02.54.34:282][359]Log1047GameFramework: Warning: FillInvalidSlot failed to find a parent item in LoadoutSlot.Skin.Generic to get a default item from
+[2026.09.01-02.54.34:332][365]LogPortalWarsUI: Outro-ing all 0 transition stingers
+[2026.09.01-02.54.34:348][367]LogPortalWarsUI: Outro-ing all 0 transition stingers
+[2026.09.01-02.54.34:363][369]LogStreaming: Display: FlushAsyncLoading(3218): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.01-02.54.34:384][369]LogPortalWarsUI: Created transition stinger of type /Game/UI/Stinger/WBP_DoorsTransitionStinger.WBP_DoorsTransitionStinger_C
+[2026.09.01-02.54.36:383][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.54.36:446][614]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.54.36:447][614]LogStaticMesh: [SM_Cube_01] Mesh is marked for CPU read.
+[2026.09.01-02.54.36:513][622]LogGF1047Experience: UnloadCurrentExperience from state Loaded
+[2026.09.01-02.54.36:513][622]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2026.09.01-02.54.36:513][622]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringRightMouseDown -> CapturePermanently
+[2026.09.01-02.54.36:513][622]LogViewport: Display: Player bShowMouseCursor Changed, True -> False
+[2026.09.01-02.54.36:521][622]LogGF1047SublevelComponent: PreGame_Loadout (LevelStreamingDynamic_1) is being unloaded
+[2026.09.01-02.54.36:523][622]LogGF1047SublevelComponent: PreGame_Lighting (LevelStreamingDynamic_4) is being unloaded
+[2026.09.01-02.54.36:524][622]LogActorPool: Clearing all actor pools
+[2026.09.01-02.54.36:524][622]LogGF1047Experience: Starting experience load (CLIENT): Default__EXP_Deathmatch_C
+[2026.09.01-02.54.36:524][622]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.36:617][622]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2026.09.01-02.54.36:897][643]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2026.09.01-02.54.36:965][650]LogGF1047Experience: Experience load complete (CLIENT): Default__EXP_Deathmatch_C
+[2026.09.01-02.54.36:973][650]LogStreaming: Display: FlushAsyncLoading(3303): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.01-02.54.36:975][650]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:090][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantMelee'
+[2026.09.01-02.54.37:090][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantAmountMelee'
+[2026.09.01-02.54.37:090][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantRanged'
+[2026.09.01-02.54.37:090][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantAmountRanged'
+[2026.09.01-02.54.37:090][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.StartingAmmoRestriction'
+[2026.09.01-02.54.37:090][650]LogUI1047GameOptions: Warning: Unsupported property type for option 'GameOptions.Property.FactionSelection.RestrictToFactions'
+[2026.09.01-02.54.37:090][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.FactionSelection.CustomLoadouts'
+[2026.09.01-02.54.37:090][650]LogUI1047GameOptions: Warning: Unsupported property type for option 'GameOptions.Property.ItemPads.ItemPadTypes'
+[2026.09.01-02.54.37:090][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.BotSpawning.Difficulty'
+[2026.09.01-02.54.37:090][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.BotSpawning.FactionLoadoutOptions'
+[2026.09.01-02.54.37:090][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantMelee'
+[2026.09.01-02.54.37:091][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantAmountMelee'
+[2026.09.01-02.54.37:091][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantRanged'
+[2026.09.01-02.54.37:091][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantAmountRanged'
+[2026.09.01-02.54.37:091][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.StartingAmmoRestriction'
+[2026.09.01-02.54.37:091][650]LogUI1047GameOptions: Warning: Unsupported property type for option 'GameOptions.Property.FactionSelection.RestrictToFactions'
+[2026.09.01-02.54.37:091][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.FactionSelection.CustomLoadouts'
+[2026.09.01-02.54.37:091][650]LogUI1047GameOptions: Warning: Unsupported property type for option 'GameOptions.Property.ItemPads.ItemPadTypes'
+[2026.09.01-02.54.37:091][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.BotSpawning.Difficulty'
+[2026.09.01-02.54.37:091][650]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.BotSpawning.FactionLoadoutOptions'
+[2026.09.01-02.54.37:112][650]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:112][650]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:113][650]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:113][650]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:113][650]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:113][650]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:113][650]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:114][650]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:115][650]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:116][650]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:116][650]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:116][650]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:219][651]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:223][651]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:248][651]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.37:248][651]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.37:258][651]LogPortalWarsCore: Warning: Could not find ammo texture for tag 'None'
+[2026.09.01-02.54.37:258][651]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:292][651]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:292][651]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:292][651]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Textures' of length 0 in '/Game/UI/MainMenu/Locker/PlayerCard/WBP_PlayerCard.WBP_PlayerCard_C:UpdateBadges'!
+[2026.09.01-02.54.37:292][651]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Textures' of length 0 in '/Game/UI/MainMenu/Locker/PlayerCard/WBP_PlayerCard.WBP_PlayerCard_C:UpdateBadges'!
+[2026.09.01-02.54.37:292][651]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Textures' of length 0 in '/Game/UI/MainMenu/Locker/PlayerCard/WBP_PlayerCard.WBP_PlayerCard_C:UpdateBadges'!
+[2026.09.01-02.54.37:292][651]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:292][651]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:292][651]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:292][651]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:292][651]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Textures' of length 0 in '/Game/UI/MainMenu/Locker/PlayerCard/WBP_PlayerCard.WBP_PlayerCard_C:UpdateBadges'!
+[2026.09.01-02.54.37:292][651]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Textures' of length 0 in '/Game/UI/MainMenu/Locker/PlayerCard/WBP_PlayerCard.WBP_PlayerCard_C:UpdateBadges'!
+[2026.09.01-02.54.37:292][651]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Textures' of length 0 in '/Game/UI/MainMenu/Locker/PlayerCard/WBP_PlayerCard.WBP_PlayerCard_C:UpdateBadges'!
+[2026.09.01-02.54.37:292][651]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:292][651]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:301][651]LogUI1047: Warning: UUI1047ActionKeySetViewModel::RefreshStateFromEnhancedInputAction ~ bUseInputMappingContextAssets is set to true but no assets were provided in InputMappingContextAssets for UI1047ActionKeySetViewModel_2147461893
+[2026.09.01-02.54.37:302][651]LogUI1047: Warning: UUI1047ActionKeySetViewModel::RefreshStateFromEnhancedInputAction ~ bUseInputMappingContextAssets is set to true but no assets were provided in InputMappingContextAssets for UI1047ActionKeySetViewModel_2147461890
+[2026.09.01-02.54.37:293][651]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:293][651]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:297][651]LogPortalWarsUI: Configuring InGameOptionsViewModel from lobby
+[2026.09.01-02.54.37:310][651]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:310][651]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:326][652]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.54.37:379][656]LogPhysics: Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2026.09.01-02.54.37:387][656]LogAnimation: Warning: SLOTNODE: 'FiringLeftSlot' in animation instance class ABP_FirstPersonBase_V5_C already exists. Remove duplicates from the animation graph for this class.
+[2026.09.01-02.54.37:397][657]LogCore1047: Warning: UCore1047SettingDefinition::ApplyValue Classic Portal Controls is not Enabled via bEnabled so setting value will not be applied.
+[2026.09.01-02.54.37:397][657]LogCore1047: Warning: UCore1047SettingDefinition::ApplyValue Classic Portal Controls is not Enabled via bEnabled so setting value will not be applied.
+[2026.09.01-02.54.37:397][657]Core1047InputUserSettings: PostInitializePlayerInput >> Re-applying Player Profile Keybinds!
+[2026.09.01-02.54.37:398][657]LogCore1047: Warning: UCore1047SettingDefinition::ApplyValue Classic Portal Controls is not Enabled via bEnabled so setting value will not be applied.
+[2026.09.01-02.54.37:398][657]LogCore1047: Warning: UCore1047SettingDefinition::ApplyValue Classic Portal Controls is not Enabled via bEnabled so setting value will not be applied.
+[2026.09.01-02.54.37:398][657]Core1047InputUserSettings: PostInitializePlayerInput >> Re-applying Player Profile Keybinds!
+[2026.09.01-02.54.37:406][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.54.37:407][657]LogPortalWarsUI: Outro-ing all 1 transition stingers
+[2026.09.01-02.54.37:419][658]LogPhysics: Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2026.09.01-02.54.37:435][659]LogPhysics: Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2026.09.01-02.54.37:444][659]LogAbilitySystem: Warning: No gameplay cues found to load from object SkinBP_SBK_MartianCowgirlX_VarC_FP_C_2147461219.
+[2026.09.01-02.54.37:456][660]LogPhysics: Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2026.09.01-02.54.37:468][660]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.37:478][661]LogPhysics: Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2026.09.01-02.54.37:482][661]LogStaticMesh: [SM_Cylinder_Lines] Mesh is marked for CPU read.
+[2026.09.01-02.54.37:491][661]LogAbilitySystem: Warning: GameplayCueNotify GameplayCue.Ability.ControlledFalling at index -1 not found in runtime cue set.
+[2026.09.01-02.54.37:510][662]LogPhysics: Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2026.09.01-02.54.37:519][662]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.37:535][663]LogPhysics: Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2026.09.01-02.54.37:553][663]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_SBK_AssaultRifle_Base_C_2147461132.StaticMeshComponent_2147461130) Already registered. Aborting.
+[2026.09.01-02.54.37:617][666]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_SBK_SemiPistol_CreatorClash_C_2147461050.StaticMeshComponent_2147461048) Already registered. Aborting.
+[2026.09.01-02.54.37:713][671]LogGF1047ItemAttachment: Warning: Attachment Handler: failed to attach '{"ItemDefinition":"AttachID_SBK_AssaultRifle_ExtBarrel","Inventory":"BPC_Inventory","SlotId":"SlotId.WeaponAttachment.01.Attachment1","Epoch":1}' - TargetComponent Not Found
+[2026.09.01-02.54.37:725][672]LogPhysics: Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2026.09.01-02.54.37:734][672]LogGF1047ItemAttachment: Warning: Attachment Handler: failed to attach '{"ItemDefinition":"AttachID_SBK_AssaultRifle_RecoilGrip","Inventory":"BPC_Inventory","SlotId":"SlotId.WeaponAttachment.01.Attachment2","Epoch":1}' - TargetComponent Not Found
+[2026.09.01-02.54.38:068][679]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.38:069][679]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.54.38:080][680]LogStreaming: Warning: LoadPackage: SkipPackage: /WEP_MER_ChargeCarbine/Skins/Camos/Rare/Plastic01/SkinID_MER_ChargeCarbine_Base_Plastic01 (0x8D4C85F1174FC721) - The package to load does not exist on disk or in the loader
+[2026.09.01-02.54.38:100][680]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.38:146][684]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.38:184][688]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.38:200][689]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_SBK_SemiPistol_Base_C_2147460779.StaticMeshComponent_2147460777) Already registered. Aborting.
+[2026.09.01-02.54.38:242][693]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.38:306][698]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.38:385][703]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.54.38:394][704]LogGF1047ItemAttachment: Warning: Attachment Handler: failed to attach '{"ItemDefinition":"AttachID_SBK_SemiPistol_ExtBarrel","Inventory":"BPC_Inventory","SlotId":"SlotId.WeaponAttachment.02.Attachment1","Epoch":1}' - TargetComponent Not Found
+[2026.09.01-02.54.38:439][707]LogShaderLibrary: Warning: Spent 2.53 ms in a blocking wait for shader preload, NumRefs: 1, FramePreloadStarted: 4707, CurrentFrame: 4708
+[2026.09.01-02.54.38:447][707]LogAbilitySystem: Warning: GameplayCueNotify GameplayCue.Ability.ControlledFalling at index -1 not found in runtime cue set.
+[2026.09.01-02.54.38:476][709]LogAbilitySystem: Warning: GameplayCueNotify GameplayCue.Ability.ControlledFalling at index -1 not found in runtime cue set.
+[2026.09.01-02.54.38:489][710]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_AER_AssaultRifle_Base_C_2147460699.StaticMeshComponent_2147460697) Already registered. Aborting.
+[2026.09.01-02.54.38:505][711]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_AER_HeavyPistol_Base_C_2147460689.StaticMeshComponent_2147460687) Already registered. Aborting.
+[2026.09.01-02.54.38:512][711]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_SBK_Carbine_Base_C_2147460682.StaticMeshComponent_2147460680) Already registered. Aborting.
+[2026.09.01-02.54.38:527][712]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_AER_BurstRifle_Base_C_2147460664.StaticMeshComponent_2147460662) Already registered. Aborting.
+[2026.09.01-02.54.38:543][713]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_AER_BurstRifle_Base_C_2147460648.StaticMeshComponent_2147460646) Already registered. Aborting.
+[2026.09.01-02.54.38:572][714]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_SBK_BurstRifle_Base_C_2147460635.StaticMeshComponent_2147460633) Already registered. Aborting.
+[2026.09.01-02.54.38:601][716]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_AER_SMG_Base_C_2147460625.StaticMeshComponent_2147460623) Already registered. Aborting.
+[2026.09.01-02.54.38:618][717]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_AER_BurstPistol_Base_C_2147460615.StaticMeshComponent_2147460613) Already registered. Aborting.
+[2026.09.01-02.54.38:646][719]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_AER_Shotgun_Base_C_2147460608.StaticMeshComponent_2147460606) Already registered. Aborting.
+[2026.09.01-02.54.38:688][719]LogConsoleManager: Display:  |-> Unsetting r.Translucency.DynamicRes.TimeBudget, now 0.500000
+[2026.09.01-02.54.38:697][720]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_AER_SemiPistol_Base_C_2147460583.StaticMeshComponent_2147460581) Already registered. Aborting.
+[2026.09.01-02.54.38:714][721]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_AER_SemiPistol_Base_C_2147460576.StaticMeshComponent_2147460574) Already registered. Aborting.
+[2026.09.01-02.54.38:731][722]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_AER_SemiPistol_Base_C_2147460570.StaticMeshComponent_2147460568) Already registered. Aborting.
+[2026.09.01-02.54.38:749][723]LogActorComponent: RegisterComponentWithWorld: (/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.SkinBP_SBK_BurstPistol_Base_C_2147460564.StaticMeshComponent_2147460562) Already registered. Aborting.
+[2026.09.01-02.54.39:099][750]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2026.09.01-02.54.45:278][479]LogPortalWarsUI: Outro-ing all 0 transition stingers
+[2026.09.01-02.59.46:719][ 92]LogPortalWarsUI: Created transition stinger of type /Game/UI/Stinger/WBP_PortalWallTransitionStinger.WBP_PortalWallTransitionStinger_C
+[2026.09.01-02.59.48:807][176]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Maps/MainMenu/MainMenu?closed"
+[2026.09.01-02.59.48:807][176]LogNet: Browse: /Game/Maps/MainMenu/MainMenu?closed
+[2026.09.01-02.59.48:807][176]LogNet: Connection failed; returning to Entry
+[2026.09.01-02.59.48:807][176]LogLoadingScreen: Showing loading screen when 'IsShowingInitialLoadingScreen()' is false.
+[2026.09.01-02.59.48:807][176]LogLoadingScreen: bCurrentlyInLoadMap is true
+[2026.09.01-02.59.48:807][176]LogStreaming: Display: FlushAsyncLoading(4222): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.01-02.59.48:830][176]LogCore: Display: Setting hang detector multiplier to 1.0000s. New hang duration: 0.0000s. New present duration: 0.0000s.
+[2026.09.01-02.59.48:832][176]LogLoadingScreen: Loading screen showing: 1. Reason: bCurrentlyInLoadMap is true
+[2026.09.01-02.59.48:832][176]LogLoad: LoadMap: /Game/Maps/MainMenu/MainMenu?closed
+[2026.09.01-02.59.48:832][176]LogWorld: BeginTearingDown for /MAP_Zenith/Zenith_Main
+[2026.09.01-02.59.48:833][176]LogSlate: Toggling fast path.  New State: 1
+[2026.09.01-02.59.48:842][176]LogNet: World NetDriver shutdown IpNetDriver_2147470884 [GameNetDriver]
+[2026.09.01-02.59.48:842][176]LogNet: DestroyNamedNetDriver IpNetDriver_2147470884 [GameNetDriver]
+[2026.09.01-02.59.48:842][176]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: GAME_ENDPOINT_01:30925, Name: IpConnection_2147470865, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147470884, IsServer: NO, PC: BP_PlayerController_C_2147469397, Owner: BP_PlayerController_C_2147469397, UniqueId: GameDefined_0:1 (STEAM_ID_USER_01), Channels: 2, Time: 2026.09.01-02.59.48
+[2026.09.01-02.59.48:842][176]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: GAME_ENDPOINT_01:30925, Name: IpConnection_2147470865, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147470884, IsServer: NO, PC: BP_PlayerController_C_2147469397, Owner: BP_PlayerController_C_2147469397, UniqueId: GameDefined_0:1 (STEAM_ID_USER_01)
+[2026.09.01-02.59.48:843][176]LogIris: Display: Iris ReplicationSystem[0]: ReplicationSystem_2147470882 (0x00000000A75B8820) is about to be destroyed
+[2026.09.01-02.59.48:844][176]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147470884 shut down
+[2026.09.01-02.59.48:848][176]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/WinningCircle/WinningCircle_LevelInstance_1.WinningCircle
+[2026.09.01-02.59.53:379][176]LogCC1047CustomMapSupport: Custom map late init not required.
+[2026.09.01-02.59.53:379][176]LogLoad: Took 4.546672 seconds to LoadMap(/Game/Maps/MainMenu/MainMenu)
+[2026.09.01-02.59.53:379][176]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/MainMenu/MainMenu
+[2026.09.01-02.59.53:425][176]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms

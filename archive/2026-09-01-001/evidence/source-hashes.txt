@@ -1,0 +1,5 @@
+# Source material hashes (private originals examined locally)
+
+- `PortalWars2.log` — size 888,552 bytes — SHA-256 `7a161192261dbd3234a8da98b0bfa7474898026f113e75989dd89d3c6a3e03d4`
+- `steam-2918300.log` — size 1,080,009,820 bytes — SHA-256 `0a1d77e8632576ca23534a8958207547c4f23244641a83f0f7ac3cf59432bd9f`
+- `Bot Arena.pcapng` — size 48,129,452 bytes — SHA-256 `96142ca70c1d96e67b6941c14070bb9285c1e545bb4208a231bc2f2b5834cd7c`

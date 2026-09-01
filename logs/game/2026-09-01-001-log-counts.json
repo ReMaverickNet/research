@@ -1,0 +1,17 @@
+{
+  "divide_by_zero": 128,
+  "target_component_not_found": 24,
+  "server_rejected_loadout": 6,
+  "invalid_attachment_config": 6,
+  "weapon_pickup_instances": 106,
+  "death_cue_recycle": 76,
+  "controlled_falling_missing": 36,
+  "postmatch_stinger": 1,
+  "winning_circle": 12,
+  "mvp_audio_missing": 5,
+  "scoreboard_array_oob": 16,
+  "portaportal_fire": 1,
+  "portaportal_create": 1,
+  "portaportal_destroy": 1,
+  "wallhack_cue": 26
+}

@@ -1,0 +1,769 @@
+LogConfig: No local boot hotfix file found at: [C:/USERS/REDACTED/AppData/Local/PortalWars2/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogPluginManager: Mounting Engine plugin FastGeoStreaming5.5
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineServicesEOSGS
+LogPluginManager: Mounting Engine plugin OnlineServicesEOS
+LogPluginManager: Mounting Engine plugin OnlineSubsystemSteam
+LogPluginManager: Mounting Engine plugin SocketSubsystemEOS
+LogPluginManager: Mounting Engine plugin SteamShared
+LogEOSSDK: Initializing EOSSDK Version:1.17.0-39599718
+LogOnlineServices: Warning: [LoadEOSPlatformConfig] Using legacy config from OnlineServices.EOS, use EOSShared named config instead.
+LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.17.0-39599718 booting at 2026-09-01T02:53:02.390Z using C
+LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Wine/11.0, ClientId=REDACTED, ProductId=REDACTED, SandboxId=REDACTED, DeploymentId=REDACTED, ProductName=PortalWars2, ProductVersion=PortalWars2-CL-600100, IsServer=false, Flags=EnableD3D9Overlay+EnableD3D10Overlay+EnableOpenGLOverlay]
+LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+LogEOSSDK: Warning: LogEOSOverlay: OverlayPath registry key not found
+LogEOSSDK: LogEOSOverlay: Overlay will not load, because the binary's path is not configured
+LogEOSSDK: Warning: LogEOSOverlay: Failed to initialize overlay module: PATH_NOT_CONFIGURED
+LogEOSSDK: Warning: LogEOSAuth: FAccountPortalBrowserManager::Init: Failed to register overlay: EOS_NotConfigured
+LogEOSSDK: Warning: LogEOSUI: Hot key event ignored because there are no known users.
+LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+LogEOSSDK: LogEOSRTC: LibRTCCore: Initializing LibRTC...
+LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.001957
+LogInit: Base Directory: S:/steamapps/common/Splitgate 2/PortalWars2/Binaries/Win64/
+LogConfig: Branch 'FastGeoStreaming5.5' had been unloaded. Reloading on-demand took 0.03ms
+LogCoreRedirects: AddRedirect(C:/USERS/REDACTED/AppData/Local/PortalWars2/Saved/Config/WindowsClient/NiagaraFluids.ini) has wildcard redirect /NiagaraSimulationStages/, these are very slow and should be resolved as soon as possible! Please refer to the documentation in Engine/Config/BaseEngine.ini.
+LogConfig: Branch 'EOSShared' had been unloaded. Reloading on-demand took 0.02ms
+LogConfig: Branch 'OnlineServicesEOSGS' had been unloaded. Reloading on-demand took 0.03ms
+LogConfig: Branch 'OnlineServicesEOS' had been unloaded. Reloading on-demand took 0.03ms
+LogConfig: Branch 'OnlineSubsystemSteam' had been unloaded. Reloading on-demand took 0.03ms
+LogConfig: Branch 'SocketSubsystemEOS' had been unloaded. Reloading on-demand took 0.03ms
+LogConfig: Branch 'SteamShared' had been unloaded. Reloading on-demand took 0.03ms
+[2026.09.01-02.53.02:584][  0]LogInit: User: REDACTED_USER
+[2026.09.01-02.53.04:358][  0]LogStreamlineRHI: slShutdown = 00006FFFF8CD6E30
+[2026.09.01-02.53.04:358][  0]LogStreamlineRHI: NVIDIA Streamline interposer plugin sl.interposer.dll found in search path S:/steamapps/common/Splitgate 2/Engine/Plugins/Marketplace/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64
+[2026.09.01-02.53.04:358][  0]LogStreamlineRHI: NVIDIA NGX DLSS binary nvngx_dlss.dll not found in search path S:/steamapps/common/Splitgate 2/Engine/Plugins/Marketplace/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64
+[2026.09.01-02.53.04:358][  0]LogStreamlineRHI: NVIDIA Streamline interposer plugin sl.interposer.dll not found in search path S:/steamapps/common/Splitgate 2/PortalWars2/Binaries/ThirdParty/NVIDIA/NGX/Win64
+[2026.09.01-02.53.04:358][  0]LogStreamlineRHI: NVIDIA NGX DLSS binary nvngx_dlss.dll not found in search path S:/steamapps/common/Splitgate 2/PortalWars2/Binaries/ThirdParty/NVIDIA/NGX/Win64
+[2026.09.01-02.53.04:358][  0]LogStreamlineRHI: NVIDIA Streamline interposer plugin sl.interposer.dll not found in search path S:/steamapps/common/Splitgate 2/PortalWars2/Binaries/Win64/Binaries/ThirdParty/NVIDIA/NGX/Win64
+[2026.09.01-02.53.04:358][  0]LogStreamlineRHI: NVIDIA NGX DLSS binary nvngx_dlss.dll not found in search path S:/steamapps/common/Splitgate 2/PortalWars2/Binaries/Win64/Binaries/ThirdParty/NVIDIA/NGX/Win64
+[2026.09.01-02.53.04:358][  0]LogStreamlineRHI: NVIDIA Streamline interposer plugin sl.interposer.dll not found in search path S:/steamapps/common/Splitgate 2/Engine/Plugins/Marketplace/NVIDIA/DLSS/Binaries/ThirdParty/Win64
+[2026.09.01-02.53.04:358][  0]LogStreamlineRHI: NVIDIA NGX DLSS binary nvngx_dlss.dll found in search path S:/steamapps/common/Splitgate 2/Engine/Plugins/Marketplace/NVIDIA/DLSS/Binaries/ThirdParty/Win64
+[2026.09.01-02.53.04:361][  0]LogStreamlineAPI: [Info]: [03-53-04][streamline][info][tid:480][0s:003ms:329us]pluginManager.cpp:618[findPlugins] Looking for plugins in S:/steamapps/common/Splitgate 2/Engine/Plugins/Marketplace/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64 ...
+[2026.09.01-02.53.04:518][  0]LogStreamlineAPI: [Info]: [03-53-04][streamline][info][tid:480][0s:160ms:656us]commonEntry.cpp:1359[ngxLog]  DRS PROFILE FOUND : ProfileName "", AppName "S:\steamapps\common\Splitgate 2\PortalWars2\Binaries\Win64\PortalWars2Client-Win64-Shipping.exe"
+[2026.09.01-02.53.04:518][  0]LogStreamlineAPI: [Info]: [03-53-04][streamline][info][tid:480][0s:160ms:675us]commonEntry.cpp:1359[ngxLog]  called from module sl.common.dll at S:\steamapps\common\Splitgate 2\Engine\Plugins\Marketplace\NVIDIA\StreamlineCore\Binaries\ThirdParty\Win64
+[2026.09.01-02.53.04:699][  0]LogStreamlineAPI: [Info]: [03-53-04][streamline][info][tid:480][0s:341ms:250us]commonEntry.cpp:1359[ngxLog]  app E658702 feature dlss snippet: S:/steamapps/common/Splitgate 2/Engine/Plugins/Marketplace/NVIDIA/DLSS/Binaries/ThirdParty/Win64/nvngx_dlss.dll version: 310.2.1
+[2026.09.01-02.53.04:763][  0]LogStreamlineAPI: [Info]: [03-53-04][streamline][info][tid:480][0s:405ms:849us]commonEntry.cpp:1359[ngxLog]  app E658702 feature dlssg snippet: S:/steamapps/common/Splitgate 2/Engine/Plugins/Marketplace/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/nvngx_dlssg.dll version: 310.2.1
+[2026.09.01-02.53.04:777][  0]LogStreamlineAPI: [Info]: [03-53-04][streamline][info][tid:480][0s:419ms:351us]commonEntry.cpp:1359[ngxLog]  app E658702 feature deepdvc snippet: S:/steamapps/common/Splitgate 2/Engine/Plugins/Marketplace/NVIDIA/StreamlineCore/Binaries/ThirdParty/Win64/nvngx_deepdvc.dll version: 310.2.0
+[2026.09.01-02.53.05:049][  0]LogStreamlineAPI: [Info]: [03-53-05][streamline][info][tid:480][0s:691ms:298us]commonEntry.cpp:1359[ngxLog]  app E658702 feature dlssd snippet: S:/steamapps/common/Splitgate 2/Engine/Plugins/Marketplace/NVIDIA/DLSS/Binaries/ThirdParty/Win64/nvngx_dlssd.dll version: 310.2.1
+[2026.09.01-02.53.05:169][  0]LogRHI: Base name for record PSOs is C:/USERS/REDACTED/AppData/Local/PortalWars2/Saved/CollectedPSOs/++PortalWars2+Release-3.1-CL-600100-PortalWars2_PCD3D_SM6_A859EECD4B237EEBEB9FE8B7B2346D4D.rec.upipelinecache
+[2026.09.01-02.53.05:169][  0]LogRHI: Opened FPipelineCacheFile: C:/USERS/REDACTED/AppData/Local/PortalWars2/Saved/PortalWars2_PCD3D_SM6.upipelinecache (GUID: C5B27EBF458185E99DE735852498D473) with 2 entries.
+[2026.09.01-02.53.05:441][  0]LogConfig: Branch 'FastGeoStreaming' had been unloaded. Reloading on-demand took 0.15ms
+[2026.09.01-02.53.05:505][  0]LogAkAudio: Wwise plug-in DLL path: S:/steamapps/common/Splitgate 2/Engine/Plugins/Audio/Wwise/ThirdParty/x64_vc170/Release/bin/
+[2026.09.01-02.53.05:727][  0]LogSteamShared: Display: Loading Steam SDK 1.57
+[2026.09.01-02.53.05:729][  0]LogSteamShared: Steam SDK Loaded!
+[2026.09.01-02.53.06:094][  0]LogCoreRedirects: AddRedirect(C:/USERS/REDACTED/AppData/Local/PortalWars2/Saved/Config/WindowsClient/PSK_Executive.ini) has wildcard redirect /PSK-Executive/, these are very slow and should be resolved as soon as possible! Please refer to the documentation in Engine/Config/BaseEngine.ini.
+[2026.09.01-02.53.06:609][  0]LogCoreRedirects: AddRedirect(C:/USERS/REDACTED/AppData/Local/PortalWars2/Saved/Config/WindowsClient/WEP_MER_ChargePistol.ini) has wildcard redirect /WEP_MER_HeavyPistol/, these are very slow and should be resolved as soon as possible! Please refer to the documentation in Engine/Config/BaseEngine.ini.
+[2026.09.01-02.53.06:906][  0]LogShaderLibrary: Display: Opening a chunked shader library for plugin 'WSK_SBK_SMG_SteamTrain' is ignored. Chunked libraries for plugins are not supported.
+[2026.09.01-02.53.06:907][  0]LogPluginManager: Mounting plugin localization for 'WSK_SBK_SMG_SteamTrain'...
+[2026.09.01-02.53.06:908][  0]LogGameFeatures: Display: Game feature 'WSK_SBK_SMG_SteamTrain' transitioned successfully. Ending state: Active [Active, Active]
+[2026.09.01-02.53.07:070][  0]LogMaterial: Warning: [AssetLog] S:\steamapps\common\Splitgate 2\PortalWars2\Content\UI\Common\Materials\Backgrounds\Buttons\M_UI_Button_BLUR: Failed to compile Material Instance with Base M_UI_SimpleBox for platform PCD3D_SM6, Default Material will be used in game.
+[2026.09.01-02.53.07:073][  0]LogMaterial: Warning: [AssetLog] S:\steamapps\common\Splitgate 2\PortalWars2\Content\UI\Common\Materials\Backgrounds\CommonTile\M_UI_Tile_BLUR: Failed to compile Material Instance with Base M_UI_SimpleBox for platform PCD3D_SM6, Default Material will be used in game.
+[2026.09.01-02.53.07:076][  0]LogMaterial: Warning: [AssetLog] S:\steamapps\common\Splitgate 2\PortalWars2\Content\UI\Common\Materials\Backgrounds\Section\MI_UI_Section_BLUR: Failed to compile Material Instance with Base M_UI_SimpleBox for platform PCD3D_SM6, Default Material will be used in game.
+[2026.09.01-02.53.07:087][  0]LogCoreRedirects: AddRedirect(C:/USERS/REDACTED/AppData/Local/PortalWars2/Saved/Config/WindowsClient/MOD_Creative.ini) has wildcard redirect /PortalWarsCreative/, these are very slow and should be resolved as soon as possible! Please refer to the documentation in Engine/Config/BaseEngine.ini.
+[2026.09.01-02.53.08:661][  0]LogOnline: STEAM: Steam User is subscribed 1
+[2026.09.01-02.53.08:661][  0]LogOnline: STEAM: [AppId: 2918300] Client API initialized 1
+[2026.09.01-02.53.08:662][  0]LogOnline: OSS: Created online subsystem instance for: Steam
+[2026.09.01-02.53.08:803][  0]LogDLSSNGXRHI: NVIDIA NGX DLSS binary nvngx_dlss.dll not found in search path S:\steamapps\common\Splitgate 2\PortalWars2\Binaries\ThirdParty\NVIDIA\NGX\Win64\
+[2026.09.01-02.53.08:803][  0]LogDLSSNGXRHI: NVIDIA NGX DLSS binary nvngx_dlss.dll not found in search path S:\steamapps\common\Splitgate 2\PortalWars2\Binaries\Win64\Binaries\ThirdParty\NVIDIA\NGX\Win64\
+[2026.09.01-02.53.08:803][  0]LogDLSSNGXRHI: NVIDIA NGX DLSS binary nvngx_dlss.dll found in search path S:\steamapps\common\Splitgate 2\Engine\Plugins\Marketplace\NVIDIA\DLSS\Binaries\ThirdParty\Win64\
+[2026.09.01-02.53.08:819][  0]LogDLSSNGX: [SDK]: [2026-09-01 03:53:08] [NGXLoadLibrary:287] error: failed to load NGXCore: 126 (S:\steamapps\common\Splitgate 2\PortalWars2\Binaries\Win64\_nvngx.dll)
+[2026.09.01-02.53.08:819][  0]LogDLSSNGX: [SDK]: [2026-09-01 03:53:08] [NGXLoadLibrary:287] error: failed to load NGXCore: 126 (S:\steamapps\common\Splitgate 2\PortalWars2\Binaries\Win64\nvngx.dll)
+[2026.09.01-02.53.08:830][  0]LogDLSSNGXD3D12RHI: NVSDK_NGX_D3D12_Init (Log C:/USERS/REDACTED/AppData/Local/PortalWars2/Saved/Logs/) -> (1 NVSDK_NGX_Result_Success)
+[2026.09.01-02.53.09:298][  0]LogMaterial: Warning: [AssetLog] S:\steamapps\common\Splitgate 2\PortalWars2\Content\UI\Common\Materials\Backgrounds\Popups\M_UI_Popup_BLUR: Failed to compile Material Instance with Base M_UI_SimpleBox for platform PCD3D_SM6, Default Material will be used in game.
+[2026.09.01-02.53.09:779][ 26]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 7.361929
+[2026.09.01-02.53.09:780][ 26]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2026.09.01-02.53.09:782][ 26]LogEOSSDK: Warning: LogEOSUI: Hot key event ignored because there are no known users.
+[2026.09.01-02.53.09:782][ 26]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7.378308
+[2026.09.01-02.53.10:214][ 42]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2026.09.01-02.53.10:414][ 54]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 7.996910
+[2026.09.01-02.53.10:416][ 54]LogEOSSDK: Warning: LogEOSEcom: Purchase flow is disabled due to overlay setup failure (EOS_NotConfigured).
+[2026.09.01-02.53.10:416][ 55]LogEOSSDK: Warning: LogEOSUI: Hot key event ignored because there are no known users.
+[2026.09.01-02.53.10:416][ 55]LogEOSSDK: Warning: LogEOSUI: Social overlay is disabled due to overlay setup failure (EOS_NotConfigured).
+[2026.09.01-02.53.10:416][ 55]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 928803857
+[2026.09.01-02.53.10:416][ 55]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7.996910, Update Interval: 321.630920
+[2026.09.01-02.53.28:042][106]LogOnlineIdentity: STEAM: Obtained steam authticket
+[2026.09.01-02.53.34:471][440]LogOnlineServices: Warning: [UPortalWarsReferralConfig::QueryConfigInternal] Failed: User[GameDefined_0:1 (STEAM_ID_USER_01)], Result[[2.99.9] ResponseCode: 9 - ErrorDomain: rooster-referral-service - ErrorReason: REFERRAL_FAILED]
+[2026.09.01-02.53.35:341][492]LogOnlineServices: Warning: [UPortalWarsLoginRewardsConfig::QueryConfigInternal] Failed: User[GameDefined_0:1 (STEAM_ID_USER_01)], Result[[1.1.16] unknown]
+[2026.09.01-02.53.37:951][648]LogOnlineServices: Warning: [UPortalWarsUserLoginRewardsSubsystem::QueryLocalPlayerLoginRewardProgress] Failed: User[GameDefined_0:1 (STEAM_ID_USER_01)], Result[[1.1.16] unknown]
+[2026.09.01-02.53.38:838][700]LogOnlineServices: Warning: [UPortalWarsUserReferralSubsystem::QueryLocalPlayerReferrals] Failed: User[GameDefined_0:1 (STEAM_ID_USER_01)], Result[[2.99.9] ResponseCode: 9 - ErrorDomain: rooster-referral-service - ErrorReason: REFERRAL_FAILED]
+[2026.09.01-02.53.39:246][700]LogOnlineAchievements: Warning: STEAM: Steam achievements have not been configured in .ini
+[2026.09.01-02.53.39:516][704]LogOnlineServices: Warning: [UPortalWarsLimitedTimeEventsSubsystem::QueryActiveEventData] Failed: User[GameDefined_0:1 (STEAM_ID_USER_01)], Result[[1.1.16] unknown]
+[2026.09.01-02.53.39:590][706]LogOnlineServices: Warning: [UPortalWarsLimitedTimeEventsConfig::QueryConfigInternal] Failed: User[GameDefined_0:1 (STEAM_ID_USER_01)], Result[[1.1.16] unknown]
+[2026.09.01-02.53.40:082][712]LogOnlineServices: Warning: [UOF1047LocalizationSubsystem::DownloadLocalizationManifest] Failed: User[GameDefined_0:1 (STEAM_ID_USER_01)], Result[[2.99.5] ResponseCode: 5 - ErrorDomain: game-cms-localization-service - ErrorReason: LOCALIZATION_MANIFEST_NOT_FOUND]
+[2026.09.01-02.53.40:284][723]LogOnlineServices: Warning: [UPortalWarsXpMultiplierConfig::QueryConfigInternal] Failed: User[GameDefined_0:1 (STEAM_ID_USER_01)], Result[[1.1.16] unknown]
+[2026.09.01-02.53.51:377][348]LogOnline: Warning: OSS: Async task 'FOnlineUserInfoSteam::FOnlineAsyncTaskQueryUserInfo() bWasSuccessful: 0' failed in 10.019811 seconds
+[2026.09.01-02.54.01:398][947]LogOnline: Warning: OSS: Async task 'FOnlineUserInfoSteam::FOnlineAsyncTaskQueryUserInfo() bWasSuccessful: 0' failed in 10.009460 seconds
+[2026.09.01-02.54.23:436][615]LogMaterial: Warning: [AssetLog] S:\steamapps\common\Splitgate 2\PortalWars2\Content\UI\Common\Materials\Backgrounds\Popups\M_UI_Popup_BLUR: Failed to compile Material Instance with Base M_UI_SimpleBox for platform PCD3D_SM6, Default Material will be used in game.
+[2026.09.01-02.58.32:061][166]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 329.661560
+[2026.09.01-02.58.32:316][175]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.01-02.58.32:316][176]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 329.892303, Update Interval: 348.940094
+[2026.09.01-02.58.58:181][ 65]LogNiagara: StaticMesh data interface has no valid mesh - NiagaraDataInterfaceStaticMesh /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.BP_WeaponPickup_C_2147446065.Niagara.NiagaraDataInterfaceStaticMesh_1
+[2026.09.01-02.58.59:681][230]LogAbilitySystem: Warning: GameplayCueNotify_Actor GCNL_Death_C_2147458980 had active timelines when it was recycled.
+[2026.09.01-02.58.59:717][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.00:972][381]LogStreaming: Display: FlushAsyncLoading(4185): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.01-02.59.00:993][381]LogPortalWarsUI: Created transition stinger of type /Game/UI/Stinger/WBP_PostMatchTransitionStinger.WBP_PostMatchTransitionStinger_C
+[2026.09.01-02.59.01:964][493]LogNiagara: StaticMesh data interface has no valid mesh - NiagaraDataInterfaceStaticMesh /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.BP_WeaponPickup_C_2147445854.Niagara.NiagaraDataInterfaceStaticMesh_1
+[2026.09.01-02.59.02:085][506]LogNiagara: StaticMesh data interface has no valid mesh - NiagaraDataInterfaceStaticMesh /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.BP_WeaponPickup_C_2147445846.Niagara.NiagaraDataInterfaceStaticMesh_1
+[2026.09.01-02.59.03:043][609]LogAbilitySystem: Warning: GameplayCueNotify_Actor GCNL_Death_C_2147458980 has active latent actions (Delays, etc) when it was recycled.
+[2026.09.01-02.59.03:055][610]LogAbilitySystem: Warning: GameplayCueNotify_Actor GCNL_Death_C_2147460428 had active timelines when it was recycled.
+[2026.09.01-02.59.03:062][611]LogGF1047Experience: UnloadCurrentExperience from state Loaded
+[2026.09.01-02.59.03:063][611]LogGF1047Scheduler: Unregistering variant schedule from game options (0 triggers)
+[2026.09.01-02.59.03:069][611]LogUI1047WidgetPool: Warning: Failed to satisfy 1 creation requests for widget WBP_Banner_KnockedOut_C
+[2026.09.01-02.59.03:081][611]LogActorPool: Clearing all actor pools
+[2026.09.01-02.59.03:082][611]LogGF1047Experience: Starting experience load (CLIENT): Default__EXP_PostGame_Generic_C
+[2026.09.01-02.59.03:082][611]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.03:232][611]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2026.09.01-02.59.03:291][613]LogGF1047Experience: Experience load complete (CLIENT): Default__EXP_PostGame_Generic_C
+[2026.09.01-02.59.03:292][613]LogStreaming: Display: FlushAsyncLoading(4192): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.01-02.59.03:294][613]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.03:294][613]LogGF1047SublevelComponent: /Game/Maps/WinningCircle/WinningCircle.WinningCircle is being added as a level instance
+[2026.09.01-02.59.03:295][613]LogPortalWarsUI: Reusing existing active stinger but taking over ownership
+[2026.09.01-02.59.03:296][613]Log1047GameFramework: Warning: FillInvalidSlot failed to find a parent item in LoadoutSlot.Skin.Generic to get a default item from
+[2026.09.01-02.59.03:300][613]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantMelee'
+[2026.09.01-02.59.03:300][613]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantAmountMelee'
+[2026.09.01-02.59.03:300][613]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantRanged'
+[2026.09.01-02.59.03:300][613]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantAmountRanged'
+[2026.09.01-02.59.03:300][613]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.StartingAmmoRestriction'
+[2026.09.01-02.59.03:300][614]LogUI1047GameOptions: Warning: Unsupported property type for option 'GameOptions.Property.FactionSelection.RestrictToFactions'
+[2026.09.01-02.59.03:300][614]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.FactionSelection.CustomLoadouts'
+[2026.09.01-02.59.03:300][614]LogUI1047GameOptions: Warning: Unsupported property type for option 'GameOptions.Property.ItemPads.ItemPadTypes'
+[2026.09.01-02.59.03:300][614]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.BotSpawning.Difficulty'
+[2026.09.01-02.59.03:300][614]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.BotSpawning.FactionLoadoutOptions'
+[2026.09.01-02.59.03:300][614]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantMelee'
+[2026.09.01-02.59.03:300][614]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantAmountMelee'
+[2026.09.01-02.59.03:300][614]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantRanged'
+[2026.09.01-02.59.03:300][614]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.AmmoGrantAmountRanged'
+[2026.09.01-02.59.03:300][614]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.Weapons.StartingAmmoRestriction'
+[2026.09.01-02.59.03:301][614]LogUI1047GameOptions: Warning: Unsupported property type for option 'GameOptions.Property.FactionSelection.RestrictToFactions'
+[2026.09.01-02.59.03:301][614]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.FactionSelection.CustomLoadouts'
+[2026.09.01-02.59.03:301][614]LogUI1047GameOptions: Warning: Unsupported property type for option 'GameOptions.Property.ItemPads.ItemPadTypes'
+[2026.09.01-02.59.03:301][614]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.BotSpawning.Difficulty'
+[2026.09.01-02.59.03:301][614]LogUI1047GameOptions: Warning: Unsupported struct property type for option 'GameOptions.Property.BotSpawning.FactionLoadoutOptions'
+[2026.09.01-02.59.03:317][614]LogPortalWarsUI: Configuring InGameOptionsViewModel from lobby
+[2026.09.01-02.59.03:377][620]LogWwiseResourceLoader: GetLanguageMapKey: Could not find language English(US) while processing asset None.
+[2026.09.01-02.59.03:377][620]LogWwiseResourceLoader: Error: CreateEventNode: Could not find language for Event None (0)
+[2026.09.01-02.59.03:581][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.03:643][650]LogAkAudio: UAkAudioEvent::LoadEventData(play_sx_postmatch_mvp_whoosh): Could not LoadEvent
+[2026.09.01-02.59.03:856][667]LogWorldPartition: ULevel::OnLevelLoaded(WinningCircle)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=0, InitializeForMainWorld=0, InitializeForEditor=0, InitializeForGame=1)
+[2026.09.01-02.59.03:866][668]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.09.01-02.59.03:867][668]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/WinningCircle/WinningCircle_LevelInstance_1.WinningCircle, World Type = Game, IsMainWorldPartition = 0, Location = V(X=10000000.00, Y=-10000000.00), Rotation = R(0), IsEditor = 0, IsGame = 1, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.09.01-02.59.03:867][668]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Client, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.09.01-02.59.03:872][669]LogWorldPartition: Display: WorldPartition initialize took 6.132 ms (total: 6.267 ms)
+[2026.09.01-02.59.05:641][790]LogCore1047InputSubsystem: Apply input mode: ECore1047InputMethod::MouseAndKeyboard
+[2026.09.01-02.59.05:641][790]LogSlate: User[0] UsePlatformCursorForCursorUser(true)
+[2026.09.01-02.59.13:772][127]LogStreaming: Display: UWorld::AddToWorld: routing Initialize on actors for /Game/Maps/WinningCircle/WinningCircle_LevelInstance_1 took (less than) 23.90 ms
+[2026.09.01-02.59.13:880][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.14:021][135]LogGF1047SublevelComponent: Core1047NonReplicatedLevelStreamingDynamic_2147445670 has finished loading, broadcasting
+[2026.09.01-02.59.14:371][137]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2026.09.01-02.59.14:371][137]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringRightMouseDown
+[2026.09.01-02.59.14:371][137]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2026.09.01-02.59.14:375][137]LogPortalWarsUI: Outro-ing all 0 transition stingers
+[2026.09.01-02.59.14:382][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.15:080][184]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53CC7A002_UAID_50EBF63EE53C7FA102_2147444499.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/WinningCircle/Confetti/NS_CINE_WinningCircle_VerticalVelocity_Confetti_01.NS_CINE_WinningCircle_VerticalVelocity_Confetti_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.15:080][184]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53CC8A002_UAID_50EBF63EE53C7FA102_2147444497.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/WinningCircle/Confetti/NS_CINE_WinningCircle_VerticalVelocity_Confetti_01.NS_CINE_WinningCircle_VerticalVelocity_Confetti_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.15:080][184]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53CC8A002_UAID_50EBF63EE53C7FA102_2147444495.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/WinningCircle/Confetti/NS_CINE_WinningCircle_VerticalVelocity_Confetti_01.NS_CINE_WinningCircle_VerticalVelocity_Confetti_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.15:080][184]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53C01A102_2147444498.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/Default/CrowdCameraFlash/NS_CINE_CrowdFlashes_01.NS_CINE_CrowdFlashes_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.15:080][184]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53C01A102_2147444493.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/Default/CrowdCameraFlash/NS_CINE_CrowdFlashes_01.NS_CINE_CrowdFlashes_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.15:080][184]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53C01A102_2147444490.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/Default/CrowdCameraFlash/NS_CINE_CrowdFlashes_01.NS_CINE_CrowdFlashes_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.15:080][185]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NS_CINE_CrowdFlashes_UAID_50EBF63EE53C75A102_2147444489.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/Default/CrowdCameraFlash/NS_CINE_CrowdFlashes_01.NS_CINE_CrowdFlashes_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.15:080][185]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53C00A102_2147444486.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/Default/CrowdCameraFlash/NS_CINE_CrowdFlashes_01.NS_CINE_CrowdFlashes_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.15:080][185]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53CC9A002_2147444491.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/WinningCircle/BackgroundFireworks/NS_CINE_WinningCircle_ContinuousSkyFireworks_01.NS_CINE_WinningCircle_ContinuousSkyFireworks_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.15:332][211]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/WinningCircle/RunningTrails/NS_CINE_WinningCircle_RunningTrails_01.NS_CINE_WinningCircle_RunningTrails_01 from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+[2026.09.01-02.59.15:333][211]LogNiagara: Warning: Creating niagara system NS_CINE_WinningCircle_RunningTrails_01 without pooling isn't recommended and will result in a hitch
+[2026.09.01-02.59.17:057][385]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2026.09.01-02.59.17:443][422]LogCore1047InputSubsystem: Apply input mode: ECore1047InputMethod::Gamepad
+[2026.09.01-02.59.17:443][422]LogSlate: User[0] UsePlatformCursorForCursorUser(false)
+[2026.09.01-02.59.17:994][479]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2026.09.01-02.59.21:444][851]LogAkAudio: Warning: Failed to post AkAudioEvent: Data for 'play_sx_postmatch_mvp_whoosh' wasn't found. Make sure the GeneratedSoundBanks folder (S:/steamapps/common/Splitgate 2/PortalWars2/PortalWars_WwiseProject/GeneratedSoundBanks/) exists and is properly set in the project settings.
+[2026.09.01-02.59.21:444][851]LogAkAudio: Warning: WwiseEventTriggering::PostEventOnDummyObject: EventTracker: 00000000FB329A70. Failed to post dummy event
+[2026.09.01-02.59.21:444][851]LogAkAudio: Warning: FAkAudioDevice::GetShortID : Returning invalid ShortId for Wwise Object named play_sx_postmatch_mvp_whoosh.
+[2026.09.01-02.59.27:064][163]LogStreaming: Display: FlushAsyncLoading(4214): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.01-02.59.27:138][163]LogSlate: Toggling fast path.  New State: 0
+[2026.09.01-02.59.27:148][164]LogWwiseResourceLoader: GetLanguageMapKey: Could not find language English(US) while processing asset None.
+[2026.09.01-02.59.27:148][164]LogWwiseResourceLoader: Error: CreateEventNode: Could not find language for Event None (0)
+[2026.09.01-02.59.27:148][164]LogAkAudio: UAkAudioEvent::LoadEventData(play_sx_postmatch_mvp_whoosh): Could not LoadEvent
+[2026.09.01-02.59.27:148][164]LogAkAudio: Warning: Failed to post AkAudioEvent: Data for 'play_sx_postmatch_mvp_whoosh' wasn't found. Make sure the GeneratedSoundBanks folder (S:/steamapps/common/Splitgate 2/PortalWars2/PortalWars_WwiseProject/GeneratedSoundBanks/) exists and is properly set in the project settings.
+[2026.09.01-02.59.38:592][724]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AnimationCollection_3_F5DD290046FF94C1A862F9AA8AAC5562' of length 4 in '/Game/Characters/Skeleton_V5/Animations/Menu/S_ABP_GenericTransition_AnimationArray.S_ABP_GenericTransition_AnimationArray'!
+[2026.09.01-02.59.38:592][724]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AnimationCollection_3_F5DD290046FF94C1A862F9AA8AAC5562' of length 4 in '/Game/Characters/Skeleton_V5/Animations/Menu/S_ABP_GenericTransition_AnimationArray.S_ABP_GenericTransition_AnimationArray'!
+[2026.09.01-02.59.38:593][724]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AnimationCollection_3_F5DD290046FF94C1A862F9AA8AAC5562' of length 4 in '/Game/Characters/Skeleton_V5/Animations/Menu/S_ABP_GenericTransition_AnimationArray.S_ABP_GenericTransition_AnimationArray'!
+[2026.09.01-02.59.38:594][724]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AnimationCollection_3_F5DD290046FF94C1A862F9AA8AAC5562' of length 4 in '/Game/Characters/Skeleton_V5/Animations/Menu/S_ABP_GenericTransition_AnimationArray.S_ABP_GenericTransition_AnimationArray'!
+[2026.09.01-02.59.38:595][724]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AnimationCollection_3_F5DD290046FF94C1A862F9AA8AAC5562' of length 4 in '/Game/Characters/Skeleton_V5/Animations/Menu/S_ABP_GenericTransition_AnimationArray.S_ABP_GenericTransition_AnimationArray'!
+[2026.09.01-02.59.38:595][724]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AnimationCollection_3_F5DD290046FF94C1A862F9AA8AAC5562' of length 4 in '/Game/Characters/Skeleton_V5/Animations/Menu/S_ABP_GenericTransition_AnimationArray.S_ABP_GenericTransition_AnimationArray'!
+[2026.09.01-02.59.38:596][724]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AnimationCollection_3_F5DD290046FF94C1A862F9AA8AAC5562' of length 4 in '/Game/Characters/Skeleton_V5/Animations/Menu/S_ABP_GenericTransition_AnimationArray.S_ABP_GenericTransition_AnimationArray'!
+[2026.09.01-02.59.38:596][724]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AnimationCollection_3_F5DD290046FF94C1A862F9AA8AAC5562' of length 4 in '/Game/Characters/Skeleton_V5/Animations/Menu/S_ABP_GenericTransition_AnimationArray.S_ABP_GenericTransition_AnimationArray'!
+[2026.09.01-02.59.38:601][724]LogUMG: Error: Unable to find Animation AnimInChallenges_Left on Widget Class 'WBP_EndOfMatch_Summaries_C', was the animation deleted?
+[2026.09.01-02.59.38:623][724]PIE: Warning: AttachTo: '/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.BP_PortalWall_V6_0x00000000_8338DC5E469DCEAE11E9FEAC7822A48E_LevelSequenceActor_0.Mesh' is not static , cannot attach '/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.BP_PortalWall_V6_0x00000000_8338DC5E469DCEAE11E9FEAC7822A48E_LevelSequenceActor_0.SM_PortalWallEdge' which is static to it. Aborting.
+[2026.09.01-02.59.38:623][724]PIE: Warning: AttachTo: '/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.BP_PortalWall_V6_0x00000000_8338DC5E469DCEAE11E9FEAC7822A48E_LevelSequenceActor_0.Mesh' is not static , cannot attach '/MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.BP_PortalWall_V6_0x00000000_8338DC5E469DCEAE11E9FEAC7822A48E_LevelSequenceActor_0.RFStretchingStaticMesh' which is static to it. Aborting.
+[2026.09.01-02.59.38:641][725]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53C2FA102_2147443183.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/WinningCircle/BackgroundFireworks/NS_CINE_WinningCircle_ContinuousSkyFireworks_01.NS_CINE_WinningCircle_ContinuousSkyFireworks_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.38:641][725]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53C46A102_2147443185.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/Default/CrowdCameraFlash/NS_CINE_CrowdFlashes_01.NS_CINE_CrowdFlashes_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.38:641][725]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53C46A102_2147443182.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/Default/CrowdCameraFlash/NS_CINE_CrowdFlashes_01.NS_CINE_CrowdFlashes_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.38:641][725]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53C47A102_2147443180.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/Default/CrowdCameraFlash/NS_CINE_CrowdFlashes_01.NS_CINE_CrowdFlashes_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.38:641][725]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53C47A102_2147443179.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/Default/CrowdCameraFlash/NS_CINE_CrowdFlashes_01.NS_CINE_CrowdFlashes_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.38:641][725]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53C46A102_2147443178.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/Default/CrowdCameraFlash/NS_CINE_CrowdFlashes_01.NS_CINE_CrowdFlashes_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.38:641][726]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53C46A102_2147443177.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/Default/CrowdCameraFlash/NS_CINE_CrowdFlashes_01.NS_CINE_CrowdFlashes_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.38:641][726]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53C46A102_2147443175.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/Default/CrowdCameraFlash/NS_CINE_CrowdFlashes_01.NS_CINE_CrowdFlashes_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.38:641][726]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53C46A102_2147443174.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/Default/CrowdCameraFlash/NS_CINE_CrowdFlashes_01.NS_CINE_CrowdFlashes_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.38:641][726]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53C46A102_2147443173.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/Default/CrowdCameraFlash/NS_CINE_CrowdFlashes_01.NS_CINE_CrowdFlashes_01) required LWC tile recache and was reset.
+[2026.09.01-02.59.46:701][ 92]LogStreaming: Display: FlushAsyncLoading(4221): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.01-02.59.46:719][ 92]LogPortalWarsUI: Created transition stinger of type /Game/UI/Stinger/WBP_PortalWallTransitionStinger.WBP_PortalWallTransitionStinger_C
+[2026.09.01-02.59.48:807][176]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Maps/MainMenu/MainMenu?closed"
+[2026.09.01-02.59.48:807][176]LogNet: Browse: /Game/Maps/MainMenu/MainMenu?closed
+[2026.09.01-02.59.48:807][176]LogNet: Connection failed; returning to Entry
+[2026.09.01-02.59.48:807][176]LogLoadingScreen: Showing loading screen when 'IsShowingInitialLoadingScreen()' is false.
+[2026.09.01-02.59.48:807][176]LogLoadingScreen: bCurrentlyInLoadMap is true
+[2026.09.01-02.59.48:807][176]LogStreaming: Display: FlushAsyncLoading(4222): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.01-02.59.48:829][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.48:829][176]LogRHI: ShaderPipelineCache: Batch mode changed (1): Size: 1 -> 50, Time: 0.000000 -> 16.000000
+[2026.09.01-02.59.48:830][176]LogCore: Display: Setting hang detector multiplier to 1.0000s. New hang duration: 0.0000s. New present duration: 0.0000s.
+[2026.09.01-02.59.48:832][176]LogLoadingScreen: Loading screen showing: 1. Reason: bCurrentlyInLoadMap is true
+[2026.09.01-02.59.48:832][176]LogLoad: LoadMap: /Game/Maps/MainMenu/MainMenu?closed
+[2026.09.01-02.59.48:832][176]LogWorld: BeginTearingDown for /MAP_Zenith/Zenith_Main
+[2026.09.01-02.59.48:833][176]LogSlate: Toggling fast path.  New State: 1
+[2026.09.01-02.59.48:842][176]LogNet: World NetDriver shutdown IpNetDriver_2147470884 [GameNetDriver]
+[2026.09.01-02.59.48:842][176]LogNet: DestroyNamedNetDriver IpNetDriver_2147470884 [GameNetDriver]
+[2026.09.01-02.59.48:842][176]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: GAME_ENDPOINT_01:30925, Name: IpConnection_2147470865, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147470884, IsServer: NO, PC: BP_PlayerController_C_2147469397, Owner: BP_PlayerController_C_2147469397, UniqueId: GameDefined_0:1 (STEAM_ID_USER_01), Channels: 2, Time: 2026.09.01-02.59.48
+[2026.09.01-02.59.48:842][176]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: GAME_ENDPOINT_01:30925, Name: IpConnection_2147470865, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147470884, IsServer: NO, PC: BP_PlayerController_C_2147469397, Owner: BP_PlayerController_C_2147469397, UniqueId: GameDefined_0:1 (STEAM_ID_USER_01)
+[2026.09.01-02.59.48:843][176]LogIris: Display: Iris ReplicationSystem[0]: ReplicationSystem_2147470882 (0x00000000A75B8820) is about to be destroyed
+[2026.09.01-02.59.48:844][176]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147470884 shut down
+[2026.09.01-02.59.48:848][176]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/WinningCircle/WinningCircle_LevelInstance_1.WinningCircle
+[2026.09.01-02.59.50:613][176]LogConsoleManager: Display:  |-> Unsetting r.SubsurfaceScattering, now 0
+[2026.09.01-02.59.50:613][176]LogConsoleManager: Display:  |-> Unsetting r.SeparateTranslucency, now 0
+[2026.09.01-02.59.50:613][176]LogConsoleManager: Display:  |-> Unsetting 1047.streaming.CosmeticsPreviewBoost, now 3.000000
+[2026.09.01-02.59.50:613][176]LogConsoleManager: Display:  |-> Unsetting r.Translucency.DynamicRes.TimeBudget, now 0.500000
+[2026.09.01-02.59.50:613][176]LogConsoleManager: Display:  |-> Unsetting r.DepthOfFieldQuality, now 0
+[2026.09.01-02.59.50:812][176]LogGF1047Experience: UnloadCurrentExperience from state Loaded
+[2026.09.01-02.59.50:813][176]LogActorPool: Clearing all actor pools
+[2026.09.01-02.59.50:812][176]LogWorld: UWorld::CleanupWorld for Zenith_Main, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:075][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:075][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Collisions, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:076][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:076][176]LogWorld: UWorld::CleanupWorld for Zenith_Game, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:077][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:077][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Area05, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:078][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:078][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Area06A, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:079][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:079][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Area06B, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:080][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:080][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Area06C, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:081][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:081][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Audio, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:082][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:082][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Blueprints, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:083][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:083][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_VFX, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:084][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:084][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Props, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:085][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:085][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Kickables, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:086][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:086][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Vista, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:087][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:087][176]LogWorld: UWorld::CleanupWorld for Zenith_Game_Portals, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:088][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:088][176]LogWorld: UWorld::CleanupWorld for Zenith_Lighting, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:089][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:089][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Area01, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:090][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:090][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Area02, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:090][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:091][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Area03A, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:091][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:092][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Area03B, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:092][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:093][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Area04A, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:093][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:094][176]LogWorld: UWorld::CleanupWorld for SL_Zenith_Area04B, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.51:094][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.51:129][176]LogActorPool: Clearing all actor pools
+[2026.09.01-02.59.51:097][176]LogAT1047InputRecorderSubsystem: Display: [UAT1047InputRecorderSubsystem::StopPlayback] All playback sessions stopped.
+[2026.09.01-02.59.51:802][176]LogScript: Warning: Script Msg: -- No world: /Engine/Transient.PortalWarsGameEngine_2147482447:PortalWarsGameInstance_2147481931.OF1047OnlineUserRegistry_2147480910
+[2026.09.01-02.59.51:802][176]LogScript: Warning: Script Msg: -- No world: /Engine/Transient.PortalWarsGameEngine_2147482447:PortalWarsGameInstance_2147481931.OF1047OnlineUserRegistry_2147480910
+[2026.09.01-02.59.51:803][176]LogScript: Warning: Script Msg: -- No world: /Engine/Transient.PortalWarsGameEngine_2147482447:PortalWarsGameInstance_2147481931.OF1047OnlineUserRegistry_2147480910
+[2026.09.01-02.59.51:803][176]LogScript: Warning: Script Msg: -- No world: /Engine/Transient.PortalWarsGameEngine_2147482447:PortalWarsGameInstance_2147481931.OF1047OnlineUserRegistry_2147480910
+[2026.09.01-02.59.51:803][176]LogScript: Warning: Script Msg: -- No world: /Engine/Transient.PortalWarsGameEngine_2147482447:PortalWarsGameInstance_2147481931.OF1047OnlineUserRegistry_2147480910
+[2026.09.01-02.59.51:803][176]LogScript: Warning: Script Msg: -- No world: /Engine/Transient.PortalWarsGameEngine_2147482447:PortalWarsGameInstance_2147481931.OF1047OnlineUserRegistry_2147480910
+[2026.09.01-02.59.51:804][176]LogScript: Warning: Script Msg: -- No world: /Engine/Transient.PortalWarsGameEngine_2147482447:PortalWarsGameInstance_2147481931.OF1047OnlineUserRegistry_2147480910
+[2026.09.01-02.59.51:804][176]LogScript: Warning: Script Msg: -- No world: /Engine/Transient.PortalWarsGameEngine_2147482447:PortalWarsGameInstance_2147481931.OF1047OnlineUserRegistry_2147480910
+[2026.09.01-02.59.52:128][176]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2026.09.01-02.59.52:623][176]LogCC1047Objects: Loaded 886 actor descriptors
+[2026.09.01-02.59.52:623][176]LogAT1047InputRecorderSubsystem: Display: [UAT1047InputRecorderSubsystem::ResetSettingsToDefaults] Settings reset to defaults from InputRecorderSettings
+[2026.09.01-02.59.52:624][176]LogSlate: Toggling fast path.  New State: 0
+[2026.09.01-02.59.52:631][176]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.09.01-02.59.52:631][176]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.09.01-02.59.52:632][176]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/MainMenu/MainMenu.MainMenu, World Type = Game, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 1, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.09.01-02.59.52:632][176]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.09.01-02.59.52:636][176]LogWorldPartition: Display: WorldPartition initialize took 4.818 ms (total: 11.085 ms)
+[2026.09.01-02.59.52:636][176]LogLoad: Game class is 'MainMenuGameMode_BP_C'
+[2026.09.01-02.59.52:802][176]LogWorld: Bringing World /Game/Maps/MainMenu/MainMenu.MainMenu up for play (max tick rate 120) at 2026.09.01-03.59.52
+[2026.09.01-02.59.52:806][176]LogWorld: Bringing up level for play took: 0.169385
+[2026.09.01-02.59.52:808][176]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.09.01-02.59.52:810][176]LogEnhancedInput: Warning: A key profile with the name 'InputUserSettings.Profiles.Player' already exists! Use a different name.
+[2026.09.01-02.59.52:810][176]LogEnhancedInput: Warning: A key profile with the name 'InputUserSettings.Profiles.Default' already exists! Use a different name.
+[2026.09.01-02.59.52:810][176]Core1047InputUserSettings: KeyRebinding_ReregisterPlayerProfile >> Ran!
+[2026.09.01-02.59.52:810][176]LogCore1047InputSubsystem: Apply input mode: ECore1047InputMethod::Gamepad
+[2026.09.01-02.59.52:811][176]LogCC1047CustomMapSupport: Pre world begin play.
+[2026.09.01-02.59.52:816][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.52:816][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.52:816][176]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Textures' of length 0 in '/Game/UI/MainMenu/Locker/PlayerCard/WBP_PlayerCard.WBP_PlayerCard_C:UpdateBadges'!
+[2026.09.01-02.59.52:816][176]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Textures' of length 0 in '/Game/UI/MainMenu/Locker/PlayerCard/WBP_PlayerCard.WBP_PlayerCard_C:UpdateBadges'!
+[2026.09.01-02.59.52:816][176]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Textures' of length 0 in '/Game/UI/MainMenu/Locker/PlayerCard/WBP_PlayerCard.WBP_PlayerCard_C:UpdateBadges'!
+[2026.09.01-02.59.52:816][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.52:816][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.52:820][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.52:820][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.52:820][176]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Textures' of length 0 in '/Game/UI/MainMenu/Locker/PlayerCard/WBP_PlayerCard.WBP_PlayerCard_C:UpdateBadges'!
+[2026.09.01-02.59.52:820][176]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'Textures' of length 0 in '/Game/UI/MainMenu/Locker/PlayerCard/WBP_PlayerCard.WBP_PlayerCard_C:UpdateBadges'!
+[2026.09.01-02.59.52:820][176]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Textures' of length 0 in '/Game/UI/MainMenu/Locker/PlayerCard/WBP_PlayerCard.WBP_PlayerCard_C:UpdateBadges'!
+[2026.09.01-02.59.52:854][176]LogMovieScene: Starting new camera cut: 'CineCameraActor_2147441706'
+[2026.09.01-02.59.53:108][176]LogUI1047: Frame Rate Limit Set to Main Menu FPS Limit of: 60
+[2026.09.01-02.59.53:112][176]LogMDFastBinding: Warning: [WBP_MainMenuSceneStack_C] uses a deprecated property-based MDFastBindingContainer, resave it to automatically upgrade it to a widget extension
+[2026.09.01-02.59.53:116][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:239][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:240][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:240][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:244][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:250][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:290][176]LogActor: Warning: BP_LightRig_C /Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.BP_LightRig_2147440334 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2026.09.01-02.59.53:316][176]LogMovieScene: Starting new camera cut: 'CineCameraActor_2147440324'
+[2026.09.01-02.59.53:334][176]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringRightMouseDown -> NoCapture
+[2026.09.01-02.59.53:336][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:337][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:339][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:340][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:344][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:352][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:352][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:355][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:357][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:366][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:372][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:374][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:377][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:378][176]LogPortalWarsUI: Outro-ing all 1 transition stingers
+[2026.09.01-02.59.53:379][176]LogCC1047CustomMapSupport: Post world begin play.
+[2026.09.01-02.59.53:379][176]LogCC1047CustomMapSupport: Custom map late init not required.
+[2026.09.01-02.59.53:379][176]LogLoad: Took 4.546672 seconds to LoadMap(/Game/Maps/MainMenu/MainMenu)
+[2026.09.01-02.59.53:379][176]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/MainMenu/MainMenu
+[2026.09.01-02.59.53:425][176]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2026.09.01-02.59.53:429][176]LogMovieScene: Starting new camera cut: 'CineCameraActor_2147440324'
+[2026.09.01-02.59.53:448][176]LogNiagara: Found 0 Niagara systems with PoolPrimeSize > 0
+[2026.09.01-02.59.53:448][176]LogNiagara: Primed 0 additional Niagara systems from Asset Registry
+[2026.09.01-02.59.53:457][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.09.01-02.59.53:484][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:486][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:494][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:494][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:502][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:503][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:506][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:508][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:508][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:511][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:511][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:515][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:515][176]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
+[2026.09.01-02.59.53:519][177]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][177]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][177]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][177]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][177]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][177]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][177]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][177]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][177]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][177]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][177]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][177]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][177]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][178]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][178]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][178]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][178]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][178]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][178]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][178]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][178]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][178]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:519][178]LogAnimation: Warning: SetStartPosition called on an invalid context or with an invalid type
+[2026.09.01-02.59.53:550][178]LogStreaming: Display: FlushAsyncLoading(4346): 1 QueuedPackages, 6 AsyncPackages
+[2026.09.01-02.59.53:575][178]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2026.09.01-02.59.53:962][194]LogLoadingScreen: Hiding loading screen when 'IsShowingInitialLoadingScreen()' is false.
+[2026.09.01-02.59.53:962][194]LogLoadingScreen: (nothing wants to show it anymore)
+[2026.09.01-02.59.53:962][194]LogLoadingScreen: Garbage Collecting before dropping load screen
+[2026.09.01-02.59.53:963][194]LogRHI: ShaderPipelineCache: Batch mode changed (0): Size: 50 -> 1, Time: 16.000000 -> 0.000000
+[2026.09.01-02.59.53:963][194]LogCore: Display: Setting hang detector multiplier to 1.0000s. New hang duration: 0.0000s. New present duration: 0.0000s.
+[2026.09.01-02.59.53:963][194]LogLoadingScreen: LoadingScreen was visible for 5.16s
+[2026.09.01-02.59.53:992][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2026.09.01-02.59.55:783][278]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.55:862][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.55:905][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.58:389][431]LogBlueprintUserMessages: Closing by request
+[2026.09.01-02.59.58:389][431]LogWindows: FPlatformMisc::RequestExit(0, UKismetSystemLibrary::QuitGame)
+[2026.09.01-02.59.58:389][431]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0, UKismetSystemLibrary::QuitGame)
+[2026.09.01-02.59.58:389][431]LogCore: Engine exit requested (reason: Win RequestExit)
+[2026.09.01-02.59.58:393][432]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.09.01-02.59.58:394][432]LogInit: Display: PreExit Game.
+[2026.09.01-02.59.58:395][432]LogWorld: BeginTearingDown for /Game/Maps/MainMenu/MainMenu
+[2026.09.01-02.59.59:019][432]LogConsoleManager: Display:  |-> Unsetting r.SubsurfaceScattering, now 0
+[2026.09.01-02.59.59:019][432]LogConsoleManager: Display:  |-> Unsetting r.LightMaxDrawDistanceScale, now 0.500000
+[2026.09.01-02.59.59:019][432]LogConsoleManager: Display:  |-> Unsetting r.SeparateTranslucency, now 0
+[2026.09.01-02.59.59:019][432]LogConsoleManager: Display:  |-> Unsetting r.PostProcessing.QuarterResolutionDownsample, now 1
+[2026.09.01-02.59.59:019][432]LogConsoleManager: Display:  |-> Unsetting r.Translucency.DynamicRes.TimeBudget, now 0.500000
+[2026.09.01-02.59.59:019][432]LogConsoleManager: Display:  |-> Unsetting r.VRS.ReflectionEnvironmentSky, now 0
+[2026.09.01-02.59.59:019][432]LogConsoleManager: Display:  |-> Unsetting r.VRS.SSR, now 2
+[2026.09.01-02.59.59:019][432]LogConsoleManager: Display:  |-> Unsetting r.DepthOfFieldQuality, now 0
+[2026.09.01-02.59.59:117][432]LogUI1047: Frame Rate Limit Restored to Player Settings Value of: 120
+[2026.09.01-02.59.59:117][432]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringRightMouseDown
+[2026.09.01-02.59.59:120][432]LogPortalWarsUI: Outro-ing all 0 transition stingers
+[2026.09.01-02.59.59:121][432]LogChartCreation: Stopped creating FPS charts at 16777813.131627 seconds
+[2026.09.01-02.59.59:524][432]LogActorComponent: UnregisterComponent: (/Engine/Transient.PortalWarsGameEngine_2147482447:PortalWarsGameInstance_2147481931.PortalWarsMusicSubsystem_2147480896.MusicAudioComponent) Not registered. Aborting.
+[2026.09.01-02.59.59:524][432]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2026.09.01-02.59.59:608][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-02.59.59:608][432]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/MainMenu/MainMenu.MainMenu
+[2026.09.01-02.59.59:611][432]LogActorPool: Clearing all actor pools
+[2026.09.01-02.59.59:611][432]LogAT1047InputRecorderSubsystem: Display: [UAT1047InputRecorderSubsystem::StopPlayback] All playback sessions stopped.
+[2026.09.01-02.59.59:625][432]LogScript: Warning: Script Msg: -- No world: /Game/DataRegistry/DR_Weapons.DR_Weapons:OF1047DataRegistrySource_RemoteConfiguration_0
+[2026.09.01-02.59.59:625][432]LogGameFeatures: Shutting down game features subsystem
+[2026.09.01-02.59.59:719][432]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: )...
+[2026.09.01-02.59.59:720][432]LogAudio: Display: Audio Device Manager Shutdown
+[2026.09.01-02.59.59:720][432]LogSlate: Request Window 'PortalWars2  ' being destroyed
+[2026.09.01-02.59.59:720][432]LogSlate: Window 'PortalWars2  ' being destroyed
+[2026.09.01-02.59.59:760][432]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.09.01-02.59.59:767][432]LogExit: Preparing to exit.
+[2026.09.01-02.59.59:767][432]LogMoviePlayer: Shutting down movie player
+[2026.09.01-02.59.59:811][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.01-02.59.59:839][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:839][432]LogScript: Warning: Script Msg: -- No world: None.None:None.None.PortalWarsUISocialReferAFriendViewModel_2147475870
+[2026.09.01-02.59.59:839][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:843][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:844][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:844][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:844][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:844][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:844][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:844][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:844][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:844][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:844][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:844][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:844][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:844][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:844][432]LogScript: Warning: Script Msg: -- No world: None.None:None.None.None.None.PortalWarsUIStoreOfferViewModel_V2_2147474348
+[2026.09.01-02.59.59:844][432]LogScript: Warning: Script Msg: -- No world: None.None:None.None.None.None.PortalWarsUIStoreOfferViewModel_V2_2147474341
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:845][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:846][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:847][432]LogScript: Warning: Script Msg: -- No world: None.None:None.None.PortalWarsUIPlayerRankViewModel_2147472945
+[2026.09.01-02.59.59:854][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:854][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:854][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:854][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:854][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:854][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:854][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:854][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:854][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:854][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:854][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:854][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:854][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:856][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:856][432]LogScript: Warning: Script Msg: -- Null obj
+[2026.09.01-02.59.59:897][432]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.09.01-02.59.59:910][432]LogExit: Game engine shut down
+[2026.09.01-03.00.00:254][432]LogExit: Object subsystem successfully closed.
+[2026.09.01-03.00.00:277][432]LogRHI: FPipelineFileCacheManager Incremental saved 10 total, 8 new, 0 removed, 0 cons .upipelinecache (took   4.34ms): C:/USERS/REDACTED/AppData/Local/PortalWars2/Saved/PortalWars2_PCD3D_SM6.upipelinecache.
+[2026.09.01-03.00.00:301][432]LogStreamline: UnregisterStreamlineReflexHooks Enter
+[2026.09.01-03.00.00:301][432]LogStreamline: UnregisterStreamlineReflexHooks Leave
+[2026.09.01-03.00.00:301][432]LogStreamline: FStreamlineCoreModule::ShutdownModule Enter
+[2026.09.01-03.00.00:301][432]LogStreamline: UnregisterStreamlineReflexHooks Enter
+[2026.09.01-03.00.00:301][432]LogStreamline: FStreamlineMaxTickRateHandler::Initialize sl::ReflexState::lowLatencyAvailable=1
+[2026.09.01-03.00.00:301][432]LogStreamline: FStreamlineMaxTickRateHandler::Initialize sl::ReflexState::latencyReportAvailable=1
+[2026.09.01-03.00.00:301][432]LogStreamline: FStreamlineLatencyMarkers::Initialize sl::ReflexState::flashIndicatorDriverControlled=1
+[2026.09.01-03.00.00:301][432]LogStreamline: UnregisterStreamlineReflexHooks Leave
+[2026.09.01-03.00.00:301][432]LogStreamline: FStreamlineCoreModule::ShutdownModule Leave
+[2026.09.01-03.00.00:301][432]LogNIS: FNISCoreModule::ShutdownModule Enter
+[2026.09.01-03.00.00:301][432]LogNIS: FNISCoreModule::ShutdownModule Leave
+[2026.09.01-03.00.00:301][432]LogDLSS: FDLSSModule::ShutdownModule Enter
+[2026.09.01-03.00.00:301][432]LogDLSS: FDLSSDenoiserWrapper(Active) unwrapping ScreenSpaceDenoiser
+[2026.09.01-03.00.00:301][432]LogDLSSNGXD3D12RHI: FNGXD3D12RHI::~FNGXD3D12RHI Enter
+[2026.09.01-03.00.00:301][432]LogDLSSNGXRHI: NGXRHI::ReleaseAllocatedFeatures Enter
+[2026.09.01-03.00.00:301][432]LogDLSSNGXRHI: Destroying NGX DLSS Feature SrcRect=[0x0->1281x721], DestRect=[0x0->1920x1080], ScaleX=0.667188, ScaleY=0.667593, NGXDLSSPreset=Preset C(3), NGXDLSSRRPreset=Default(0), NGXPerfQuality=MaxQuality(2), bHighResolutionMotionVectors=1, bNonZeroSharpness=0, bUseAutoExposure=1, bEnableAlphaUpscaling=0, bReleaseMemoryOnDelete=1, GPUNode=0, GPUVisibility=0x1, DenoiseMode=Off 
+[2026.09.01-03.00.00:301][432]LogDLSSNGXRHI: NGXRHI::ReleaseAllocatedFeatures Leave
+[2026.09.01-03.00.00:301][432]LogDLSSNGXD3D12RHI: NVSDK_NGX_D3D12_DestroyParameters -> (1 NVSDK_NGX_Result_Success)
+[2026.09.01-03.00.00:301][432]LogDLSSNGXD3D12RHI: FNGXD3D12RHI::~FNGXD3D12RHI Leave
+[2026.09.01-03.00.00:301][432]LogDLSSNGXRHI: NGXRHI::~NGXRHI Enter
+[2026.09.01-03.00.00:301][432]LogDLSSNGXRHI: NGXRHI::~NGXRHI Leave
+[2026.09.01-03.00.00:301][432]LogDLSS: FDLSSModule::ShutdownModule Leave
+[2026.09.01-03.00.00:301][432]LogDLSSNGXRHI: FNGXRHIModule::ShutdownModule Enter
+[2026.09.01-03.00.00:301][432]LogDLSSNGXRHI: FNGXRHIModule::ShutdownModule Leave
+[2026.09.01-03.00.00:567][432]LogNats: Warning: Nats Connection Disconnected. Will attempt reconnect. Reason: 
+[2026.09.01-03.00.00:568][432]LogNats: Warning: Nats Connection Closed. Reason: 
+[2026.09.01-03.00.00:573][432]LogSteamShared: Warning: There are still 1 additional Steam instances in use. These must be shutdown before unloading the module!
+[2026.09.01-03.00.00:573][432]LogSteamShared: Freeing the Steam Loaded Modules...
+[2026.09.01-03.00.00:573][432]LogGauntlet: Gauntlet Shutdown
+[2026.09.01-03.00.00:573][432]LogWwiseNiagara: Display: Shutting down default Niagara.
+[2026.09.01-03.00.00:580][432]LogAkAudio: Skipping AkComponentCallback because we don't have an audio device
+[2026.09.01-03.00.00:581][432]LogWwiseFileHandler: Error: FWwiseStreamedMediaFileState::CloseFile 805038750 (Mus_LockerRoom_A.wav): TryUnsetMedia of prefetch failed: 102 (The component being used is not initialized. Most likely AK::SoundEngine::Init() was not called yet, or AK::SoundEngine::Term was called too early.). Leaking.
+[2026.09.01-03.00.00:581][432]LogAkAudio: Skipping AkComponentCallback because we don't have an audio device
+[2026.09.01-03.00.00:583][432]LogAkAudio: Audiokinetic Audio Device terminated.
+[2026.09.01-03.00.00:583][432]LogWwiseConcurrency: Display: Shutting down default Concurrency.
+[2026.09.01-03.00.00:583][432]LogWwiseProcessing: Display: Shutting down default Processing.
+[2026.09.01-03.00.00:584][432]LogWwiseResourceLoader: Display: Shutting down default Resource Loader.
+[2026.09.01-03.00.00:584][432]LogWwiseSoundEngine: Unloading Wwise Sound Engine
+[2026.09.01-03.00.00:585][432]LogStreamlineRHI: FStreamlineRHIModule::ShutdownModule Enter
+[2026.09.01-03.00.00:585][432]LogStreamlineD3D12RHI: FStreamlineD3D12RHI::~FStreamlineD3D12RHI Enter
+[2026.09.01-03.00.00:585][432]LogStreamlineD3D12RHI: FStreamlineD3D12RHI::~FStreamlineD3D12RHI Leave
+[2026.09.01-03.00.00:585][432]LogStreamlineRHI: FStreamlineRHI::~FStreamlineRHI Enter
+[2026.09.01-03.00.00:585][432]LogStreamlineRHI: FStreamlineRHI::~FStreamlineRHI Leave
+[2026.09.01-03.00.00:585][432]LogStreamlineRHI: FStreamlineRHIModule::ShutdownModule Leave
+[2026.09.01-03.00.00:585][432]LogStreamlineD3D12RHI: FStreamlineD3D12RHIModule::ShutdownModule Enter
+[2026.09.01-03.00.00:585][432]LogStreamlineD3D12RHI: FStreamlineD3D12RHIModule::ShutdownModule Leave
+[2026.09.01-03.00.00:585][432]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2026.09.01-03.00.00:585][432]LogOnline: STEAM: AUTH: Revoking all tickets.
+[2026.09.01-03.00.00:586][432]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2026.09.01-03.00.00:587][432]LogEOSSDK: LogEOSRTC: LibRTCCore: Shutting down LibRTC...
+[2026.09.01-03.00.01:117][432]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.09.01-03.00.01:117][432]LogDLSSNGXVulkanRHIPreInit: FNGXVulkanRHIPreInitModule::ShutdownModule Enter

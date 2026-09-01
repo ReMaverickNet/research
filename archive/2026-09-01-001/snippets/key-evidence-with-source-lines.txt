@@ -1,0 +1,216 @@
+348	LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Wine/11.0, ClientId=REDACTED, ProductId=REDACTED, SandboxId=REDACTED, DeploymentId=REDACTED, ProductName=PortalWars2, ProductVersion=PortalWars2-CL-600100, IsServer=false, Flags=EnableD3D9Overlay+EnableD3D10Overlay+EnableOpenGLOverlay]
+355	LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+3166	[2026.09.01-02.53.06:558][  0]LogShaderLibrary: Display: Opening a chunked shader library for plugin 'POW_WallHack' is ignored. Chunked libraries for plugins are not supported.
+3167	[2026.09.01-02.53.06:560][  0]LogPluginManager: Mounting plugin localization for 'POW_WallHack'...
+3168	[2026.09.01-02.53.06:561][  0]LogGameFeatures: Display: Game feature 'POW_WallHack' transitioned successfully. Ending state: Active [Active, Active]
+3956	[2026.09.01-02.53.07:436][  0]LogMerlin: Merlin Client Loading from: ..\..\..\RemappedPlugins\1047\MerlinAntiCheat\ThirdParty\equ8_client
+4182	[2026.09.01-02.53.09:521][  0]LogGameFeatures: Error: Game Feature preloading was cancelled for URL POW_WallHack.uplugin
+4842	[2026.09.01-02.53.39:245][700]LogMerlin: Data Received: Endpoint: ReportServerSessionManager, Size: 372
+4867	[2026.09.01-02.53.39:580][705]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+4954	[2026.09.01-02.54.09:253][416]LogTemp: Warning: SERVER READY: GAME_ENDPOINT_01:30925
+4958	[2026.09.01-02.54.11:633][532]LogNet: Browse: GAME_ENDPOINT_01:30925/Game/Maps/MainMenu/MainMenu
+4965	[2026.09.01-02.54.11:636][532]LogNet: InitBase PendingNetDriver (NetDriverDefinition GameNetDriver) using replication model Iris
+5032	[2026.09.01-02.54.11:638][532]PacketHandlerLog: Loaded PacketHandler component: OodleNetworkHandlerComponent ()
+5033	[2026.09.01-02.54.11:638][532]PacketHandlerLog: Loaded PacketHandler component: DTLSHandlerComponent ()
+5034	[2026.09.01-02.54.11:638][532]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+5048	[2026.09.01-02.54.12:850][600]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: GAME_ENDPOINT_01:30925, Name: IpConnection_2147470865, Driver: Name:PendingNetDriver Def:GameNetDriver IpNetDriver_2147470884, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+5049	[2026.09.01-02.54.13:001][609]LogNet: Welcomed by server (Level: /MAP_Zenith/Zenith_Main, Game: /Game/GameModes/PortalWarsGameModeV2_BP.PortalWarsGameModeV2_BP_C)
+5050	[2026.09.01-02.54.13:003][609]LogLoad: LoadMap: GAME_ENDPOINT_01:30925/MAP_Zenith/Zenith_Main?game=/Game/GameModes/PortalWarsGameModeV2_BP.PortalWarsGameModeV2_BP_C
+5190	[2026.09.01-02.54.28:074][685]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5195	[2026.09.01-02.54.28:124][685]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5202	[2026.09.01-02.54.28:219][687]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5220	[2026.09.01-02.54.31:005][988]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5226	[2026.09.01-02.54.31:289][  7]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5261	[2026.09.01-02.54.36:965][650]LogGF1047Experience: Experience load complete (CLIENT): Default__EXP_Deathmatch_C
+5298	[2026.09.01-02.54.37:248][651]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5299	[2026.09.01-02.54.37:248][651]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5338	[2026.09.01-02.54.37:468][660]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5343	[2026.09.01-02.54.37:519][662]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5350	[2026.09.01-02.54.38:068][679]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5353	[2026.09.01-02.54.38:100][680]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5354	[2026.09.01-02.54.38:146][684]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5355	[2026.09.01-02.54.38:184][688]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5357	[2026.09.01-02.54.38:242][693]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5358	[2026.09.01-02.54.38:306][698]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5359	[2026.09.01-02.54.38:385][703]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5435	[2026.09.01-02.54.57:068][849]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5452	[2026.09.01-02.54.58:319][980]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5474	[2026.09.01-02.55.02:440][442]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5477	[2026.09.01-02.55.02:518][449]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5483	[2026.09.01-02.55.03:425][554]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5491	[2026.09.01-02.55.07:978][ 63]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5501	[2026.09.01-02.55.08:501][115]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5514	[2026.09.01-02.55.12:228][542]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5518	[2026.09.01-02.55.12:254][543]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5520	[2026.09.01-02.55.12:308][547]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5549	[2026.09.01-02.55.18:359][209]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5554	[2026.09.01-02.55.18:710][249]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5559	[2026.09.01-02.55.18:786][256]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5567	[2026.09.01-02.55.21:734][579]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5579	[2026.09.01-02.55.25:137][953]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5580	[2026.09.01-02.55.25:137][953]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5581	[2026.09.01-02.55.25:137][953]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5582	[2026.09.01-02.55.25:137][953]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5587	[2026.09.01-02.55.25:157][954]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5588	[2026.09.01-02.55.25:157][954]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5589	[2026.09.01-02.55.25:157][954]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5590	[2026.09.01-02.55.25:157][954]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5591	[2026.09.01-02.55.25:157][954]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5592	[2026.09.01-02.55.25:157][954]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5593	[2026.09.01-02.55.25:157][954]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5594	[2026.09.01-02.55.25:157][954]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5595	[2026.09.01-02.55.25:157][955]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5596	[2026.09.01-02.55.25:157][955]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5597	[2026.09.01-02.55.25:157][955]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5598	[2026.09.01-02.55.25:157][955]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'CurrentDisplayedEntries' of length 1 in '/Game/UI/HUD/InGameTabMenu/Scoreboard/WBP_ScoreboardPlayer.WBP_ScoreboardPlayer_C:UpdateStatValueWidgets'!
+5608	[2026.09.01-02.55.25:387][979]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5612	[2026.09.01-02.55.25:415][980]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5614	[2026.09.01-02.55.25:471][984]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5626	[2026.09.01-02.55.27:831][259]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5647	[2026.09.01-02.55.32:297][787]LogGF1047Inventory: Warning: Cosmetic selection: server rejected loadout for {"ItemDefinition":"ID_ChargeCarbine_Meridian","Inventory":"BPC_Inventory","SlotId":"SlotId.Weapon.02","Epoch":4}
+5649	[2026.09.01-02.55.32:348][793]LogGF1047Inventory: Warning: Cosmetic selection: server rejected loadout for {"ItemDefinition":"ID_ChargeCarbine_Meridian","Inventory":"BPC_Inventory","SlotId":"SlotId.Weapon.02","Epoch":4}
+5652	[2026.09.01-02.55.32:890][855]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5662	[2026.09.01-02.55.33:305][901]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5673	[2026.09.01-02.55.37:440][323]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5679	[2026.09.01-02.55.40:597][647]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5692	[2026.09.01-02.55.41:791][765]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5696	[2026.09.01-02.55.41:815][766]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5699	[2026.09.01-02.55.41:884][770]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5709	[2026.09.01-02.55.45:857][231]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5715	[2026.09.01-02.55.46:994][361]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5724	[2026.09.01-02.55.50:855][733]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5729	[2026.09.01-02.55.51:818][836]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5737	[2026.09.01-02.55.53:247][995]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5743	[2026.09.01-02.55.53:662][ 33]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5748	[2026.09.01-02.55.57:355][425]LogAbilitySystem: Display: GameplayCueNotify /POW_WallHack/GameplayAbilities/GameplayCues/GCNL_PowerUp_WallHack_Hacked.GCNL_PowerUp_WallHack_Hacked_C was not loaded when GameplayCue was invoked. Starting async loading.
+5749	[2026.09.01-02.55.57:355][425]LogAbilitySystem: Display: GameplayCueNotify /POW_WallHack/GameplayAbilities/GameplayCues/GCNL_PowerUp_WallHack_Hacked.GCNL_PowerUp_WallHack_Hacked_C was not loaded when GameplayCue was invoked. Starting async loading.
+5750	[2026.09.01-02.55.57:355][425]LogAbilitySystem: Display: GameplayCueNotify /POW_WallHack/GameplayAbilities/GameplayCues/GCNL_PowerUp_WallHack_Hacked.GCNL_PowerUp_WallHack_Hacked_C was not loaded when GameplayCue was invoked. Starting async loading.
+5751	[2026.09.01-02.55.57:355][425]LogAbilitySystem: Display: GameplayCueNotify /POW_WallHack/GameplayAbilities/GameplayCues/GCNL_PowerUp_WallHack_Hacked.GCNL_PowerUp_WallHack_Hacked_C was not loaded when GameplayCue was invoked. Starting async loading.
+5752	[2026.09.01-02.55.57:355][425]LogAbilitySystem: Display: GameplayCueNotify /POW_WallHack/GameplayAbilities/GameplayCues/GCNL_PowerUp_WallHack_Hacked.GCNL_PowerUp_WallHack_Hacked_C was not loaded when GameplayCue was invoked. Starting async loading.
+5753	[2026.09.01-02.55.57:355][426]LogAbilitySystem: Display: GameplayCueNotify /POW_WallHack/GameplayAbilities/GameplayCues/GCNL_PowerUp_WallHack_Hacked.GCNL_PowerUp_WallHack_Hacked_C was not loaded when GameplayCue was invoked. Starting async loading.
+5754	[2026.09.01-02.55.57:355][426]LogAbilitySystem: Display: GameplayCueNotify /POW_WallHack/GameplayAbilities/GameplayCues/GCNL_PowerUp_WallHack_Hacked.GCNL_PowerUp_WallHack_Hacked_C was not loaded when GameplayCue was invoked. Starting async loading.
+5755	[2026.09.01-02.55.57:355][426]LogAbilitySystem: Display: GameplayCueNotify /POW_WallHack/GameplayAbilities/GameplayCues/GCNL_PowerUp_WallHack_Hacked.GCNL_PowerUp_WallHack_Hacked_C was not loaded when GameplayCue was invoked. Starting async loading.
+5756	[2026.09.01-02.55.57:356][426]LogAbilitySystem: Display: GameplayCueNotify /POW_WallHack/GameplayAbilities/GameplayCues/GCNL_PowerUp_WallHack_Active.GCNL_PowerUp_WallHack_Active_C was not loaded when GameplayCue was invoked. Starting async loading.
+5757	[2026.09.01-02.55.57:356][426]LogAbilitySystem: Display: GameplayCueNotify /POW_WallHack/GameplayAbilities/GameplayCues/GCNL_PowerUp_WallHack_Active.GCNL_PowerUp_WallHack_Active_C was not loaded when GameplayCue was invoked. Starting async loading.
+5760	[2026.09.01-02.55.57:408][429]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /POW_WallHack/VFX/NS_POW_WallHack_HackedPing.NS_POW_WallHack_HackedPing from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+5761	[2026.09.01-02.55.57:408][429]LogNiagara: Warning: Creating niagara system NS_POW_WallHack_HackedPing without pooling isn't recommended and will result in a hitch
+5762	[2026.09.01-02.55.57:410][429]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /POW_WallHack/VFX/NS_POW_WallHack_HackedPing.NS_POW_WallHack_HackedPing from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+5763	[2026.09.01-02.55.57:410][429]LogNiagara: Warning: Creating niagara system NS_POW_WallHack_HackedPing without pooling isn't recommended and will result in a hitch
+5764	[2026.09.01-02.55.57:412][429]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /POW_WallHack/VFX/NS_POW_WallHack_HackedPing.NS_POW_WallHack_HackedPing from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+5765	[2026.09.01-02.55.57:412][429]LogNiagara: Warning: Creating niagara system NS_POW_WallHack_HackedPing without pooling isn't recommended and will result in a hitch
+5766	[2026.09.01-02.55.57:416][429]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /POW_WallHack/VFX/NS_POW_WallHack_HackedPing.NS_POW_WallHack_HackedPing from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+5767	[2026.09.01-02.55.57:416][429]LogNiagara: Warning: Creating niagara system NS_POW_WallHack_HackedPing without pooling isn't recommended and will result in a hitch
+5768	[2026.09.01-02.55.57:435][430]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /POW_WallHack/VFX/NS_POW_WallHack_1P_Looping.NS_POW_WallHack_1P_Looping from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+5769	[2026.09.01-02.55.57:435][430]LogNiagara: Warning: Creating niagara system NS_POW_WallHack_1P_Looping without pooling isn't recommended and will result in a hitch
+5772	System:NiagaraSystem /POW_WallHack/VFX/NS_POW_WallHack_InitialBurst_CameraLens_1P.NS_POW_WallHack_InitialBurst_CameraLens_1P
+5776	[2026.09.01-02.56.01:450][822]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5784	[2026.09.01-02.56.03:595][ 22]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5787	[2026.09.01-02.56.03:673][ 29]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5793	[2026.09.01-02.56.05:852][242]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5808	[2026.09.01-02.56.10:043][687]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5812	[2026.09.01-02.56.10:069][688]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5814	[2026.09.01-02.56.10:129][692]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5823	[2026.09.01-02.56.11:072][801]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5831	[2026.09.01-02.56.15:896][332]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5841	[2026.09.01-02.56.18:614][605]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5846	[2026.09.01-02.56.19:784][735]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5863	[2026.09.01-02.56.20:856][859]LogGF1047Inventory: Warning: Cosmetic selection: server rejected loadout for {"ItemDefinition":"ID_PlasmaRifle_Meridian","Inventory":"BPC_Inventory","SlotId":"SlotId.Weapon.02","Epoch":7}
+5868	[2026.09.01-02.56.20:913][865]LogGF1047Inventory: Warning: Cosmetic selection: server rejected loadout for {"ItemDefinition":"ID_PlasmaRifle_Meridian","Inventory":"BPC_Inventory","SlotId":"SlotId.Weapon.02","Epoch":7}
+5869	[2026.09.01-02.56.20:956][869]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5874	[2026.09.01-02.56.21:043][876]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5881	[2026.09.01-02.56.25:359][340]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5893	[2026.09.01-02.56.25:853][388]LogAkAudio: Error: Failed to post AkAudioEvent 'play_sx_wpn_3p_merpow_prifle_projectile' with an AkComponent that's not valid.
+5896	[2026.09.01-02.56.25:946][397]LogAkAudio: Error: Failed to post AkAudioEvent 'play_sx_wpn_3p_merpow_prifle_projectile' with an AkComponent that's not valid.
+5906	[2026.09.01-02.56.29:818][809]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5920	[2026.09.01-02.56.32:569][121]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5927	[2026.09.01-02.56.35:636][422]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5938	[2026.09.01-02.56.37:532][594]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5945	[2026.09.01-02.56.39:378][781]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5953	[2026.09.01-02.56.40:910][933]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5964	[2026.09.01-02.56.43:826][229]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5970	[2026.09.01-02.56.47:163][382]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5977	[2026.09.01-02.56.51:145][538]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5987	[2026.09.01-02.56.55:376][715]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5991	[2026.09.01-02.56.55:511][722]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+5997	[2026.09.01-02.56.56:857][789]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6007	[2026.09.01-02.57.02:898][ 78]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6013	[2026.09.01-02.57.03:569][108]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6021	[2026.09.01-02.57.06:797][254]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6028	[2026.09.01-02.57.08:235][331]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6033	[2026.09.01-02.57.09:151][379]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6040	[2026.09.01-02.57.15:274][673]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6050	[2026.09.01-02.57.19:743][870]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6063	[2026.09.01-02.57.20:858][923]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6067	[2026.09.01-02.57.20:881][924]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6069	[2026.09.01-02.57.20:949][928]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6079	[2026.09.01-02.57.22:796][ 11]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6084	[2026.09.01-02.57.22:951][ 18]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6091	[2026.09.01-02.57.25:627][148]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6095	[2026.09.01-02.57.27:250][223]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6102	[2026.09.01-02.57.29:318][308]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6108	[2026.09.01-02.57.33:270][468]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6120	[2026.09.01-02.57.37:208][630]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6126	[2026.09.01-02.57.39:149][712]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6132	[2026.09.01-02.57.39:318][719]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6138	[2026.09.01-02.57.44:171][942]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6151	[2026.09.01-02.57.49:656][188]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6156	[2026.09.01-02.57.50:110][207]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6177	[2026.09.01-02.57.54:369][371]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6199	[2026.09.01-02.57.55:997][446]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6203	[2026.09.01-02.57.56:051][448]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6207	[2026.09.01-02.57.56:271][459]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6215	[2026.09.01-02.57.56:658][476]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6216	[2026.09.01-02.57.56:773][481]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6234	[2026.09.01-02.58.01:570][717]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6241	[2026.09.01-02.58.04:033][830]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /POW_WallHack/VFX/NS_POW_WallHack_Active_3P.NS_POW_WallHack_Active_3P from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+6242	[2026.09.01-02.58.04:034][830]LogNiagara: Warning: Creating niagara system NS_POW_WallHack_Active_3P without pooling isn't recommended and will result in a hitch
+6246	[2026.09.01-02.58.05:142][883]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6250	[2026.09.01-02.58.05:591][904]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6266	[2026.09.01-02.58.07:364][985]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6270	[2026.09.01-02.58.07:390][986]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6274	[2026.09.01-02.58.07:457][990]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6291	[2026.09.01-02.58.15:409][367]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6299	[2026.09.01-02.58.16:695][429]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6300	[2026.09.01-02.58.16:768][433]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6301	[2026.09.01-02.58.16:861][438]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6308	[2026.09.01-02.58.17:330][462]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6321	[2026.09.01-02.58.19:585][576]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6325	[2026.09.01-02.58.19:609][577]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6329	[2026.09.01-02.58.19:672][581]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6341	[2026.09.01-02.58.25:286][858]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6345	[2026.09.01-02.58.25:724][880]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6362	[2026.09.01-02.58.26:782][934]LogGF1047Inventory: Warning: Cosmetic selection: server rejected loadout for {"ItemDefinition":"ID_ChargeCarbine_Meridian","Inventory":"BPC_Inventory","SlotId":"SlotId.Weapon.02","Epoch":12}
+6363	[2026.09.01-02.58.26:850][938]LogGF1047Inventory: Warning: Cosmetic selection: server rejected loadout for {"ItemDefinition":"ID_ChargeCarbine_Meridian","Inventory":"BPC_Inventory","SlotId":"SlotId.Weapon.02","Epoch":12}
+6366	[2026.09.01-02.58.27:246][959]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6379	[2026.09.01-02.58.34:868][288]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6385	[2026.09.01-02.58.35:717][324]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6390	[2026.09.01-02.58.35:947][333]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6399	[2026.09.01-02.58.36:599][358]LogAbilitySystem: Display: GameplayCueNotify /EQP_AER_PortaPortal/GameplayAbilities/GameplayCues/GCN_PortaPortal_Fire.GCN_PortaPortal_Fire_C was not loaded when GameplayCue was invoked. Starting async loading.
+6402	[2026.09.01-02.58.36:830][367]LogAbilitySystem: Display: GameplayCueNotify /EQP_AER_PortaPortal/GameplayAbilities/GameplayCues/GCN_PortaPortal_Create.GCN_PortaPortal_Create_C was not loaded when GameplayCue was invoked. Starting async loading.
+6410	[2026.09.01-02.58.38:973][463]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6412	[2026.09.01-02.58.39:098][469]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6417	[2026.09.01-02.58.42:685][644]LogAbilitySystem: Display: GameplayCueNotify /EQP_AER_PortaPortal/GameplayAbilities/GameplayCues/GCN_PortaPortal_Destroy.GCN_PortaPortal_Destroy_C was not loaded when GameplayCue was invoked. Starting async loading.
+6424	[2026.09.01-02.58.46:345][830]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6430	[2026.09.01-02.58.47:832][984]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6435	[2026.09.01-02.58.51:217][362]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+6449	[2026.09.01-02.59.00:993][381]LogPortalWarsUI: Created transition stinger of type /Game/UI/Stinger/WBP_PostMatchTransitionStinger.WBP_PostMatchTransitionStinger_C
+6464	[2026.09.01-02.59.03:294][613]LogGF1047SublevelComponent: /Game/Maps/WinningCircle/WinningCircle.WinningCircle is being added as a level instance
+6491	[2026.09.01-02.59.03:643][650]LogAkAudio: UAkAudioEvent::LoadEventData(play_sx_postmatch_mvp_whoosh): Could not LoadEvent
+6492	[2026.09.01-02.59.03:856][667]LogWorldPartition: ULevel::OnLevelLoaded(WinningCircle)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=0, InitializeForMainWorld=0, InitializeForEditor=0, InitializeForGame=1)
+6494	[2026.09.01-02.59.03:867][668]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/WinningCircle/WinningCircle_LevelInstance_1.WinningCircle, World Type = Game, IsMainWorldPartition = 0, Location = V(X=10000000.00, Y=-10000000.00), Rotation = R(0), IsEditor = 0, IsGame = 1, IsPIEWorldTravel = 0, IsCooking = 0
+6499	[2026.09.01-02.59.13:772][127]LogStreaming: Display: UWorld::AddToWorld: routing Initialize on actors for /Game/Maps/WinningCircle/WinningCircle_LevelInstance_1 took (less than) 23.90 ms
+6507	[2026.09.01-02.59.15:080][184]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53CC7A002_UAID_50EBF63EE53C7FA102_2147444499.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/WinningCircle/Confetti/NS_CINE_WinningCircle_VerticalVelocity_Confetti_01.NS_CINE_WinningCircle_VerticalVelocity_Confetti_01) required LWC tile recache and was reset.
+6508	[2026.09.01-02.59.15:080][184]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53CC8A002_UAID_50EBF63EE53C7FA102_2147444497.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/WinningCircle/Confetti/NS_CINE_WinningCircle_VerticalVelocity_Confetti_01.NS_CINE_WinningCircle_VerticalVelocity_Confetti_01) required LWC tile recache and was reset.
+6509	[2026.09.01-02.59.15:080][184]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53CC8A002_UAID_50EBF63EE53C7FA102_2147444495.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/WinningCircle/Confetti/NS_CINE_WinningCircle_VerticalVelocity_Confetti_01.NS_CINE_WinningCircle_VerticalVelocity_Confetti_01) required LWC tile recache and was reset.
+6515	[2026.09.01-02.59.15:080][185]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53CC9A002_2147444491.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/WinningCircle/BackgroundFireworks/NS_CINE_WinningCircle_ContinuousSkyFireworks_01.NS_CINE_WinningCircle_ContinuousSkyFireworks_01) required LWC tile recache and was reset.
+6516	[2026.09.01-02.59.15:332][211]LogNiagara: Warning: Failed to acquire niagara system NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/WinningCircle/RunningTrails/NS_CINE_WinningCircle_RunningTrails_01.NS_CINE_WinningCircle_RunningTrails_01 from the pool with MaxPoolSize=32 and PoolPrimeSize=0
+6517	[2026.09.01-02.59.15:333][211]LogNiagara: Warning: Creating niagara system NS_CINE_WinningCircle_RunningTrails_01 without pooling isn't recommended and will result in a hitch
+6522	[2026.09.01-02.59.21:444][851]LogAkAudio: Warning: Failed to post AkAudioEvent: Data for 'play_sx_postmatch_mvp_whoosh' wasn't found. Make sure the GeneratedSoundBanks folder (S:/steamapps/common/Splitgate 2/PortalWars2/PortalWars_WwiseProject/GeneratedSoundBanks/) exists and is properly set in the project settings.
+6524	[2026.09.01-02.59.21:444][851]LogAkAudio: Warning: FAkAudioDevice::GetShortID : Returning invalid ShortId for Wwise Object named play_sx_postmatch_mvp_whoosh.
+6529	[2026.09.01-02.59.27:148][164]LogAkAudio: UAkAudioEvent::LoadEventData(play_sx_postmatch_mvp_whoosh): Could not LoadEvent
+6530	[2026.09.01-02.59.27:148][164]LogAkAudio: Warning: Failed to post AkAudioEvent: Data for 'play_sx_postmatch_mvp_whoosh' wasn't found. Make sure the GeneratedSoundBanks folder (S:/steamapps/common/Splitgate 2/PortalWars2/PortalWars_WwiseProject/GeneratedSoundBanks/) exists and is properly set in the project settings.
+6539	[2026.09.01-02.59.38:601][724]LogUMG: Error: Unable to find Animation AnimInChallenges_Left on Widget Class 'WBP_EndOfMatch_Summaries_C', was the animation deleted?
+6542	[2026.09.01-02.59.38:641][725]LogNiagara: Warning: NiagaraComponent(NiagaraComponent /MAP_Zenith/Zenith_Main.Zenith_Main:PersistentLevel.NiagaraActor_UAID_50EBF63EE53C2FA102_2147443183.NiagaraComponent0 - NiagaraSystem /Game/VFX/NiagaraSystems/Cinematic/WinningCircle/BackgroundFireworks/NS_CINE_WinningCircle_ContinuousSkyFireworks_01.NS_CINE_WinningCircle_ContinuousSkyFireworks_01) required LWC tile recache and was reset.
+6569	[2026.09.01-02.59.48:842][176]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: GAME_ENDPOINT_01:30925, Name: IpConnection_2147470865, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147470884, IsServer: NO, PC: BP_PlayerController_C_2147469397, Owner: BP_PlayerController_C_2147469397, UniqueId: GameDefined_0:1 (STEAM_ID_USER_01), Channels: 2, Time: 2026.09.01-02.59.48
+6573	[2026.09.01-02.59.48:848][176]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/WinningCircle/WinningCircle_LevelInstance_1.WinningCircle
+6735	[2026.09.01-02.59.53:575][178]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble

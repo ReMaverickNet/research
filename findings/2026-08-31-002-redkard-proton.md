@@ -4,57 +4,33 @@ Status: observed
 Confidence: high
 First observed: 2026-08-31
 Session: 2026-08-31-001
+Corroborating session: 2026-09-01-001
 
 ## Observation
+The Proton trace from the original practice-range session records native loading of RedKard/Merlin components, followed by a RedKard driver/service failure and an EOS anti-cheat-unavailable message. The September 1 server-backed TDM session independently reproduces the latter state while the client successfully enters an official matchmaking game.
 
-The Proton trace records native loading of:
-
-- `C:\ProgramData\RedKard\Splitgate 2\bin\anticheat.x64.redkard.exe`
-- `C:\ProgramData\RedKard\bin\RedKard.sys`
-- `RemappedPlugins\1047\MerlinAntiCheat\ThirdParty\equ8_client\client.x64.redkard.dll`
-
-The RedKard driver path then reports `Unhandled exception code c0000409`, followed by Wine service-pipe errors.
-
-The game later logs:
-
-`LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.`
-
-Later in the same session, Merlin reports receiving data from `ReportServerSessionManager`.
+The September 1 game log records `OS=Wine/11.0`, Merlin feature startup and a Merlin `ReportServerSessionManager` data event. Separately, EOS logs that the anti-cheat client is not available.
 
 ## Evidence
-
-Session: `sessions/linux/2026-08-31-001.md`
-
-Relevant raw Proton-trace timings:
-
-- RedKard anti-cheat executable loaded around trace timestamp 737.540
-- `RedKard.sys` loaded around 738.348
-- `RedKard.sys` throws `c0000409` around 738.349
-- EOS anti-cheat-unavailable message around 743.369
-- Merlin client loads around 739.498 and logs its plugin initialisation later
-- `ReportServerSessionManager` data received at 21:00:29.346 UTC
+- `sessions/linux/2026-08-31-001.md`
+- `sessions/linux/2026-09-01-001.md`
+- `logs/anticheat/2026-09-01-001-steam-relevant-sanitized.txt`
+- `logs/game/2026-09-01-001-PortalWars2-sanitized.log`
+- Original practice-range evidence: RedKard executable/driver/client DLL loading, `c0000409`, Wine service-pipe errors, and EOS anti-cheat-unavailable message.
 
 ## Interpretation
-
-The practice range is not a credible cause of the EOS anti-cheat-unavailable message in this session: the message occurs during early application startup, before `MOD_PracticeRange` is activated and before the training map is entered.
-
-The current stronger hypothesis is that the RedKard bootstrap/service/driver path is not functioning correctly under this Proton environment. The `c0000409` exception and service-pipe errors are especially relevant because the EOS warning explicitly refers to the anti-cheat bootstrapper.
-
-The fact that Merlin subsequently receives `ReportServerSessionManager` data shows that the client-side anti-cheat integration is not simply absent.
+The September 1 capture strengthens the conclusion that EOS anti-cheat-client availability and Merlin/RedKard-related client activity are separate observable states under Proton. The EOS warning does not imply that all Merlin/RedKard functionality is absent, and the client can still proceed into a real server-backed arena session in this state.
 
 ## Alternatives
-
-- The game may deliberately operate with anti-cheat disabled for this particular client state or platform.
-- EOS anti-cheat availability may be gated separately from the local Merlin client.
+- EOS anti-cheat availability may be gated separately from local Merlin functionality.
 - Steam's launch path may not invoke the exact bootstrap sequence expected by this build.
-- Some observed RedKard failures may be Wine/Proton compatibility issues rather than a server-side decision.
+- Some RedKard failures may be Proton compatibility issues rather than a server-side decision.
+- The build may intentionally permit this game mode/session while the EOS anti-cheat interface remains unavailable.
 
-The current capture cannot distinguish these alternatives conclusively.
+The supplied evidence cannot distinguish these alternatives conclusively.
 
 ## Next test
-
-Repeat the capture in a real server-backed arena match. Record whether the game permits matchmaking and whether the EOS/RedKard messages differ when a server session is created. A Windows comparison would also be highly valuable for establishing whether the `c0000409` and EOS warning are Proton-specific.
+Repeat a server-backed arena capture under native Windows and Proton, comparing only observable process/service/bootstrap timing and EOS/Merlin log state. Do not infer enforcement state beyond what the traces directly establish.
 
 ## AI analysis
-
-ChatGPT was used for initial trace correlation. No claim here should be considered proof of a bootstrap design or incompatibility mechanism until independently verified against additional captures or binaries.
+ChatGPT was used for trace correlation and comparison against the September 1 server-backed session. AI interpretation is not treated as proof of the underlying bootstrap or enforcement design.
