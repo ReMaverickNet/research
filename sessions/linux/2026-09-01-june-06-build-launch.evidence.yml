@@ -1,0 +1,22 @@
+id: EV-2026-09-01-JUNE06
+type: observation
+first_observed: 2026-09-01
+session: 2026-09-01-june-06-build-launch
+build_id: PortalWars2-CL-486885
+source:
+  - logs/game/2026-09-01-june-06-build-launch-extract.txt
+  - captures/pcap/2026-09-01-june-06-build-launch.md
+  - logs/proton/2026-09-01-june-06-build-launch.txt
+summary: >-
+  Linux/Proton session using the June 6, 2025 historical SG2 build reaches
+  Maverick login validation, receives GAME_VERSION_MISMATCH, and displays
+  SG2-styled surroundings with Arena Reloaded-style dialog colours.
+artifacts:
+  - logs/game/2026-09-01-june-06-build-launch-extract.txt
+  - captures/pcap/2026-09-01-june-06-build-launch.md
+  - logs/proton/2026-09-01-june-06-build-launch.txt
+ai:
+  used: true
+  tools: ChatGPT
+  purpose: Initial log triage, packet metadata interpretation and documentation drafting
+  verification: Manual verification against supplied PortalWars2.log, steam-2918300.log and June6.pcapng

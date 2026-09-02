@@ -1,0 +1,22 @@
+# Sanitised extract from PortalWars2.log
+# Source SHA-256: f9791318eda72a44ce31f6f81749bccfa27dec3de6ead789b71b098d04130237
+# Source size: 433836 bytes
+# Personal paths and unrelated noise omitted.
+
+[2026.09.01-17.49.31:507]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.17.0-39599718 booting
+[2026.09.01-17.49.31:507]LogEOSSDK: LogEOS: [Boot] ProductName=PortalWars2 ProductVersion=PortalWars2-CL-486885 IsServer=false
+[2026.09.01-17.49.34:305]LogRHI: FPipelineCacheFile Header Game Version: 486885
+[2026.09.01-17.49.35:911]LogNetVersion: Set ProjectVersion to 1.0. Version Checksum will be recalculated on next use.
+[2026.09.01-17.49.51:870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.01-17.49.51:878]LogOnlineIdentity: STEAM: Obtained steam authticket
+[2026.09.01-17.49.53:219]LogGrpc: Warning: FGrpcRequest - Maverick::Rooster::Api::Metadata::GetErrorCodeConfig - Error:
+ Error Code: 7
+ Error Message: RBAC: access denied
+[2026.09.01-17.49.53:219]LogOnlineServices: Warning: [UPortalWarsErrorCodeConfig::QueryConfigInternal] Failed: Result[[1.1.16] unknown]
+[2026.09.01-17.49.53:221]LogOF1047: Warning: Failed to query config Online.Config.ErrorCodes: [1.1.16] unknown
+[2026.09.01-17.49.54:340]LogGrpc: Warning: FGrpcRequest - Maverick::FUserClient::Login - Error:
+ Error Code: 9
+ Error Reason: GAME_VERSION_MISMATCH
+[2026.09.01-17.49.54:340]LogOnlineServices: Warning: [FAuth1047::Login] Failure: MaverickClient login [2.99.9] GAME_VERSION_MISMATCH - Unknown Error: GAME_VERSION_MISMATCH
+[2026.09.01-17.49.54:340]LogOF1047: Warning: [FOF1047LoginRequest::MaverickLogin] Failure: Maverick login failed [2.99.9] GAME_VERSION_MISMATCH - Unknown Error: GAME_VERSION_MISMATCH
+[2026.09.01-17.49.56:659]LogBlueprintUserMessages: Closing by request
