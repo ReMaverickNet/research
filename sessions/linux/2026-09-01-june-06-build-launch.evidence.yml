@@ -17,6 +17,35 @@ artifacts:
   - logs/proton/2026-09-01-june-06-build-launch.txt
 ai:
   used: true
-  tools: ChatGPT
-  purpose: Initial log triage, packet metadata interpretation and documentation drafting
-  verification: Manual verification against supplied PortalWars2.log, steam-2918300.log and June6.pcapng
+  tools:
+    - name: ChatGPT
+      provider: OpenAI
+      model: GPT-5.6 Luna
+      date: 2026-09-03
+      task: >-
+        Analyse the June 6, 2025 Linux/Proton launch capture, compare it with
+        the existing ReMaverick documentation, correlate PortalWars2.log,
+        steam-2918300.log and packet timing, and assess the provenance of the
+        GAME_VERSION_MISMATCH popup styling.
+      source_material_provided: true
+      github_access: true
+      generated_code_executed: false
+  verification:
+    - >-
+      Checked build identifiers, launch result and error sequence against the
+      supplied PortalWars2.log and the committed session/finding records.
+    - >-
+      Checked the Linux/Proton execution environment against the supplied
+      steam-2918300.log and the committed Proton evidence metadata.
+    - >-
+      Checked packet timing against the supplied June6.pcapng and the
+      sanitised PCAP metadata record.
+    - >-
+      Treated the SG2 background versus Arena Reloaded dialog colour
+      attribution as a visual observation, not packet-level protocol evidence.
+    - >-
+      Kept the client-side styling explanation as an inference because the
+      login response is TLS-encrypted and its application fields were not
+      decoded.
+  note: >-
+    AI-generated interpretation is not independent evidence.
