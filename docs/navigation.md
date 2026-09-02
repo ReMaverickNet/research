@@ -8,6 +8,7 @@
 - [Build tracks](../BUILD_TRACKS.md)
 - [Research roadmap](roadmap.md)
 - [Centralisation direction](centralisation.md)
+- [First-party developer finding: Maverick / P2P](../findings/2026-09-02-011-maverick-shared-backend-and-p2p-transition.md)
 
 ## Main areas
 
