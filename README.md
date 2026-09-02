@@ -14,6 +14,7 @@ The project is intentionally evidence-first, so the central documents explain wh
 - [Research roadmap](docs/roadmap.md) — current investigation priorities
 - [Centralisation direction](docs/centralisation.md) — proposed ReMaverick control-plane architecture
 - [Repository navigation](docs/navigation.md) — where to find evidence, sessions, captures and tooling
+- [Latest first-party finding: Maverick / P2P transition](findings/2026-09-02-011-maverick-shared-backend-and-p2p-transition.md) — developer-sourced clarification recorded before the P2P cutover
 
 ## Want to help?
 
@@ -100,6 +101,7 @@ Each major area has a local `README.md` where navigation or handling rules are u
 - [Historical builds](docs/old-builds.md)
 - [RedKard research](redkard/README.md)
 - [AI-assisted research guide](docs/ai-assisted-research.md)
+- [First-party developer finding: Maverick / P2P](findings/2026-09-02-011-maverick-shared-backend-and-p2p-transition.md)
 - [AI disclosure](docs/ai-disclosure.md)
 - [Evidence format](docs/evidence.md)
 - [Data handling](docs/data-handling.md)
