@@ -1,6 +1,11 @@
-Sentry metadata summary (publication-safe derived record)
+# Sentry event metadata (redacted)
 
-A large Windows Sentry minidump is present in the private source prefix.
-The crash payload itself is intentionally omitted from the public repository.
-The supplied prefix also contains Sentry event/breadcrumb metadata used to corroborate the local crash-reporting footprint.
-No account/player identifiers or raw crash payload data are reproduced here.
+Only non-identifying diagnostic metadata is preserved here. User IDs, Steam IDs, trace/span IDs, GUIDs and raw crash payloads are intentionally omitted.
+
+- level: fatal
+- platform: native
+- release: ++PortalWars2+Release-3.1@600100
+- environment: prod-3dot1
+- SDK: sentry.native.unreal 0.8.5
+- OS: Windows 10.0.19045 (build 588)
+- raw minidump: present locally; **not published**
