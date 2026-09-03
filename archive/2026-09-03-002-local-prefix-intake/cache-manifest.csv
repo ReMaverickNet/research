@@ -1,0 +1,26 @@
+category,dataset,versions_seen,entry_count,notes
+CMS/Snapshots,bots,0.2.6,1,Versioned cache entry
+CMS/Snapshots,challenge-schedule,0.0.88;0.0.90;0.0.92;0.0.93,4,Multiple cached revisions
+CMS/Snapshots,challenge-templates,0.0.102;0.0.103,2,Multiple cached revisions
+CMS/Snapshots,daily-login-reward-pool,0.1.9,1,Versioned cache entry
+CMS/Snapshots,entitlements,0.0.173,1,Versioned cache entry
+CMS/Snapshots,error-codes,0.0.38,1,Versioned cache entry
+CMS/Snapshots,game-encryption,0.0.12,1,Versioned cache entry
+CMS/Snapshots,news-feed,0.0.255;0.0.260,3,Multiple cached revisions including newest shutdown/P2P notice
+CMS/Snapshots,playlist-groups,0.0.58;0.0.59,2,Multiple cached revisions
+CMS/Snapshots,playlist-menus,0.0.91,1,Versioned cache entry
+CMS/Snapshots,playlists,0.2.449;0.2.451,2,Multiple cached revisions
+CMS/Snapshots,points-events,0.0.118,1,Versioned cache entry
+CMS/Snapshots,price-tables,0.0.24,1,Versioned cache entry
+CMS/Snapshots,ranks,0.4.30,1,Versioned cache entry
+CMS/Snapshots,regions,0.0.8,1,Versioned cache entry
+CMS/Snapshots,seasons,0.0.23;0.0.24,2,Multiple cached revisions
+CMS/Snapshots,stat-groups,0.0.7,1,Versioned cache entry
+CMS/Snapshots,stat-system-aggregates,0.0.3,1,Versioned cache entry
+CMS/Snapshots,stats-leaderboards,0.0.5,1,Versioned cache entry
+CMS/Snapshots,store-offers,0.0.144,1,Versioned cache entry
+CMS/Snapshots,store-sections,0.0.382;0.0.383;0.0.385,3,Multiple cached revisions
+CMS/Snapshots,team-clash,0.0.37,1,Versioned cache entry
+CMS/Snapshots,xp-multipliers,0.0.43,1,Versioned cache entry
+Localization,and associated cached datasets,see notes,25,Localisation objects are counted separately from CMS snapshots
+CMS/Assets,asset objects,not versioned by dataset manifest,39,CMS asset objects; source host is documented in intake summary
