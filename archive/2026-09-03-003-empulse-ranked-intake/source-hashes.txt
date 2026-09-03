@@ -1,0 +1,4 @@
+# EMPULSE source archive SHA-256
+# EmpulseLogs.zip  7eac125265a04bdbe69b07adaae710432a736a108391567950c81cf229be11ea
+# Public publication note
+# Raw PCAPs, logs, account identifiers, machine identifiers and other sensitive source material remain outside the public repository.

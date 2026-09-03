@@ -1,0 +1,12 @@
+{
+  "session": "2026-09-03-003",
+  "product": "EMPULSE",
+  "date": "2026-09-03",
+  "scope": "EMPULSE capture with SGAR comparison",
+  "source_evidence": {
+    "archive": "EmpulseLogs.zip",
+    "archive_sha256": "7eac125265a04bdbe69b07adaae710432a736a108391567950c81cf229be11ea"
+  },
+  "derived_files": 16,
+  "note": "Detailed derived analysis is preserved here; raw PCAP/log/account identifiers are intentionally not committed."
+}

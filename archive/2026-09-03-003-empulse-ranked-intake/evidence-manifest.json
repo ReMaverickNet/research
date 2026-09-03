@@ -1,0 +1,24 @@
+{
+  "source": {
+    "archive": "EmpulseLogs.zip",
+    "sha256": "7eac125265a04bdbe69b07adaae710432a736a108391567950c81cf229be11ea"
+  },
+  "derived": [
+    "README.md",
+    "architecture.md",
+    "evidence-matrix.md",
+    "executive-findings.md",
+    "localappdata-findings.md",
+    "next-experiments.md",
+    "pcap-findings.md",
+    "proton-log-findings.md",
+    "publication-sanitisation.md",
+    "scope-labels.md",
+    "service-inventory.csv",
+    "sgar-vs-empulse.md",
+    "source-hashes.txt",
+    "source-provenance.md",
+    "timeline.md"
+  ],
+  "publication_policy": "Raw PCAPs, raw logs, account identifiers, machine identifiers and proprietary cached payloads remain outside the public repository."
+}

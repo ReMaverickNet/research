@@ -14,6 +14,7 @@ The project is intentionally evidence-first, so the central documents explain wh
 - [Research roadmap](docs/roadmap.md) — current investigation priorities
 - [Centralisation direction](docs/centralisation.md) — proposed ReMaverick control-plane architecture
 - [Repository navigation](docs/navigation.md) — where to find evidence, sessions, captures and tooling
+- [EMPULSE research](docs/empulse.md) — EMPULSE-specific evidence with explicit SGAR/shared scope labels
 - [Latest first-party finding: Maverick / P2P transition](findings/2026-09-02-011-maverick-shared-backend-and-p2p-transition.md) — developer-sourced clarification recorded before the P2P cutover
 
 ## Want to help?
@@ -74,7 +75,7 @@ That gives us a finite window to capture how the production system works while t
 ```text
 NETWORK.md      Central network / lifecycle architecture map
 BUILD_TRACKS.md Current SGAR vs historical SG2 build boundary
-sessions/       Reproducible experiments and their metadata
+sessions/       Reproducible experiments and annotations
 logs/           Redacted game / launcher / anti-cheat / network logs
 captures/       Packet and ETW captures
 findings/       Small, evidence-backed technical findings
@@ -83,7 +84,7 @@ redkard/        Anti-cheat architecture and compatibility observations
 docs/           Guides, methodology, roadmap and architecture notes
 tooling/        Small analysis scripts and helper tools
 networking/     Network-specific evidence and protocol notes
-reverse-engineering/ Static-analysis and binary research
+reverse-engineering/ Static-analysis and Unreal-oriented research
 archive/        Preserved analysed session bundles
 ```
 
@@ -96,6 +97,7 @@ Each major area has a local `README.md` where navigation or handling rules are u
 - [Roadmap](docs/roadmap.md)
 - [Centralisation direction](docs/centralisation.md)
 - [Repository navigation](docs/navigation.md)
+- [EMPULSE research](docs/empulse.md)
 - [Windows capture guide](docs/capture/windows.md)
 - [Linux / Proton capture guide](docs/capture/linux.md)
 - [Historical builds](docs/old-builds.md)
