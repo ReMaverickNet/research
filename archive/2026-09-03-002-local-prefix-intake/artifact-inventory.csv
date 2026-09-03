@@ -1,2 +1,8 @@
-relative_path,category,size_bytes,mtime_utc,sha256
-.sentry-native/<uuid>.run/__sentry-breadcrumb1,other,0,2026-09-03T01:21:28Z,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+record_type,category,count,total_bytes,notes
+prefix,all,117,909734848,Complete file count/byte total from supplied PortalWars2 prefix; individual identifiers omitted from this public summary
+cache,CMS/Snapshots,14,,Persistent CMS snapshot objects
+cache,Localization,25,,Persistent localisation objects
+cache,CMS/Assets,39,,Persistent CMS asset objects
+other,.sentry-native,,,Crash-report metadata/dump present locally; payloads intentionally omitted
+other,CloudSettings,,,Unreal GVAS account/player save present locally; payload intentionally omitted
+logs,PortalWars2.log and backups,,,Raw logs already handled by repository session/archive workflow and omitted from this intake bundle
