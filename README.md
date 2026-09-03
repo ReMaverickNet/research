@@ -21,9 +21,9 @@ The project is intentionally evidence-first, so the central documents explain wh
 
 You do not need to know reverse engineering, networking, or any other technical wizardry to contribute.
 
-The easiest way to help is to play **SPLITGATE: Arena Reloaded**, pretty much:
+~~The easiest way to help is to play **SPLITGATE: Arena Reloaded**, pretty much:~~
 
-If you are comfortable collecting logs or network captures, that's how you can help. The [Windows capture guide](docs/capture/windows.md) and [Linux / Proton capture guide](docs/capture/linux.md) walk you through it step by step, though feel free to reach out to **_xdan** on discord if you need any help.
+~~If you are comfortable collecting logs or network captures, that's how you can help. The [Windows capture guide](docs/capture/windows.md) and [Linux / Proton capture guide](docs/capture/linux.md) walk you through it step by step, though feel free to reach out to **_xdan** on discord if you need any help.~~
 
 **Please do not send passwords, authentication tokens, private messages, or other personal information.** When in doubt, send us (or an AI, though document its usage) the observation first and we can help work out what is useful to preserve.
 
@@ -56,9 +56,9 @@ If you're unsure which route to use, **just open an Issue**. We'd rather receive
 
 ## Why this exists
 
-1047 Games has announced that SPLITGATE: Arena Reloaded will stop using dedicated servers and matchmaking on **September 3, 2026**, moving to peer-to-peer hosting with a server browser instead.
+1047 Games has announced that SPLITGATE: Arena Reloaded has stopped using dedicated servers and matchmaking on **September 3, 2026**, and moved to peer-to-peer hosting with a server browser instead.
 
-That gives us a finite window to capture how the production system works while the official infrastructure is still operating.
+That gave us a finite window to capture how the production system works while the official infrastructure was still operating.
 
 ## Research priorities
 
