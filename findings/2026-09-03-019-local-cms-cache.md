@@ -10,6 +10,7 @@ High for the observations below. The deeper CMS object schema still requires dec
 2026-09-03 — Windows local-prefix intake.
 
 ## Observation
+
 A Windows `PortalWars2` local prefix contains `Saved/PersistentDownloadDir/CacheManifest.json` plus persistent CMS snapshot, localisation and asset caches. The manifest contains **78 entries**: 14 `CMS/Snapshots`, 25 `Localization`, and 39 `CMS/Assets`. Each snapshot/localisation manifest ID carries a dataset name, dotted content version and a 64-hex content identifier. CMS asset entries carry source URLs.
 
 The manifest also preserves multiple revisions simultaneously, including multiple versions of challenge schedules/templates, news, playlist groups/playlists, seasons, and store sections. This makes the local cache useful as a historical content-version source even without retaining the original HTTP responses.
@@ -54,6 +55,12 @@ This finding should remain separate from the control-plane/allocation findings. 
 3. Compare the network request metadata against the cache-manifest entry names and version/content IDs.
 4. Correlate CMS resource IDs with `CloudSettings-V2-prod.sav` playlist-filter UUIDs without publishing the account-specific save file.
 5. Build semantic diffs for the retained dataset revisions.
+
+## Reproduction tooling
+
+The publication-safe intake metadata was generated with **XDanfr/PortalWars2-Prefix-Intake v1.0.0**, the standalone successor to the one-off research-repository script. The release provides the same inventory/cache-manifest workflow, adds conservative identifier/URL sanitisation, and includes a Windows `%LOCALAPPDATA%` launcher for broader user LocalAppData trees.
+
+The source implementation is intentionally maintained outside this evidence repository; this finding records the tool/version used so the transformation remains reproducible.
 
 ## External reference
 
