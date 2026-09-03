@@ -1,0 +1,6 @@
+Sentry metadata summary (publication-safe derived record)
+
+A large Windows Sentry minidump is present in the private source prefix.
+The crash payload itself is intentionally omitted from the public repository.
+The supplied prefix also contains Sentry event/breadcrumb metadata used to corroborate the local crash-reporting footprint.
+No account/player identifiers or raw crash payload data are reproduced here.
