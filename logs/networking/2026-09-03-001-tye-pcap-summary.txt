@@ -1,0 +1,44 @@
+Tye filtered PCAP summary (sanitised derived metadata)
+
+Interpretation: these are filtered exports, not the original wide captures. Absence of a log-correlated endpoint here does not prove absence from the raw source capture.
+
+=== TYE-CAP-01 — SG Live Server Connections Solo filtered 1.1.pcapng ===
+Scenario: Solo
+UTC: 2026-08-29T02:48:57.576200Z -> 2026-08-29T02:58:48.939959Z (591.363759 s)
+Packets: 11963 | UDP: 11281 | TCP: 682 | flows: 1058
+Packets with TCP/UDP port 443 on either side: 10577 (88.41%)
+Other TCP/UDP packets with neither side on 443: 1386
+
+=== TYE-CAP-02 — SG Live server connection 2 Invite Recieved filtered 1.1.pcapng ===
+Scenario: Invite received
+UTC: 2026-08-29T03:10:01.675321Z -> 2026-08-29T03:19:48.395336Z (586.720015 s)
+Packets: 4142 | UDP: 2491 | TCP: 1651 | flows: 1115
+Packets with TCP/UDP port 443 on either side: 2601 (62.8%)
+Other TCP/UDP packets with neither side on 443: 1541
+
+=== TYE-CAP-03 — SG Live server connection 3 Party up Invite sent filtered 1.1.pcapng ===
+Scenario: Party up / invite sent
+UTC: 2026-08-29T04:02:40.888356Z -> 2026-08-29T04:17:35.270402Z (894.382046 s)
+Packets: 6355 | UDP: 5779 | TCP: 576 | flows: 1623
+Packets with TCP/UDP port 443 on either side: 4030 (63.41%)
+Other TCP/UDP packets with neither side on 443: 2325
+
+=== TYE-CAP-04 — SG Live server connection 2 hrs filtered 1.1.pcapng ===
+Scenario: Extended Quick Play
+UTC: 2026-08-29T05:37:25.285932Z -> 2026-08-29T06:54:24.834387Z (4619.548455 s)
+Packets: 30237 | UDP: 25173 | TCP: 5064 | flows: 7856
+Packets with TCP/UDP port 443 on either side: 19495 (64.47%)
+Other TCP/UDP packets with neither side on 443: 10742
+
+=== TYE-CAP-05 — Some Custom gameplay 2hrs filtered.pcapng ===
+Scenario: Quick Play + custom games
+UTC: 2026-09-02T04:54:45.625489Z -> 2026-09-02T07:05:04.404181Z (7818.778692 s)
+Packets: 74923 | UDP: 65401 | TCP: 9522 | flows: 12457
+Packets with TCP/UDP port 443 on either side: 57273 (76.44%)
+Other TCP/UDP packets with neither side on 443: 17650
+
+=== LOG JOIN RESULTS ===
+TYE-CAP-03: 2 overlapping SERVER READY sessions; 0 packets to either logged host on any port in the filtered file; 0 packets to the exact logged UDP port.
+TYE-CAP-04: 8 overlapping SERVER READY sessions; same 0/0 result for all eight.
+TYE-CAP-05: 13 overlapping SERVER READY sessions; same 0/0 result for all thirteen.
+TYE-CAP-01 / TYE-CAP-02: no SERVER READY event exists in the supplied logs during the capture windows.

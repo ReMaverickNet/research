@@ -11,6 +11,11 @@ Current state:
 - Official matchmaking reached a real Unreal gameplay endpoint.
 - TDM Bot Arena was captured successfully.
 - The live UE networking stack is documented in `findings/2026-09-01-*`.
+- Current Windows contributor logs (August 29–September 2, 2026) use `PortalWars2-CL-600100` / `++PortalWars2+Release-3.1` and contain 102 `SERVER READY` transitions.
+
+### Arena Reloaded historical checkpoint
+
+A supplied NVIDIA Aftermath crash artifact from March 11, 2026 identifies `PortalWars2-CL-588763` / `++PortalWars2+Release-2.2`. This belongs to the Arena Reloaded Season 1 timeframe and is separate from the September CL-600100 live evidence. See `findings/2026-09-03-018-arena-reloaded-s1-gpu-crash-build.md`.
 
 ## Splitgate 2: June 6, 2025 build
 

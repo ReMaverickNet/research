@@ -52,6 +52,10 @@ Prefer metadata over redistributed game content:
 
 Keep the actual downloaded game files on your own lawful installation/storage. Do not upload them to ReMaverick.
 
+## Arena Reloaded historical checkpoint
+
+The supplied March 11, 2026 NVIDIA Aftermath dump records `PortalWars2-CL-588763` / `++PortalWars2+Release-2.2` on Windows D3D12 with driver 595.71. Season 2 launched March 27, 2026, placing the March 11 artifact in the Arena Reloaded Season 1 timeframe. The dump is metadata evidence only; it is not current CL-600100 crash evidence.
+
 ## Version comparison
 
 For each build, compare:

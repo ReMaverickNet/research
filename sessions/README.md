@@ -8,6 +8,11 @@ Start with the session record, then follow its linked logs, captures, findings a
 
 - `linux/2026-09-01-001.md` — current SGAR TDM Bot Arena reference session
 - `linux/2026-08-31-001.md` — previous session
+- `windows/2026-08-29-001.md` — Tye Solo capture; no overlapping supplied `SERVER READY` log event
+- `windows/2026-08-29-002.md` — Tye Invite-received capture; no overlapping supplied `SERVER READY` log event
+- `windows/2026-08-29-003.md` — Tye Party-up / invite-sent capture; two correlated server sessions
+- `windows/2026-08-29-004.md` — Tye extended Quick Play capture; eight correlated server sessions
+- `windows/2026-09-02-001.md` — Tye Quick Play + custom capture; thirteen correlated server sessions
 
 ## Historical sessions
 

@@ -62,6 +62,23 @@ After the test:
 5. Separate Steam, anti-cheat, telemetry, CDN, and gameplay/session traffic where the evidence supports doing so.
 6. Save the original capture privately and publish only a reviewed copy.
 
+### Dynamic gameplay endpoint rule
+
+Do **not** use `tcp.port == 443` or `udp.port == 443` as a proxy for gameplay. Current-build Windows evidence shows authoritative `SERVER READY` destinations on dynamically allocated UDP ports from `30005–32760`. The same public host can appear again with a different port in a later session.
+
+For each match:
+
+1. find the matching `SERVER READY` line in `PortalWars2.log`;
+2. note the exact IP and UDP port;
+3. retain both directions for that endpoint;
+4. begin slightly before `Browse` and continue through session teardown;
+5. retain the short pre-`SERVER READY` control-plane window as a separate evidence slice;
+6. only then remove unrelated host traffic.
+
+When multiple matches occur in one long capture, repeat the endpoint step for **every** logged match. Do not build one fixed-port allow-list for the whole capture.
+
+If the supplied filtered export does not contain the log-correlated endpoint, record that as **filtered-export omission**. Do not claim the raw capture was missing the traffic until the original wide file has been reprocessed.
+
 ## 5. Suggested test sequence
 
 Run simple, repeatable sessions rather than trying to capture everything at once:

@@ -32,6 +32,8 @@ The September 1, 2026 SGAR TDM capture establishes a successful transition from 
 
 The PCAP independently correlates a large bidirectional UDP flow with that same gameplay session.
 
+The Windows contributor corpus expands the endpoint evidence to 102 current-build server transitions. Every one uses a distinct UDP port in `30005–32760`; the same public host can recur with different ports.
+
 ## Control plane
 
 Observed service families include Maverick AGA/global/L4 services, server-status, content, client-IP, gaming-SDK services, EOS services and multiple Edgegap-related hostnames.
@@ -48,9 +50,15 @@ The precise division of responsibilities within Maverick remains unknown.
 
 ## Gameplay plane
 
-The live SGAR session uses Unreal's GameNetDriver with Iris replication and the logged Oodle, DTLS and StatelessConnect packet handlers.
+The live SGAR session uses Unreal's GameNetDriver with Iris replication and the logged Oodle, DTLS and StatelessConnect packet handlers. The Windows Tye corpus independently repeats that same stack across all 102 logged `SERVER READY` sessions.
 
-The capture is therefore useful for endpoint timing, transport metadata and session correlation, but does not expose readable Unreal replication payloads.
+The current gameplay transport is therefore a dynamic per-session UDP endpoint, not UDP/443 by default. Filtered Windows exports that overlap 23 server sessions contain none of the corresponding server endpoint traffic, so they cannot support wire-level gameplay reconstruction without reprocessing the private raw captures.
+
+The capture is therefore useful for endpoint timing, transport metadata and session correlation, but protected Unreal replication payloads are not expected to be readable directly.
+
+## Custom-map data plane
+
+Windows logs show `CustomMapSupport` requesting map data from the authoritative server, receiving repeated chunks, completing the advertised compressed byte count and then initialising the custom map. Seven such transfers occur across the supplied logs, with repeated compressed/uncompressed size pairs. Two transfer windows overlap the supplied September 2 mixed PCAP, but the filtered export omits the authoritative endpoint.
 
 ## P2P transition
 
@@ -63,7 +71,9 @@ See [Finding 2026-09-02-011](findings/2026-09-02-011-maverick-shared-backend-and
 ## Evidence status
 
 - **Observed:** direct official-server Unreal gameplay session.
-- **Observed:** distinct control/service traffic exists before gameplay.
+- **Observed:** 102 current-build Windows `SERVER READY` transitions with dynamic UDP ports.
+- **Observed:** the same Iris/Oodle/DTLS/StatelessConnect stack across the 102 Windows server transitions.
+- **Observed:** server-delivered custom-map data transfers.
 - **First-party confirmed:** Maverick is shared by SGAR and EMPULSE.
 - **First-party confirmed:** RedKard is disabled for P2P.
 - **Inferred:** a control-plane step supplies or determines the final gameplay endpoint.
@@ -74,4 +84,4 @@ See [findings/](findings/) and [networking/](networking/) for the evidence behin
 
 ## Next experiment
 
-Capture the P2P transition from first launch through the new server-browser flow after September 3, correlating process, destination, protocol and timing. Compare the service inventory with the September 1 dedicated-server capture and specifically check what remains of Maverick and RedKard.
+Re-filter a private raw Windows capture using the exact `SERVER READY` endpoint before attempting deeper packet reconstruction. Then capture the P2P transition from first launch through the new server-browser flow and compare the service inventory with the September 1 dedicated-server session.

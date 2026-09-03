@@ -1,0 +1,6 @@
+capture_id,filename,scenario,start_utc,end_utc,duration_seconds,packets,udp_packets,tcp_packets,flows,packets_with_443_endpoint,percent_packets_with_443_endpoint,non443_tcp_udp_packets
+TYE-CAP-01,SG Live Server Connections Solo filtered 1.1.pcapng,Solo,2026-08-29T02:48:57.576200Z,2026-08-29T02:58:48.939959Z,591.363759,11963,11281,682,1058,10577,88.41,1386
+TYE-CAP-02,SG Live server connection 2 Invite Recieved filtered 1.1.pcapng,Invite received,2026-08-29T03:10:01.675321Z,2026-08-29T03:19:48.395336Z,586.720015,4142,2491,1651,1115,2601,62.8,1541
+TYE-CAP-03,SG Live server connection 3 Party up Invite sent filtered 1.1.pcapng,Party up / invite sent,2026-08-29T04:02:40.888356Z,2026-08-29T04:17:35.270402Z,894.382046,6355,5779,576,1623,4030,63.41,2325
+TYE-CAP-04,SG Live server connection 2 hrs filtered 1.1.pcapng,Extended Quick Play,2026-08-29T05:37:25.285932Z,2026-08-29T06:54:24.834387Z,4619.548455,30237,25173,5064,7856,19495,64.47,10742
+TYE-CAP-05,Some Custom gameplay 2hrs filtered.pcapng,Quick Play + custom games,2026-09-02T04:54:45.625489Z,2026-09-02T07:05:04.404181Z,7818.778692,74923,65401,9522,12457,57273,76.44,17650

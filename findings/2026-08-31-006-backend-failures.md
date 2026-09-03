@@ -3,41 +3,32 @@
 Status: observed
 Confidence: high
 First observed: 2026-08-31
-Session: 2026-08-31-001
+Sessions: `2026-08-31-001`, Windows Tye logs
 
 ## Observation
 
-The client remained usable in the main menu, Locker, and practice range while several online-service requests failed or returned unavailable data.
+The client remained usable while several online-service requests failed or returned unavailable data. Existing evidence includes localization manifest failure, cloud-save HTTP 401 responses, game-service configuration failures and a cloud-file resolver warning.
 
-Notable examples include:
-
-- a localization manifest request reporting `LOCALIZATION_MANIFEST_NOT_FOUND`
-- cloud-save activity returning HTTP `401`
-- multiple game-service configuration requests reporting unavailable/unknown responses
-- a later `FOF1047GameContentResolver` warning for cloud file `[1.1.16] unknown`
-
-The Battle Pass screen failed to load during the manual test because there was no active season, but the UE log does not expose a request named `BattlePass`, so the exact backend request responsible was not identified.
+The Windows log corpus adds repeated `rooster-referral-service` failures with `ResponseCode: 9` / `REFERRAL_FAILED`. These occur in multiple September logs that nevertheless contain successful `SERVER READY` → `Browse` → welcome transitions.
 
 ## Evidence
 
-Session: `sessions/linux/2026-08-31-001.md`
-
-Relevant raw-log material occurs across startup, menu navigation and the transition into the practice range.
+- `sessions/linux/2026-08-31-001.md`
+- `logs/game/2026-09-03-001-tye-session-excerpts.txt`
+- `archive/2026-09-03-001/event-index.csv`
 
 ## Interpretation
 
-The production client can continue executing substantial local gameplay while a number of live services are unavailable. This is important when interpreting other warnings from the same session: a missing asset or invalid inventory entry may be a consequence of incomplete remote state rather than a universally broken client system.
+The new Windows evidence strengthens the existing conclusion that some auxiliary live-service requests can fail without universally blocking a server-backed arena session. `REFERRAL_FAILED` should therefore not be treated as equivalent to matchmaking or gameplay failure.
 
 ## Alternatives
 
-- Some failures may be intentionally tolerated fallback paths.
-- The service responses may be tied to the post-season/post-shutdown state rather than a permanently unavailable backend.
-- Different services may have independent failure causes.
+The referral service may be optional for the tested path, may be retried/fallbacked, or may be failing because of the live-service state around the shutdown window. The logs do not establish its exact functional dependency graph.
 
 ## Next test
 
-Capture a server-backed arena game and compare the same service calls before matchmaking, during a match, and after returning to the menu. Record which services become available once a real session exists.
+Compare referral-service state before matchmaking, after successful server entry, and after returning to the menu on another current-build session.
 
 ## AI analysis
 
-ChatGPT was used for initial log triage and grouping of the observed backend failures. The Battle Pass cause remains deliberately unassigned because the raw log does not identify its request.
+AI assisted grouping of repeated error signatures. The presence of the errors and coexistence with successful authoritative sessions were checked directly against the supplied logs.
