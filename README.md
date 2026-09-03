@@ -42,8 +42,11 @@ The easiest way to contribute is through **GitHub Issues**. You do not need to k
 A useful submission can be very simple:
 
 > **What I did:** Started the game, joined a party, played one matchmaking game and left normally.
+> 
 > **What happened:** Everything worked normally.
+> 
 > **Platform:** Windows
+> 
 > **Approx. time:** 29 August 2026, around 20:00 UTC
 
 Please **do not upload passwords, authentication tokens, private messages, personal information, or proprietary game files**.
