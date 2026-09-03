@@ -1,0 +1,7 @@
+# Source archive SHA-256
+# Local.zip  afb49efa29d55679640ba1c29527bcafb6de4ee03b466e73b82199f62d553680
+# Archive size: 82588081 bytes
+
+# Public publication note
+# The original file-level hash manifest contained local UUID/path components and account-specific paths.
+# Those identifiers are intentionally omitted from this public archive. The authoritative source archive hash above remains reproducible against the private supplied archive.
