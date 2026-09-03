@@ -19,6 +19,12 @@ The EMPULSE capture provides a surviving example of Maverick handling a Ranked-c
 
 This should be treated as a reconstruction aid, not as proof that EMPULSE's Ranked protocol is byte-for-byte identical to SGAR's former Ranked implementation. The first-party developer statement already establishes that Maverick served both games, while EMPULSE-specific behaviour must still be verified against any surviving historical SGAR evidence.
 
+## Preservation value after the shutdown
+
+This comparison is likely to become **more valuable after official infrastructure disappears**. SGAR's current client cannot produce a useful Ranked trace, and the original production Ranked logs/captures may no longer be retrievable once the official services have been shut down. EMPULSE therefore preserves a contemporaneous, same-backend example of a Ranked-capable client operating through Maverick while the service still exists.
+
+For future ReMaverick work, this means the EMPULSE capture should be retained as a reference dataset even when no live SGAR Ranked endpoint or historical SGAR Ranked trace can be recovered. It can help distinguish architecture that was plausibly common to Maverick from SGAR-specific Ranked semantics that will require separate evidence.
+
 ## Why this matters for ReMaverick
 
 SGAR Ranked evidence is unusually difficult to replace once official infrastructure disappears because the current client cannot perform a useful Ranked matchmaking experiment and historical production logs/captures may no longer be fetchable.
@@ -29,7 +35,10 @@ EMPULSE therefore preserves a live, same-backend comparison point for questions 
 - whether Ranked uses session/ticket state before a gameplay endpoint exists;
 - where `ReportServerSessionManager` activity sits in the lifecycle;
 - what control-plane traffic precedes successful server allocation in a Ranked-capable client;
-- which parts of the control plane appear common between the two games.
+- which parts of the control plane appear common between the two games;
+- which observations can still be used when SGAR Ranked can no longer be exercised or its historical logs can no longer be obtained.
+
+The value is therefore not limited to understanding EMPULSE: it is also a **preservation aid for reconstructing an otherwise disappearing SGAR Ranked control-plane model**.
 
 ## Evidence
 
@@ -44,6 +53,8 @@ EMPULSE therefore preserves a live, same-backend comparison point for questions 
 
 This finding does **not** establish that EMPULSE's Ranked mode is identical to SGAR Ranked, that the observed L4/NATS traffic is the allocator, or that `ReportServerSessionManager` is the matchmaking broker. Those remain open questions for future comparison against preserved SGAR evidence or successful ReMaverick experiments.
 
+It also does not claim that historical SGAR Ranked logs are universally unavailable; the preservation concern is that they may no longer be obtainable from the original live environment once official services disappear. Any independently preserved historical trace should take precedence over an EMPULSE-derived analogy.
+
 ## Future use
 
-When ReMaverick begins implementing SGAR Ranked support, use this EMPULSE capture as a comparative reference for the control-plane/session-management layer, while keeping game-specific playlist/rank/ticket semantics separate until independently established.
+When ReMaverick begins implementing SGAR Ranked support, use this EMPULSE capture as a comparative reference for the control-plane/session-management layer, while keeping game-specific playlist/rank/ticket semantics separate until independently established. Revisit the L4/NATS and session-manager observations when designing or validating the SGAR Ranked backend, especially if no original SGAR Ranked trace can be recovered.
