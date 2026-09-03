@@ -1,33 +1,38 @@
-# Archive
+# 2026-09-03-002 — Arena Reloaded local-prefix intake
 
-Preserved, analysed research bundles organised around reproducible sessions or material that has been superseded.
+This archive contains **derived, publication-safe metadata only** from a Windows `%LOCALAPPDATA%` prefix supplied as `Local.zip`. The original prefix is **not** included.
 
-## Areas
+## Source
 
-- `2026-09-01-001/` — preserved analysis bundle for the current SGAR TDM Bot Arena reference session
-- `deprecated/` — material deliberately retained but no longer part of the active research structure
-- `superseded/` — older material replaced by a newer or corrected version
+- Source archive: `Local.zip`
+- Source SHA-256: `afb49efa29d55679640ba1c29527bcafb6de4ee03b466e73b82199f62d553680`
+- Source archive size: `82588081` bytes
+- Extracted `PortalWars2` files: `117`
+- Extracted bytes: `909,734,848`
 
-## Session bundles
+## Preserved
 
-A session archive may contain a compact copy of the relevant evidence, logs, networking summaries, snippets, hashes and analysis needed to reproduce or audit the conclusions recorded elsewhere in the repository.
+- Complete file-level inventory with size, source mtime and SHA-256.
+- Complete `CacheManifest.json` metadata with the local path normalised to the game root.
+- Snapshot structural probe and hashes.
+- Redacted Sentry event metadata.
+- Intake summary containing cache category counts, version sets, CMS asset hostnames and build fingerprint.
 
-The normal reading path is:
+## Intentionally omitted
 
-```text
-archive bundle
-  ↓
-session record
-  ↓
-finding(s)
-  ↓
-central architecture / roadmap
-```
+- `PortalWars2.log` and backup logs from this bundle (they are already handled by the repository's log/session workflow).
+- CMS snapshot/localisation payloads.
+- CMS image assets.
+- `CloudSettings-V2-prod.sav`.
+- Sentry minidump and other crash payloads.
+- Any file containing account/player identifiers or authentication material.
 
-## Handling
+These omissions follow the repository's data-handling rules: publish hashes, metadata, observations and reproducible procedures rather than proprietary game files or personal/authentication data.
 
-Archives should preserve provenance and sanitisation information. Do not use the archive as a substitute for the active `sessions/`, `findings/` or `networking/` records.
+## Key result
 
-Do not publish raw credentials, authentication tokens, unnecessary personal information or proprietary game files.
+The persistent client cache records **78 objects** across `CMS/Snapshots`, `Localization` and `CMS/Assets`. Multiple revisions of content datasets coexist, providing a local version-history signal. The newest cached `news-feed` revision contains the September 3, 2026 shutdown/P2P/server-browser notice. These observations are recorded in `findings/2026-09-03-019-local-cms-cache.md`.
 
-See [repository navigation](../docs/navigation.md) for the broader evidence hierarchy.
+## Reproduction
+
+Use `tooling/analysis/portalwars2_prefix_intake.py` against an extracted private prefix. Do not point it at a public repository checkout containing proprietary payloads.
