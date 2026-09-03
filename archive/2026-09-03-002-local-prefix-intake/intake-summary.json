@@ -1,0 +1,25 @@
+{
+  "source_archive": {
+    "name": "Local.zip",
+    "size_bytes": 82588081,
+    "sha256": "afb49efa29d55679640ba1c29527bcafb6de4ee03b466e73b82199f62d553680"
+  },
+  "extracted_portalwars2_files": 117,
+  "extracted_portalwars2_bytes": 909734848,
+  "cache_entries": 78,
+  "cache_categories": {
+    "CMS/Snapshots": 14,
+    "Localization": 25,
+    "CMS/Assets": 39
+  },
+  "cms_asset_hosts": [
+    "cms-assets-game-tools.game-tools.mgmt.1047games.com"
+  ],
+  "build_fingerprint": {
+    "build": "PortalWars2-CL-600100",
+    "branch": "++PortalWars2+Release-3.1",
+    "engine": "5.5.4-600100+++PortalWars2+Release-3.1",
+    "shipping": true
+  },
+  "publication_note": "Account/player identifiers, UUID-like local path components, raw logs, save payloads, crash dumps and proprietary CMS payloads are intentionally omitted from this public derived record."
+}
