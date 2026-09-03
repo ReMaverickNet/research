@@ -35,4 +35,4 @@ The persistent client cache records **78 objects** across `CMS/Snapshots`, `Loca
 
 ## Reproduction
 
-Use `tooling/analysis/portalwars2_prefix_intake.py` against an extracted private prefix. Do not point it at a public repository checkout containing proprietary payloads.
+Use **XDanfr/PortalWars2-Prefix-Intake v1.0.0** against an extracted private prefix or a Windows `%LOCALAPPDATA%` tree. The reusable tool is maintained separately so the research repository contains the evidence record rather than a one-off intake implementation. Do not point it at a public repository checkout containing proprietary payloads.
