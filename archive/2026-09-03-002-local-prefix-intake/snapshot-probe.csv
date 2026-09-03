@@ -1,0 +1,10 @@
+probe,observation,interpretation,status
+CMS snapshot header,bytes b7 75 63 62,Strongly consistent with Unreal Compact Binary framing; complete decoding not performed,observed
+resourceId marker,present in snapshot blobs,Structured CMS-like field marker,observed
+gameNamespace marker,present in snapshot blobs,Structured CMS-like field marker,observed
+contentType marker,present in snapshot blobs,Structured CMS-like field marker,observed
+eTag marker,present in snapshot blobs,Structured cache/version metadata marker,observed
+items marker,present in snapshot blobs,Structured collection marker,observed
+startsAt marker,present in relevant content,Structured content timing marker,observed
+display marker,present in relevant content,Structured presentation marker,observed
+includedGroups marker,present in relevant content,Structured grouping marker,observed
