@@ -133,6 +133,6 @@ ReMaverick is an independent community research and preservation project and is 
 
 **SPLITGATE** and related names, logos, and other trademarks are the property of their respective owners, including 1047 Games, Inc.
 
-For questions, corrections, takedown requests, legal concerns, or other matters relating to the project, contact **[maverick@xdan.me](mailto:maverick@xdan.me)**.
+For questions, corrections, takedown requests, legal concerns, or other matters relating to the project, contact **[maverick@xdan.cc](mailto:maverick@xdan.cc)**.
 
 Please do not send passwords, authentication tokens, personal information, private communications, or proprietary game files.
